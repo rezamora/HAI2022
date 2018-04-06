@@ -139,7 +139,7 @@ public class Buttons : MonoBehaviour
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
         //Debug.Log("myC is:      " + myC);
-        if (myC < 5)
+        if (myC < 50)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -163,7 +163,7 @@ public class Buttons : MonoBehaviour
             if (cond == 1)
                 StartCoroutine(SA.GotoTransition());
             else
-                StartCoroutine(SA.GotoFinish());
+                SA.GotoFinish();
 
         }
     }

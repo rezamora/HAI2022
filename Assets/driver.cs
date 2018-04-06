@@ -8,6 +8,7 @@ public class driver : MonoBehaviour {
     //set up a vector of questions
     List<Question> listOfQuestions = new List<Question>();
     GameObject gObj;
+    static int cond = 1;
 
     // Use this for initialization
     void Start()
@@ -82,7 +83,14 @@ public class driver : MonoBehaviour {
         //fileInteraction file = gObj.GetComponent("Set1.txt") as fileInteraction;
         gObj = GameObject.Find("ScriptHolder");
         fileInteraction file = gObj.GetComponent<fileInteraction>();//new fileInteraction("Questions.txt");
-        file.setFileName("./Assets/Set1.txt");
+        if (cond == 1)
+        {
+            file.setFileName("./Assets/Set1.txt");
+        }
+        else
+        {
+            file.setFileName("./Assets/Set2.txt");
+        }
         //readFile so that data is now set
         file.readFile ();
 		//fileRow is now set up with data from each line in each index

@@ -73,13 +73,9 @@ public class switchAnimation : MonoBehaviour {
         SceneManager.LoadScene("Transition");
     }
 
-    public IEnumerator GotoFinish()
+    public void GotoFinish()
     {
         SceneManager.LoadScene("Finish");
         Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
-#if UNITY_EDITOR
-        yield return new WaitForSeconds(2);
-        EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
-#endif
     }
 }
