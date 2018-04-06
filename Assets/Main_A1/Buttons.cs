@@ -139,7 +139,7 @@ public class Buttons : MonoBehaviour
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
         //Debug.Log("myC is:      " + myC);
-        if (myC < 5)
+        if (myC < 50)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -717,6 +717,7 @@ public class Buttons : MonoBehaviour
 #if UNITY_EDITOR
         EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
 #endif
+        Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
             coopAgent = 21;
@@ -739,11 +740,6 @@ public class Buttons : MonoBehaviour
     public void appQuit()
     {
         Application.Quit();
-    }
-
-    public void nullFunction()
-    {
-
     }
 
 

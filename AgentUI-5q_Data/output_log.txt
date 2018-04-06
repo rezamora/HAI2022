@@ -1,0 +1,270 @@
+Initialize engine version: 5.6.2f1 (a2913c821e27)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) HD Graphics 530 (ID=0x1912)
+    Vendor:   Intel
+    VRAM:     4195 MB
+    Driver:   21.20.16.4627
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\System.Data.dll (this message is harmless)
+Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\System.Data.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-5q_Data\Managed\System.Xml.dll (this message is harmless)
+desktop: 1920x1080 59Hz; virtual: 3840x1080 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'GameObject') is missing!
+ 
+(Filename:  Line: 1743)
+
+UnloadTime: 7.533370 ms
+Setting up 4 worker threads for Enlighten.
+  Thread -> id: 22d8 -> priority: 1 
+  Thread -> id: 300c -> priority: 1 
+  Thread -> id: 13ec -> priority: 1 
+  Thread -> id: 1afc -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 6.325183 ms
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 282.
+Total: 0.263511 ms (FindLiveObjects: 0.022835 ms CreateObjectMapping: 0.009615 ms MarkObjects: 0.213934 ms  DeleteObjects: 0.015323 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.442892 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 645.
+Total: 0.462723 ms (FindLiveObjects: 0.047474 ms CreateObjectMapping: 0.015023 ms MarkObjects: 0.384600 ms  DeleteObjects: 0.015323 ms)
+
+00:00:00.1743255
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Stanley Kubrick
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.5262459
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Mount Everest
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.5608605
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Blue and Yellow
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.1014628
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Folk
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.6844607
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Brass
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.7088751
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Lemons
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.445295 ms
+
+Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 282.
+Total: 0.720225 ms (FindLiveObjects: 0.070009 ms CreateObjectMapping: 0.033953 ms MarkObjects: 0.418854 ms  DeleteObjects: 0.195605 ms)
+
+The referenced script on this Behaviour (Game Object 'Button3') is missing!
+ 
+(Filename:  Line: 1743)
+
+The referenced script on this Behaviour (Game Object 'GameObject') is missing!
+ 
+(Filename:  Line: 1743)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.336525 ms
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 705.
+Total: 0.592826 ms (FindLiveObjects: 0.049276 ms CreateObjectMapping: 0.009014 ms MarkObjects: 0.503586 ms  DeleteObjects: 0.030046 ms)
+
+00:00:00.6459358
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1884
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.6067371
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1999
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.0685683
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Iraq
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.3852133
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+USA
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.8714730
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Qatar
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.2925038
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+USA
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.2797710
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UK
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.8406118
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Israel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.0218402
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UK
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.1290910
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Canada
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.1293840
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+UK
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.1734184
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+North Korea
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.3547331
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+China
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.6686564
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Israel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:01.2320535
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Israel
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:03.2332664
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Saudi Arabian
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:02.2192259
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Albertosaurus
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+00:00:00.2370624
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Tyrannosaurus
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.697690 ms
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 282.
+Total: 0.400525 ms (FindLiveObjects: 0.027042 ms CreateObjectMapping: 0.009314 ms MarkObjects: 0.239173 ms  DeleteObjects: 0.124394 ms)
+
