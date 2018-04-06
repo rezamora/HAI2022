@@ -86,6 +86,7 @@ public class driver : MonoBehaviour {
         if (cond == 1)
         {
             file.setFileName("./Assets/Set1.txt");
+            cond = 2;
         }
         else
         {
