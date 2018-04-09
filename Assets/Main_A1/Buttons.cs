@@ -634,29 +634,15 @@ public class Buttons : MonoBehaviour
 
 
 
-
     public void startStudy()
     {
         GameObject inputFieldGo = GameObject.Find("Participant");
-        //GameObject inputFieldGo2 = GameObject.Find("Study");
         InputField inputFieldCo = inputFieldGo.GetComponent<InputField>();
-        //InputField inputFieldCo2 = inputFieldGo2.GetComponent<InputField>();
         Exception myEx = null;
-
         participantID = inputFieldCo.text;
-//        try
-//        {
-//            studyCode = Convert.ToInt32(inputFieldCo2.text);
-//            if (studyCode < 1 || studyCode > 4)
-//                studyCode /= 0;
-//        }
-//        catch (Exception ex)
-//        {
-//            myEx = ex;
-//#if UNITY_EDITOR
-//            EditorUtility.DisplayDialog("Invalid Input", "Study Number must be an integer number between 1 and 4!", "Ok");
-//#endif
-//        }
+
+        GameObject inputFieldGo2 = GameObject.Find("Error");
+        UnityEngine.UI.Text Error = inputFieldGo2.GetComponent<Text>();
 
         try
         {
@@ -674,6 +660,8 @@ public class Buttons : MonoBehaviour
         catch (Exception ex)
         {
             myEx = ex;
+            Error.text = "Participant ID must be of form \n[three digit number]-[two letter word]-[two letter initial]!";
+                
 #if UNITY_EDITOR
             EditorUtility.DisplayDialog("Invalid Input", "Participant ID must be of form [three digit number]-[two letter word]-[two letter initial]!", "Ok");
 #endif
@@ -683,6 +671,8 @@ public class Buttons : MonoBehaviour
         {
             if (participantID == "")
             {
+                Error.text = "You must enter Participant ID!";
+                    
 #if UNITY_EDITOR
                 EditorUtility.DisplayDialog("Invalid Input", "You must enter Participant ID!", "Ok");
 #endif
@@ -713,7 +703,6 @@ public class Buttons : MonoBehaviour
 
     public void continueAgents()
     {
-        Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
 #if UNITY_EDITOR
         EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
 #endif
@@ -741,6 +730,6 @@ public class Buttons : MonoBehaviour
     {
         Application.Quit();
     }
-
+    
 
 }

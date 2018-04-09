@@ -56,6 +56,10 @@
      <Compile Include="Assets\IListExtensions.cs" />
      <Compile Include="Assets\Main_A1\Buttons.cs" />
      <Compile Include="Assets\Question.cs" />
+     <Compile Include="Assets\Resources\SimpleMessageBox\Scripts\Consts.cs" />
+     <Compile Include="Assets\Resources\SimpleMessageBox\Scripts\Example.cs" />
+     <Compile Include="Assets\Resources\SimpleMessageBox\Scripts\Helpers.cs" />
+     <Compile Include="Assets\Resources\SimpleMessageBox\Scripts\MessageBox.cs" />
      <Compile Include="Assets\switchAnimation.cs" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
@@ -63,6 +67,7 @@
      <None Include="Assets\Set1.txt" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump.shader" />
+     <None Include="Assets\Set2.txt" />
      <None Include="Assets\Set1-10.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

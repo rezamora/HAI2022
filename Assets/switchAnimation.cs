@@ -71,6 +71,7 @@ public class switchAnimation : MonoBehaviour {
     {
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Transition");
+        Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
     }
 
     public void GotoFinish()

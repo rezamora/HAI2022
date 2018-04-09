@@ -1,0 +1,17 @@
+"ID","Question","Option1","Option2","Option3","Option4","Option5","Option6","Option7","Option8","Option9"
+"1","Who directed the 1983 film 'ET the Extra-Terrestrial'?","Drew Barrymore","James Cameron","Stanley Kubrick","Steven Spielberg","Quentin Tarantino","Tom Hanks","Martin Scorsese","Woody Allen","Robin Williams"
+"","","Slightly Possitive","Moderately Positive","Idle","Highly Possitive","Idle","Highly Negative","Moderately Possitive","Moderately Negative","Slightly Negative"
+"","","","","","","","","","","00:00:00.6342144"
+"2","What is the highest point on the Earth's continental crust?","Lhotse","Manaslu","Kangchenjunga","Mount Damavand","Makalu","K2","Mount Fiji","Mount Everest","Annapurna"
+"","","Slightly Possitive","Highly Negative","Moderately Negative","Idle","Idle","Highly Possitive","Slightly Negative","Moderately Possitive","Moderately Positive"
+"","","","","","","00:00:02.3976402","","","",""
+"3","Which two colors make purple?","Grey and Orange","Blue and Yellow","White and Red","Red and Blue","Orange and White","Red and Green","None","Green and Orange","Red and Grey"
+"","","Moderately Negative","Idle","Highly Negative","Highly Possitive","Slightly Negative","Moderately Possitive","Moderately Positive","Slightly Possitive","Idle"
+"","","00:00:02.5326738","","","","","","","",""
+"4","Which musical family does the saxophone belong to?","Brass","Blues","Classic","Keyboard","Woodwind","Percussion","Strings","Jazz","Folk"
+"","","Slightly Negative","Idle","Moderately Possitive","Idle","Highly Possitive","Slightly Possitive","Moderately Negative","Moderately Positive","Highly Negative"
+"","","","00:00:02.3504508","","","","","","",""
+"5","Which fruits are most commonly used to make wine?","Potatoes","Apples","Grapes","Lemons","Pear","Oranges","Blackberry","Strawberries","Wheat"
+"","","Idle","Slightly Possitive","Highly Possitive","Moderately Possitive","Highly Negative","Moderately Negative","Idle","Moderately Positive","Slightly Negative"
+"","","","","","","00:00:02.4648879","","","",""
+"
