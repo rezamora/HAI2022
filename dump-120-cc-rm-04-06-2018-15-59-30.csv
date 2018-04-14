@@ -1,31 +1,0 @@
-"ID","Question","Option1","Option2","Option3","Option4","Option5","Option6","Option7","Option8","Option9"
-"1","In which year was the new currency Euro introduced?","1993","1999","1884","2001","2002","2005","1990","1988","1995"
-"","","Moderately Positive","Highly Possitive","Moderately Negative","Idle","Slightly Possitive","Highly Negative","Slightly Negative","Idle","Moderately Possitive"
-"","","","","","00:00:02.4231442","","","","",""
-"","","","","","","00:00:01.1966600","","","",""
-"","","","","","","","00:00:01.1173309","","",""
-"","","","","","","","","","","00:00:01.5016891"
-"","","","","","","","","","00:00:01.0142720",""
-"","","","","","","","","00:00:01.6271946","",""
-"","","00:00:01.1121488","","","","","","","",""
-"","","","00:00:01.5006314","","","","","","",""
-"2","Which country is estimated to have Worlds largest Shale gas reserve?","Qatar","Iraq","Russia","USA","Canada","China","Iran","Saudi Arabia","UAE"
-"","","Slightly Possitive","Highly Negative","Idle","Moderately Possitive","Idle","Highly Possitive","Slightly Negative","Moderately Negative","Moderately Positive"
-"","","","00:00:14.3280375","","","","","","",""
-"","","","","","00:00:02.1322369","","","","",""
-"","","","","","","","","","00:00:04.4603382",""
-"","","","","","","00:00:00.9638688","","","",""
-"","","","","","","","00:00:01.0936921","","",""
-"3","World's largest producer of uranium is?","Israel","China","North Korea","Germany","UK","Russia","USA","Brazil","Canada"
-"","","Moderately Positive","Highly Negative","Slightly Negative","Moderately Negative","Idle","Moderately Possitive","Idle","Slightly Possitive","Highly Possitive"
-"","","","","","","","00:00:14.4289304","","",""
-"","","","","","","","00:00:05.5655641","","",""
-"","","","","","","","","","","00:00:01.0544616"
-"4","Which Embassy was the scene of the 1980 Special Air Service raid in South Kensington, London?","Saudi Arabian","Canadian","German","French","Iraqi","Russian","Iranian","American","Jordanian"
-"","","Idle","Highly Negative","Idle","Moderately Possitive","Moderately Negative","Moderately Positive","Highly Possitive","Slightly Negative","Slightly Possitive"
-"","","","","","","","","00:00:11.8462948","",""
-"5","Which dinosaur's name means 'roof lizard'?","Spinosaurus","Albertosaurus","Stegosaurus","Troodon","Pteradactyl","Allosaurus","Ankylosaurus","Tyrannosaurus","Triceratops"
-"","","Idle","Idle","Highly Possitive","Moderately Possitive","Slightly Possitive","Highly Negative","Slightly Negative","Moderately Positive","Moderately Negative"
-"","","","","","","","","00:00:06.7995112","",""
-"","","","","","","00:00:01.5807910","","","",""
-"

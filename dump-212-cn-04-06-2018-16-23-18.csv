@@ -1,18 +1,0 @@
-"ID","Question","Option1","Option2","Option3","Option4","Option5","Option6","Option7","Option8","Option9"
-"1","Who directed the 1983 film 'ET the Extra-Terrestrial'?","James Cameron","Martin Scorsese","Woody Allen","Robin Williams","Steven Spielberg","Stanley Kubrick","Drew Barrymore","Quentin Tarantino","Tom Hanks"
-"","","Moderately Negative","Idle","Highly Negative","Slightly Negative","Highly Possitive","Idle","Moderately Possitive","Moderately Positive","Slightly Possitive"
-"","","","","","","","00:00:00.1743255","","",""
-"2","What is the highest point on the Earth's continental crust?","Kangchenjunga","Mount Fiji","Manaslu","Annapurna","Lhotse","K2","Mount Damavand","Mount Everest","Makalu"
-"","","Moderately Positive","Idle","Slightly Negative","Moderately Possitive","Slightly Possitive","Idle","Moderately Negative","Highly Possitive","Highly Negative"
-"","","","","","","","","","00:00:02.5262459",""
-"3","Which two colors make purple?","Green and Orange","Orange and White","Grey and Orange","Blue and Yellow","Red and Green","White and Red","Red and Grey","None","Red and Blue"
-"","","Moderately Possitive","Moderately Positive","Highly Negative","Moderately Negative","Idle","Slightly Possitive","Slightly Negative","Idle","Highly Possitive"
-"","","","","","00:00:02.5608605","","","","",""
-"4","Which musical family does the saxophone belong to?","Keyboard","Percussion","Folk","Strings","Blues","Brass","Woodwind","Classic","Jazz"
-"","","Idle","Slightly Negative","Idle","Moderately Positive","Slightly Possitive","Highly Negative","Highly Possitive","Moderately Possitive","Moderately Negative"
-"","","","","00:00:02.1014628","","","","","",""
-"","","","","","","","00:00:00.6844607","","",""
-"5","Which fruits are most commonly used to make wine?","Potatoes","Blackberry","Apples","Wheat","Pear","Grapes","Strawberries","Oranges","Lemons"
-"","","Slightly Negative","Idle","Moderately Possitive","Slightly Possitive","Moderately Positive","Highly Possitive","Idle","Moderately Negative","Highly Negative"
-"","","","","","","","","","","00:00:02.7088751"
-"

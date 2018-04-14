@@ -139,7 +139,7 @@ public class Buttons : MonoBehaviour
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
         //Debug.Log("myC is:      " + myC);
-        if (myC < 50)
+        if (myC < 5)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -399,6 +399,9 @@ public class Buttons : MonoBehaviour
             }
             else
             {
+                string myQuestion = q.displayQuestionPrompt();
+                if (myQuestion.Contains("**"))
+                    myQuestion.TrimEnd().Substring(0, myQuestion.Length - 3);
                 btn.GetComponentInChildren<UnityEngine.UI.Text>().text = q.displayQuestionPrompt();
             }
             /***********************************************************************/
