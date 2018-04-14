@@ -1,13 +1,3 @@
-Who directed the 1983 film 'ET the Extra-Terrestrial'?
-Stanley Kubrick
-Drew Barrymore
-Robin Williams
-Woody Allen
-Steven Spielberg*
-Tom Hanks
-Martin Scorsese
-Quentin Tarantino
-James Cameron
 What is the highest point on the Earth's continental crust?
 Annapurna
 K2
@@ -28,16 +18,6 @@ Grey and Orange
 Orange and White
 None
 Red and Grey
-Which musical family does the saxophone belong to?
-Jazz
-Percussion
-Strings
-Woodwind*
-Brass
-Keyboard
-Classic
-Blues
-Folk
 Which fruits are most commonly used to make wine?
 Grapes*
 Lemons
@@ -58,16 +38,76 @@ Eiffel
 Milan
 Siena
 Turin
-Which tree grows from an acorn?
-Ash
-Elm
-Lime
-Oak*
-Birch
-Maple
-Larch
-Hawthorn
-Pine
+A common currency for the members of the Common Market in Europe is known as:
+Euro*
+Franc
+Pound
+Dollar
+Krouna
+Krone
+Sterling
+Leu
+Forint
+What does the CIA stand for?
+Central Intelligence Agency*
+Covert International Assassins
+Crime In Action
+Criminal Investigation Association
+Criminal Intelligence Agency
+Central Investigation Association
+Central Intelligence Association
+Criminal Investigation Agency
+Covert Intelligence Association
+What is the common name for sodium chloride?
+Mustard
+Pepper
+Salt*
+Vinegar
+Ketchup
+Turmeric
+Syrup
+Chocolate
+Baking powder
+What is the main ingredient of omelette?
+Butter
+Cheese
+Egg*
+Milk
+Bacon
+Potato
+Sausage
+Onion
+Garlic
+Who is the King of the Gods in Greek Mythology?
+Apollo
+Dionysus
+Poseidon
+Zeus*
+Demeter
+Ares
+Athena
+Artemis
+Hera
+Sports car manufacturer Ferrari are based where?
+Madrid, Spain
+Malmo, Sweden
+Maranello, Italy*
+Montevideo, Uruguay
+Wolfsburg, Germany
+Stuttgart, Germany
+Toulouse, France
+Luxembourg, Luxembourg
+Boulogne-Billancourt, France
+Who directed the 1983 film 'ET the Extra-Terrestrial'?
+Stanley Kubrick
+Drew Barrymore
+Robin Williams
+Woody Allen
+Steven Spielberg*
+Tom Hanks
+Martin Scorsese
+Quentin Tarantino
+James Cameron
 What country is also known as Persia?
 Iran*
 Saudi Arabia
@@ -78,6 +118,196 @@ India
 Lebanon
 Egypt
 France
+The disease " bronchitis " is associated with:
+Lungs*
+Brain
+Sinuses
+Forhead Veins
+Heart
+Esophagus
+Trachea
+Kidney
+Liver
+World War I commenced in:
+1914*
+1940
+1963
+1899
+1901
+1953
+1880
+1922
+1958
+Which chambers in a human heart collect blood from an atrium?
+Barnacles
+Chronicles
+Clavicles
+Ventricles*
+Ureters
+Duodenums
+Fundus
+Pylonus
+Bronchies
+What is cherry blossom known as in Japanese?
+Sakura*
+Samurai
+Sudoku
+Sumach
+Sophora
+Sonora
+Sarah
+Sirrah
+Sayonara
+The Spanish flag consists of which two colours?
+Black and red
+Blue and yellow
+Green and blue
+Red and yellow*
+Green and white
+White and yellow
+Yellow and green
+Red and Blue
+Black and green
+For what occupation was Jesus trained?
+Carpenter*
+Teacher
+Butcher
+Chandler
+Hind
+Holster
+Jagger
+Haymonger
+Lumberjack
+What is the capital of the Taiwan?
+Bangkok
+Hanoi
+Kuala Lumpur
+Manila
+Jakarta
+Taipei*
+Kathmandu
+Lhasa
+Dhaka
+In which country will you find Machu Picchu?
+Brazil
+Chile
+Peru*
+Uraguay
+Mexico
+Ecuador
+Paraguay
+Argentina
+Colombia
+Which tree grows from an acorn?
+Ash
+Elm
+Lime
+Oak*
+Birch
+Maple
+Larch
+Hawthorn
+Pine
+Name the country which is the craddle of western classic music, known as 'The land of music'?
+Austia*
+Germany
+France
+England
+Switzerland
+United States
+Sweden
+Belgium
+Netherlands
+Where is the headquarters of UNO?
+New York City, USA*
+Chicago, USA
+Los Angeles, USA
+London, UK
+Paris, France
+Geneva, Switzerland
+Berlin, Germany
+Moscow, Russia
+Beijing, China
+Who is the writer of "Adventures of Huckleberry Finn"?
+Mark Twain*
+Peter Lynch
+George Eliot
+Agatha Christie
+Stephen King
+Ernest Hemingway
+Raymond Chandler
+Shel Silverstein
+Jules Verne
+Who is the writer of "Brief History of Time"?
+Stephen Hawking*
+Kip S. Thorne
+Alan Guth
+Steven Weinberg
+Richard Feynman
+Albert Einstein
+Neil deGrasse Tyson
+Michio Kaku
+Richard Dawkins
+Anemometer is an instrument used for measuring?
+Wind speed*
+Water speed
+Sound Speed
+Light speed
+Objects speed
+Distance between two stars
+Size of stars
+Age of stars
+Distance of stars from Earth
+What is the largest country in the world?
+Russia*
+China
+India
+United States
+Canada
+Australia
+Kazakhistan
+Brazil
+Argentina
+The BRIC economies are:
+Brazil, Russia, India,China*
+Brazil, Romania, Iran, Colombia
+Bahamas, Rwanda, India, Chile
+Belgium, Romania, Italy, Czech Republic
+Bahrain, Russia, Iran, China
+Bahamas, Russia, Ireland, Colombia
+Belgium, Rwanda, Ireland, Chile
+Bahrain, Romania, Italy, Czech Republic
+Belarus, Romania, Israel, Cambodia
+What is the colour of the flag of Libya?
+Blue
+Green*
+Red
+White
+Orange
+Black
+Purple
+Yellow
+Pink
+The ulna is a long bone in which part of the body?
+Arm*
+Ear
+Leg
+Neck
+Chest
+Face
+Pelvis
+Hand
+Foot
+Which musical family does the saxophone belong to?
+Jazz
+Percussion
+Strings
+Woodwind*
+Brass
+Keyboard
+Classic
+Blues
+Folk
 In what country would you find Mount Kilimanjaro?
 Tanzania*
 Congo
@@ -98,56 +328,6 @@ Southampton
 Newcastle
 Edinburgh
 Glasgow
-What city was once called New Amsterdam?
-New York City*
-Chicago
-Philadelphia
-Boston
-Los Angeles
-New Orleans
-Newark
-Houston
-Washington D.C.
-What canal connects the Red and Mediterranean Seas?
-Suez Canal*
-The Grand Canal
-The Bridgwater Canal
-The Foss Dyke
-The Panama Canal
-The Erie Canal
-Kachhi Canal
-Bío-Bío Canal
-Saimaa Canal
-In which country is the Mount Everest situated?
-Nepal*
-Kazakhistan
-India
-United States
-Tanzania
-Sri Lanka
-Japan
-Vietnam
-Russia
-Name the country which is the craddle of western classic music, known as 'The land of music'?
-Austria*
-Germany
-France
-England
-Switzerland
-United States
-Sweden
-Belgium
-Netherlands
-Where is the headquarters of UNO?
-New York City, USA*
-Chicago, USA
-Los Angeles, USA
-London, UK
-Paris, France
-Geneva, Switzerland
-Berlin, Germany
-Moscow, Russia
-Beijing, China
 Who is the current (2016) UN Secretary General?
 Ban ki-moon*
 Kim Jong-un
@@ -198,26 +378,6 @@ Borage
 Tea
 Parsley
 Lemon balm
-Who is the writer of "Adventures of Huckleberry Finn"?
-Mark Twain*
-Peter Lynch
-George Eliot
-Agatha Christie
-Stephen King
-Ernest Hemingway
-Raymond Chandler
-Shel Silverstein
-Jules Verne
-Who is the writer of "Brief History of Time"?
-Stephen Hawking*
-Kip S. Thorne
-Alan Guth
-Steven Weinberg
-Richard Feynman
-Albert Einstein
-Neil deGrasse Tyson
-Michio Kaku
-Richard Dawkins
 Who is the writer of "Adventures of Robinson Crusoe"?
 Daniel Defoe*
 Jules Verne
@@ -228,7 +388,7 @@ George Orwell
 Ray Bradbury
 Anthony Burgess
 Jean-Jacques Rousseau
-Which one was the first web based e-mail service?
+Which one was the first web based e-mail service?**
 Hotmail*
 AOL
 Yahoo! Mail
@@ -239,7 +399,7 @@ GMX
 Zoho
 Yandex
 Celsius and Fahrenheit show the same temperature at:
-40*
+-40*
 0
 100
 273
@@ -268,16 +428,6 @@ Fraction of volume of ice seen outside when immersed in water?
 63.5%
 1.5%
 32.5%
-The disease " bronchitis " is associated with:
-Lungs*
-Brain
-Sinuses
-Forhead Veins
-Heart
-Esophagus
-Trachea
-Kidney
-Liver
 Liquefied petroleum gas (LPG) is mainly a mixture of:
 Propane and Butane*
 Ethane and Butane
@@ -298,16 +448,6 @@ Upper Thermosphere
 Ionosphere
 Exosphere
 Magnetosphere
-Anemometer is an instrument used for measuring?
-Wind speed*
-Water speed
-Sound Speed
-Light speed
-Objects speed
-Distance between two stars
-Size of stars
-Age of stars
-Distance of stars from Earth
 Greek civilization was flourished in the year:
 800 BC*
 1200 BC
@@ -328,26 +468,6 @@ The Eiffel Tower is built in:
 1800
 1972
 1869
-World War I commenced in:
-1914*
-1940
-1963
-1899
-1901
-1953
-1880
-1922
-1958
-What is the largest country in the world?
-Russia*
-China
-India
-United States
-Canada
-Australia
-Kazakhistan
-Brazil
-Argentina
 What is the largest Lake in the world?
 Caspian Sea*
 Superior
@@ -358,26 +478,6 @@ Tanganyika
 Baikal
 Great Bear Lake
 Malawi
-A common currency for the members of the Common Market in Europe is known as:
-Euro*
-Franc
-Pound
-Dollar
-Krouna
-Krone
-Sterling
-Leu
-Forint
-The BRIC economies are:
-Brazil, Russia, India,China*
-Brazil, Romania, Iran, Colombia
-Bahamas, Rwanda, India, Chile
-Belgium, Romania, Italy, Czech Republic
-Bahrain, Russia, Iran, China
-Bahamas, Russia, Ireland, Colombia
-Belgium, Rwanda, Ireland, Chile
-Bahrain, Romania, Italy, Czech Republic
-Belarus, Romania, Israel, Cambodia
 Which country in the world consumes the most electricity?
 USA*
 India
@@ -388,16 +488,6 @@ Indonesia
 Russia
 Japan
 Pakistan
-Which country has the higest rate of homeownership?
-USA
-Spain*
-Saudi Arabia
-India
-China
-Germany
-UK
-Canada
-Australia
 How many countries are members of Association of Southeast Asian Nations(ASEAN)?
 10*
 15
@@ -408,93 +498,3 @@ How many countries are members of Association of Southeast Asian Nations(ASEAN)?
 21
 13
 29
-How many countries are members of the European Union?
-27*
-15
-33
-30
-24
-18
-21
-16
-29
-How many countries are there in Africa?
-67
-54*
-45
-76
-1
-40
-42
-24
-50
-The three largest oil producing countries are in the world are?
-Saudi Arabia, Russia, USA*
-Saudi Arabia, Iran, Iraq
-Iran, Saudi Arabia, USA
-UAE, USA, Saudi Arabia
-UAE, Russia, Iran
-Russia, USA, Iraq
-Iraq, UAE, Saudi Arabia
-USA, Russia, Iran
-Iraq, Iran, UAE
-Who is called the father of Economics?
-Adam Smith*
-Milton Friedman
-Paul Krugman
-John Maynard Keynes
-Joseph Stiglitz
-Robert J. Shiller
-Lawrence Summers
-Karl Marx
-Jan Tinbergen
-In which year was the new currency Euro introduced?
-1999*
-1990
-1884
-2001
-2005
-1995
-1993
-1988
-2002
-Which country is estimated to have Worlds largest Shale gas reserve?
-China*
-USA
-Canada
-Russia
-Saudi Arabia
-Iran
-Iraq
-UAE
-Qatar
-World's largest producer of uranium is?
-Canada*
-USA
-Russia
-China
-North Korea
-Germany
-Brazil
-UK
-Israel
-Which Embassy was the scene of the 1980 Special Air Service raid in South Kensington, London?
-French
-Iranian*
-Iraqi
-Jordanian
-German
-Russian
-American
-Saudi Arabian
-Canadian
-Which dinosaur's name means 'roof lizard'?
-Pteradactyl
-Stegosaurus*
-Triceratops
-Tyrannosaurus
-Troodon
-Albertosaurus
-Allosaurus
-Spinosaurus
-Ankylosaurus
