@@ -1,4 +1,4 @@
-What is the highest point on the Earth's continental crust?
+What is the highest point on the Earth continental crust?
 Annapurna
 K2
 Lhotse
@@ -48,16 +48,16 @@ Krone
 Sterling
 Leu
 Forint
-What does the CIA stand for?
-Central Intelligence Agency*
-Covert International Assassins
-Crime In Action
-Criminal Investigation Association
-Criminal Intelligence Agency
-Central Investigation Association
-Central Intelligence Association
-Criminal Investigation Agency
-Covert Intelligence Association
+Where is Palace of Versailles located at?
+Chile
+Greece
+Mexico
+Spain
+France*
+Italy
+Brazil
+Argentina
+Peru
 What is the common name for sodium chloride?
 Mustard
 Pepper
@@ -98,7 +98,7 @@ Stuttgart, Germany
 Toulouse, France
 Luxembourg, Luxembourg
 Boulogne-Billancourt, France
-Who directed the 1983 film 'ET the Extra-Terrestrial'?
+Who directed the 1983 film ET the Extra-Terrestrial?
 Stanley Kubrick
 Drew Barrymore
 Robin Williams
@@ -118,7 +118,7 @@ India
 Lebanon
 Egypt
 France
-The disease " bronchitis " is associated with:
+The disease bronchitis is associated with:
 Lungs*
 Brain
 Sinuses
@@ -138,16 +138,16 @@ World War I commenced in:
 1880
 1922
 1958
-Which chambers in a human heart collect blood from an atrium?
-Barnacles
-Chronicles
-Clavicles
-Ventricles*
-Ureters
-Duodenums
-Fundus
-Pylonus
-Bronchies
+The small republic of San Marino is completely surrounded by which larger country?
+Iraq
+India
+Iran
+Israel
+Italy*
+Ireland
+Iceland
+Indonesia
+Japan
 What is cherry blossom known as in Japanese?
 Sakura*
 Samurai
@@ -208,8 +208,8 @@ Maple
 Larch
 Hawthorn
 Pine
-Name the country which is the craddle of western classic music, known as 'The land of music'?
-Austia*
+Name the country which is the craddle of western classic music, known as The land of music?
+Austria*
 Germany
 France
 England
@@ -228,7 +228,7 @@ Geneva, Switzerland
 Berlin, Germany
 Moscow, Russia
 Beijing, China
-Who is the writer of "Adventures of Huckleberry Finn"?
+Who is the writer of Adventures of Huckleberry Finn?
 Mark Twain*
 Peter Lynch
 George Eliot
@@ -238,7 +238,7 @@ Ernest Hemingway
 Raymond Chandler
 Shel Silverstein
 Jules Verne
-Who is the writer of "Brief History of Time"?
+Who is the writer of Brief History of Time?
 Stephen Hawking*
 Kip S. Thorne
 Alan Guth
@@ -328,17 +328,17 @@ Southampton
 Newcastle
 Edinburgh
 Glasgow
-Who is the current (2016) UN Secretary General?
-Ban ki-moon*
-Kim Jong-un
-Barack Obama
-Donald Trump
-Kofi Annan
-Moon Jae-in
-Anthony Lake
-Donald Tusk
-Federica Mogherini
-In 2007, which structure was ranked number one on the list of 'America's Favorite Architecture' according to the American Institute of Architects?
+Yellow Egg is a variety of which fruit?
+Pear
+Apricot
+Lemon
+Melon
+Plum*
+Carambola
+Pineapple
+Mango
+Korean Melon
+In 2007, which structure was ranked number one on the list of America Favorite Architecture according to the American Institute of Architects?
 Empire State Building*
 Golden Gate Bridge
 Lincoln Memorial
@@ -348,7 +348,7 @@ One World Trade Center
 Chrysler Building
 Brooklyn Bridge
 Statue of Liberty
-Who directed the 2001 re-make of the film 'Oceans 11'?
+Who directed the 2001 re-make of the film Oceans 11?
 Robert Rodriguez
 Steven Soderbergh*
 Tony Gilroy
@@ -358,7 +358,7 @@ Martin Scorsese
 Quentin Tarantino
 James Cameron
 Woody Allen
-In the Republic of Ireland, the 'Yellow Pages' are known as what?
+In the Republic of Ireland, the Yellow Pages are known as what?
 Golden Pages*
 Rainbow Pages
 Silver Pages
@@ -368,7 +368,7 @@ Blue Pages
 Red Pages
 Yellow Books
 Purple pages
-What is considered the "king of herbs" by many cookery authors?
+What is considered the king of herbs by many cookery authors?
 Basil*
 Oregano
 Rosemary
@@ -378,7 +378,7 @@ Borage
 Tea
 Parsley
 Lemon balm
-Who is the writer of "Adventures of Robinson Crusoe"?
+Who is the writer of Adventures of Robinson Crusoe?
 Daniel Defoe*
 Jules Verne
 Stephen King
@@ -388,7 +388,7 @@ George Orwell
 Ray Bradbury
 Anthony Burgess
 Jean-Jacques Rousseau
-Which one was the first web based e-mail service?**
+Which one was the first web based e-mail service?
 Hotmail*
 AOL
 Yahoo! Mail

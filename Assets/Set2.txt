@@ -8,7 +8,7 @@ Harry August Jansen
 Harry Kellar
 Harry Lorayne
 Harry Blackstone Sr.
-What was the painter Picasso's first name?
+What was the painter Picasso first name?
 Pablo*
 Pedro
 Peter
@@ -64,7 +64,7 @@ Raiders of the Lost Ark
 Tomb Raider*
 Treasure Raider
 Overwatch
-Assassin's Creed
+Assassins Creed
 Prince of Persia
 Heavy Rain
 The Last of Us
@@ -98,7 +98,7 @@ Shuttleknock
 Shuttleshock
 Shuttlechock
 Shuttlemock
-Which character was lacking a heart in 'The Wizard of Oz'?
+Which character was lacking a heart in The Wizard of Oz?
 The wizard
 The Lion
 The Scarecrow
@@ -198,7 +198,7 @@ Pisa
 Genoa
 Siena
 Turin
-Who composed 'The Nutcracker'?
+Who composed The Nutcracker?
 Beethoven
 Handel
 Mozart
@@ -248,7 +248,7 @@ Pegasus
 Hera
 Gaia
 Siren
-Who played James Bond in 'You Only Live Twice'?
+Who played James Bond in You Only Live Twice?
 George Lazenby
 Richard Burton
 Roger Moore
@@ -318,7 +318,7 @@ How many countries are there in Africa?
 42
 24
 50
-The three largest oil producing countries are in the world are?**
+The three largest oil producing countries are in the world are?
 Saudi Arabia, Russia, USA*
 Saudi Arabia, Iran, Iraq
 Iran, Saudi Arabia, USA
@@ -358,7 +358,7 @@ Iran
 Iraq
 UAE
 Qatar
-World's largest producer of uranium is?**
+World largest producer of uranium is?
 Canada*
 USA
 Russia
@@ -378,7 +378,7 @@ Russian
 American
 Saudi Arabian
 Canadian
-Which dinosaur's name means 'roof lizard'?
+Which dinosaur name means roof lizard?
 Pteradactyl
 Stegosaurus*
 Triceratops
@@ -388,7 +388,7 @@ Albertosaurus
 Allosaurus
 Spinosaurus
 Ankylosaurus
-Blue Mountain Coffee comes from where?**
+Blue Mountain Coffee comes from where?
 Colombia
 Costa Rica
 Jamaica*
@@ -418,7 +418,7 @@ The Magic Flute
 Symphony No. 40
 Requiem
 Clarinet Concerto
-Which 1957 Treaty created the European Economic Community?**
+Which 1957 Treaty created the European Economic Community?
 Brussels
 Madrid
 Paris
@@ -438,7 +438,7 @@ Balthasar Gerard
 Gavrilo Princip
 Nathuram Godse
 Andrei Lugovoi
-Which author wrote 'Brave New World'?
+Which author wrote Brave New World?
 Aldous Huxley*
 D H Lawrence
 Graham Greene
@@ -448,7 +448,7 @@ Benjamin Disraeli
 John Updike
 Samuel Butler
 John Cleland
-In the film 'Forrest Gump', who did Forrest help discover a new way to dance?
+In the film Forrest Gump, who did Forrest help discover a new way to dance?
 Elvis Presley*
 Fred Astaire
 Ginger Rogers
@@ -458,7 +458,7 @@ Madonna
 Janet Jackson
 James Brown
 Tina Turner
-In which part of the UK would you find the stone Blue John?**
+In which part of the UK would you find the stone Blue John?
 Bath
 Castleton*
 Inverness
@@ -468,7 +468,7 @@ Manchester
 Surrey
 Newcastle
 Southampton
-What is the capital of New Zealand?**
+What is the capital of New Zealand?
 Auckland
 Christchurch
 Tauranga
@@ -488,7 +488,7 @@ The Black Queen
 The Black Soldier
 The Black Emperor
 The Black Minister
-Who played 'the Bad' in 'The Good, the Bad and the Ugly', a 1966 spaghetti western?**
+Who played the Bad in The Good, the Bad and the Ugly, a 1966 spaghetti western?
 Charles Bronson
 Clint Eastwood
 Lee Marvin
