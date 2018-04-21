@@ -115,7 +115,7 @@ public class Buttons : MonoBehaviour
         stopWatch.Stop();
         TimeSpan ts = stopWatch.Elapsed;
         stopWatch.Reset();
-        UnityEngine.Debug.Log(ts.ToString());
+        //UnityEngine.Debug.Log(ts.ToString());
         for (int i = 0; i < 9; i++)
         {
             if(options[myRep[i]] == EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text)
@@ -127,7 +127,7 @@ public class Buttons : MonoBehaviour
         DataRow dr = table2.NewRow();
         //UnityEngine.Debug.Log(repCounter);
         //UnityEngine.Debug.Log(myRep[repCounter]);
-        UnityEngine.Debug.Log(options[myRep[repCounter]]);
+        //UnityEngine.Debug.Log(options[myRep[repCounter]]);
         dr[myRep[repCounter] + 2] = ts.ToString();
         table2.Rows.Add(dr);
         stopWatch.Start();
@@ -139,7 +139,7 @@ public class Buttons : MonoBehaviour
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
         //Debug.Log("myC is:      " + myC);
-        if (myC < 5)
+        if (myC < 50)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -244,7 +244,7 @@ public class Buttons : MonoBehaviour
 
                 //Random rnd = new Random();
                 var num = UnityEngine.Random.value * 100;
-                //Debug.Log("Num value is:" + num);
+                UnityEngine.Debug.Log("Num value is:" + num);
                 if (num < coopAgent)
                 {
                     btnFlg = 0;
@@ -362,9 +362,9 @@ public class Buttons : MonoBehaviour
                             }
                         case 7:
                             {
-                                dr[c + 1] = "Moderately Positive";
+                                dr[c + 1] = "Moderately Negative";
                                 myRep[6] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mp2);
+                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn2);
                                 entry.callback.AddListener(call2);
                                 rep[counter++] = 0;
                                 break;
@@ -417,18 +417,18 @@ public class Buttons : MonoBehaviour
             stopWatch.Stop();
             TimeSpan ts = stopWatch.Elapsed;
             stopWatch.Reset();
-            UnityEngine.Debug.Log(ts.ToString());
+            //UnityEngine.Debug.Log(ts.ToString());
             DataRow dr = table2.NewRow();
             //UnityEngine.Debug.Log(repCounter);
             //UnityEngine.Debug.Log(myRep[repCounter]);
             if (trackBtn == -1)
             {
-                UnityEngine.Debug.Log(options[myRep[repCounter]]);
+                //UnityEngine.Debug.Log(options[myRep[repCounter]]);
                 dr[myRep[repCounter] + 2] = ts.ToString();
             }
             else
             {
-                UnityEngine.Debug.Log(options[trackBtn]);
+                //UnityEngine.Debug.Log(options[trackBtn]);
                 dr[trackBtn + 2] = ts.ToString();
                 trackBtn = -1;
             }
@@ -505,22 +505,6 @@ public class Buttons : MonoBehaviour
         }
     }
 
-    public void myAnims_mp2(UnityEngine.EventSystems.BaseEventData baseEvent)
-    {
-        repCounter = 6;
-        if (btnActive)
-        {
-            stopWatch.Start();
-            Obj = GameObject.Find("ScriptHolder");
-            SA = Obj.GetComponent<switchAnimation>();
-            SA.playPositive_medium();
-        }
-        else
-        {
-            trackBtn = myRep[repCounter];
-        }
-    }
-
     public void myAnims_sp(UnityEngine.EventSystems.BaseEventData baseEvent)
     {
         repCounter = 2;
@@ -556,6 +540,22 @@ public class Buttons : MonoBehaviour
     public void myAnims_mn(UnityEngine.EventSystems.BaseEventData baseEvent)
     {
         repCounter = 4;
+        if (btnActive)
+        {
+            stopWatch.Start();
+            Obj = GameObject.Find("ScriptHolder");
+            SA = Obj.GetComponent<switchAnimation>();
+            SA.playNegative_medium();
+        }
+        else
+        {
+            trackBtn = myRep[repCounter];
+        }
+    }
+
+    public void myAnims_mn2(UnityEngine.EventSystems.BaseEventData baseEvent)
+    {
+        repCounter = 6;
         if (btnActive)
         {
             stopWatch.Start();
@@ -649,10 +649,10 @@ public class Buttons : MonoBehaviour
 
         try
         {
-            if (!(participantID[4] != 'c' || participantID[4] != 'n'))
+            if (!(participantID[4] == 'c' || participantID[4] == 'n'))
                 agnt /= 0;
 
-            if (!(participantID[5] != 'c' || participantID[5] != 'n'))
+            if (!(participantID[5] == 'c' || participantID[5] == 'n'))
                 agnt /= 0;
 
             if (Char.IsNumber(participantID[2]))
@@ -693,9 +693,9 @@ public class Buttons : MonoBehaviour
     public void showAgents()
     {
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 21;
+            coopAgent = 11;
         else
-            coopAgent = 81;
+            coopAgent = 91;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
         if (agnt % 2 == 1)
