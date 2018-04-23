@@ -271,7 +271,7 @@ Skin
 A gosling is the young of which bird?
 Duck
 Goose*
-Hen
+Sparrow
 Swan
 Gull
 Owl
