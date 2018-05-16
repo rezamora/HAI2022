@@ -53,8 +53,8 @@ public class Buttons : MonoBehaviour
     static string participantID;
     //static int studyCode;
     static int agnt = 0;
-    static int cond = 1;
-    static int coopAgent = 21;  //21 for cooperative, 81 for uncooperative
+    static int cond = -1;
+    static int coopAgent = 11;  //11 for cooperative, 91 for uncooperative
     static int coopAgentID = 4;
 
     //to keep track of hovering
@@ -99,12 +99,10 @@ public class Buttons : MonoBehaviour
         Obj2 = GameObject.Find("ScriptHolder");
         Drv = Obj2.GetComponent<driver>();
         questions = Drv.getQuetions();
-        //Debug.Log(questions.Count);
         q = Obj2.GetComponent<Question>();
         q = questions[myC++];
         System.Random rnd = new System.Random();
         rep = Enumerable.Range(1, 9).OrderBy(r => rnd.Next()).ToArray();
-        //myRep = rep;
         startTime = System.DateTime.Now.TimeOfDay;
         currentTime = startTime;
         StartCoroutine(myRoutine(0));
@@ -139,11 +137,31 @@ public class Buttons : MonoBehaviour
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
         //Debug.Log("myC is:      " + myC);
-        if (myC < 50)
+        if (cond == -1)
+        {
+            cond++;
+            Drv.changeCondition();
+            if (agnt % 2 == 0)
+                SA.GotoAgentOne();
+            else
+                SA.GotoAgentTwo();
+
+        }
+        else if (cond == 0)
+        {
+            cond++;
+            Drv.changeCondition();
+            openSurvey();
+            if (agnt % 2 == 1)
+                SA.GotoAgentOne();
+            else
+                SA.GotoAgentTwo();
+
+        }
+        else if (myC < 50)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
-            //questions.RemoveAt(0);
         }
         else
         {
@@ -709,12 +727,13 @@ public class Buttons : MonoBehaviour
 #if UNITY_EDITOR
         EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
 #endif
+        SA.GotoAgentOne();
         Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 21;
+            coopAgent = 11;
         else
-            coopAgent = 81;
+            coopAgent = 91;
         cond = 2;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();

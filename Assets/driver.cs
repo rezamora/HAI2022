@@ -8,7 +8,7 @@ public class driver : MonoBehaviour {
     //set up a vector of questions
     List<Question> listOfQuestions = new List<Question>();
     GameObject gObj;
-    static int conditions = 1;
+    static int conditions = -1;
 
     // Use this for initialization
     void Start()
@@ -19,7 +19,7 @@ public class driver : MonoBehaviour {
 
     public void changeCondition()
     {
-        conditions = 2;
+        conditions++;
     }
 
     //set up questions
@@ -88,10 +88,11 @@ public class driver : MonoBehaviour {
         //fileInteraction file = gObj.GetComponent("Set1.txt") as fileInteraction;
         gObj = GameObject.Find("ScriptHolder");
         fileInteraction file = gObj.GetComponent<fileInteraction>();//new fileInteraction("Questions.txt");
-        if (conditions == 1)
+        if (conditions == -1 || conditions == 0)
+            file.setFileName("./Assets/Set0.txt");
+        else if (conditions == 1)
         {
             file.setFileName("./Assets/Set1.txt");
-            //conditions = 2;
         }
         else
         {
