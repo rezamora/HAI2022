@@ -71,12 +71,17 @@ public class switchAnimation : MonoBehaviour {
     {
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Transition");
-        Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSecnQ3CTL0wPrgtIl9E_W_Pbnzoz0C0PJIo0MOTgTvnGpD9xQ/viewform?usp=sf_link");
     }
 
     public void GotoFinish()
     {
         SceneManager.LoadScene("Finish");
-        Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSf833siq8Xe5KL-kYus55y5ST0YIDy5cNo2jrngTOg1kzA-RA/viewform?usp=sf_link");
+    }
+
+    public void GotoCondOne()
+    {
+        SceneManager.LoadScene("GotoCond1");
     }
 }

@@ -152,10 +152,10 @@ public class Buttons : MonoBehaviour
             cond++;
             Drv.changeCondition();
             openSurvey();
-            if (agnt % 2 == 1)
+            /*if (agnt % 2 == 1)
                 SA.GotoAgentOne();
             else
-                SA.GotoAgentTwo();
+                SA.GotoAgentTwo();*/
 
         }
         else if (myC < 50)
@@ -724,10 +724,10 @@ public class Buttons : MonoBehaviour
 
     public void continueAgents()
     {
-#if UNITY_EDITOR
+/*#if UNITY_EDITOR
         EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
-#endif
-        SA.GotoAgentOne();
+#endif*/
+        //SA.GotoAgentOne();
         Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
@@ -745,7 +745,10 @@ public class Buttons : MonoBehaviour
 
     public void openSurvey()
     {
-        Application.OpenURL("https://goo.gl/forms/GxPuqVUmngBMzZk32");
+        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSf5sdsvQophCx85ofeV2Zkgn4ehlm35AV1nugNFGX05zp2ySg/viewform?usp=sf_link");
+        Obj = GameObject.Find("ScriptHolder");
+        SA = Obj.GetComponent<switchAnimation>();
+        SA.GotoCondOne();
     }
 
     public void appQuit()
