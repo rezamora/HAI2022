@@ -64,6 +64,7 @@
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Emissive Diffuse.shader" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Transparent Diffuse Bump Cutout.shader" />
      <None Include="Assets\Questions.txt" />
+     <None Include="Assets\Set01.txt" />
      <None Include="Assets\Set1.txt" />
      <None Include="Assets\Set0.txt" />
      <None Include="Assets\Ciconia Studio\Shaders\Double Sided Shaders\Double Sided Standard Diffuse Bump.shader" />

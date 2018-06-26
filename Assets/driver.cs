@@ -88,8 +88,10 @@ public class driver : MonoBehaviour {
         //fileInteraction file = gObj.GetComponent("Set1.txt") as fileInteraction;
         gObj = GameObject.Find("ScriptHolder");
         fileInteraction file = gObj.GetComponent<fileInteraction>();//new fileInteraction("Questions.txt");
-        if (conditions == -1 || conditions == 0)
+        if (conditions == -1)
             file.setFileName("./Assets/Set0.txt");
+        else if (conditions == 0)
+            file.setFileName("./Assets/Set01.txt");
         else if (conditions == 1)
         {
             file.setFileName("./Assets/Set1.txt");
