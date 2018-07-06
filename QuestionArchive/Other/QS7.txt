@@ -1,0 +1,301 @@
+1.	The London Eye carries how many sealed and air-conditioned egg-shaped passenger capsules.
+
+26
+24
+28
+32
+36
+30
+22
+34
+38
+
+2.	Which planet is the fifth from the sun.
+
+Mercury
+Earth
+Jupiter
+Mars
+Saturn
+Venus
+Uranus
+Nepton
+Pluto
+
+3.	In which year did Margaret Thatcher become the Prime Minister of the United Kingdom.
+
+1977
+1978
+1979
+1980
+1981
+1976
+1975
+1974
+1973
+
+4.	Who directed 2001 A Space Odyssey.
+
+Stanley Kubrick
+Drew Barrymore
+Robin Williams
+Woody Allen
+Steven Spielberg
+Tom Hanks
+Martin Scorsese
+Quentin Tarantino
+James Cameron
+
+5.	Who directed Midnight in Paris.
+
+Stanley Kubrick
+Drew Barrymore
+Robin Williams
+Woody Allen
+Steven Spielberg
+Tom Hanks
+Martin Scorsese
+Quentin Tarantino
+James Cameron
+
+6.	Who directed Hugo.
+
+Robin Williams
+Stanley Kubrick
+Drew Barrymore
+Tom Hanks
+Martin Scorsese
+Quentin Tarantino
+James Cameron
+Woody Allen
+Steven Spielberg
+
+7.	Who directed Reservoir Dogs.
+
+
+Drew Barrymore
+Quentin Tarantino
+Robin Williams
+Martin Scorsese
+Woody Allen
+Steven Spielberg
+Tom Hanks
+James Cameron
+Stanley Kubrick
+
+8.	Who directed Avatar.
+
+Stanley Kubrick
+Drew Barrymore
+Robin Williams
+Woody Allen
+Steven Spielberg
+Tom Hanks
+Martin Scorsese
+Quentin Tarantino
+James Cameron
+
+9.	Which one is used to make Vodka.
+
+Grapes
+Lemons
+Oranges
+Strawberries
+Apples
+Potatoes
+Wheat
+Pearl
+Blackberry
+
+10.	Which of the following is widely used to make beer.
+
+Grapes
+Lemons
+Oranges
+Strawberries
+Apples
+Potatoes
+Wheat
+Pearl
+Blackberry
+
+11.	The Battle of Trafalgar was fought off the south-west coast of which country.
+
+England
+Italy
+Spain
+Sweden
+Germany
+Ireland
+France
+Poland
+Belgium
+12.	Ben Hur and The Lord of the Rings The Return of the King won 11 Oscars. Which is the only other film to do so.
+
+West Side Story
+Gone With The Wind
+On the Waterfront
+La La Land
+Slumdog Millionaire
+Titanic
+Gigi
+Mad Max Fury Road
+Dances with Wolves
+
+13.	Which one is an earth sign.
+
+Aries
+Taurus
+Gemini
+Cancer
+Libra
+Scorpio
+Sagittarius
+Aquarius
+Pisces
+
+14.	Who directed 'The Lord of the Rings' trilogy.
+
+Guillermo del Toro
+J R R Tolkien
+Peter Jackson
+Steven Spielberg
+James Cameron
+Tim Burton
+M. Night Shyamalan
+Ron Howard
+Joe Johnston
+
+15.	What is the name of the rapid transit system in Paris.
+
+Rapide
+Subway
+Transit
+Underground
+RTS
+Train
+Tube
+U-Bahn
+Metro
+
+16.	Where does guacamole originate from.
+
+Greece
+Chile
+Mexico
+Spain
+France
+Italy
+Peru
+Argentina
+Brazil
+
+
+17.	Where is Easter Island located at.
+
+Chile
+Greece
+Mexico
+Spain
+France
+Italy
+Brazil
+Argentina
+Peru
+
+18.	Where is Acropolis located at.
+
+Lebanon
+Greece
+Mexico
+Spain
+France
+Italy
+Iran
+Turkey
+Syria
+
+19.	Where is Persepolis located at.
+
+Lebanon
+Greece
+Mexico
+Spain
+France
+Italy
+Iran
+Turkey
+Syria
+
+20.	Where is The Great Mosque of Cordoba located at.
+
+Chile
+Greece
+Peru
+Spain
+France
+Argentina
+Italy
+Brazil
+Mexico
+
+21.	Where is Palace of Versailles located at.
+
+Chile
+France
+Greece
+Mexico
+Spain
+Italy
+Brazil
+Argentina
+Peru
+
+22.	Where is Sugarloaf Mountain located at.
+
+Peru
+Chile
+Greece
+France
+Mexico
+Brazil
+Spain
+Italy
+Argentina
+
+
+23.	Where is Ushuaia located at.
+
+Chile
+Greece
+Mexico
+Spain
+France
+Italy
+Brazil
+Argentina
+Peru
+
+24.	How many faces has a tetrahedron.
+ 
+3
+4
+5
+6
+7
+8
+9
+10
+12
+
+25.	Scurvy is a disease resulting from a deficiency of what.
+
+Vitamin A
+Vitamin B1
+Vitamin B2
+Vitamin B6
+Vitamin B12
+Vitamin C
+Vitamin D
+Vitamin E
+Vitamin K

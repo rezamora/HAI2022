@@ -1,0 +1,300 @@
+1.	In which American state is Lake Allatoona.
+
+Alabama
+Colorado
+Delaware
+Georgia
+Pennsylvania
+Washington
+New Hampshire
+Michigan
+Ohio
+
+2.	What is the earliest known writing system in the world.
+
+
+Mishnaic Hebrew
+Prakrit
+Sanskrit
+Egyptian hieroglyphs
+Elamite script
+Cuneiform script
+Indus script
+Chinese writing
+Anatolian hieroglyphs
+
+3.	Which one of these is not a zodiac sign.
+
+Aquarius
+Gemini
+Libra
+Scorpio
+Cancer
+Leo
+Taurus
+Pisces
+Pegasus
+
+4.	Which soccer club plays at the Estadio Santiago Bernabeu.
+
+AC Milan
+Barcelona
+Inter Milan
+Real Madrid
+AS Roma
+Juventus
+Atletico Madrid
+Santiago Bernabeu
+Napoli
+
+5.	Who wrote Doctor Zhivago.
+
+Boris Pasternak
+Vladimir Nabokov
+Anton Chekhov
+Fyodor Dostoyevsky
+Leo Tolstoy
+James Joyce
+Charles Dickens
+Shel Silverstein
+Tomie dePaola
+
+6.	Who wrote The Lady with the Dog.
+
+Leo Tolstoy
+Boris Pasternak
+Fyodor Dostoyevsky
+Tomie dePaola
+James Joyce
+Vladimir Nabokov
+Charles Dickens
+Shel Silverstein
+Anton Chekhov
+
+7.	Who wrote Crime and Punishment.
+
+James Joyce
+Anton Chekhov
+Charles Dickens
+Leo Tolstoy
+Vladimir Nabokov
+Boris Pasternak
+Shel Silverstein
+Tomie dePaola
+Fyodor Dostoyevsky
+
+8.	Who wrote War and Peace.
+
+Anton Chekhov
+Boris Pasternak
+Fyodor Dostoyevsky
+Leo Tolstoy
+James Joyce
+Charles Dickens
+Shel Silverstein
+Tomie dePaola
+Vladimir Nabokov
+
+9.	Who wrote Ulysses.
+
+Shel Silverstein
+Boris Pasternak
+James Joyce
+Tomie dePaola
+Charles Dickens
+Leo Tolstoy
+Vladimir Nabokov
+Fyodor Dostoyevsky
+Anton Chekhov
+
+10.	Who wrote Lolita.
+
+Anton Chekhov
+Boris Pasternak
+Fyodor Dostoyevsky
+Leo Tolstoy
+James Joyce
+Vladimir Nabokov
+Charles Dickens
+Shel Silverstein
+Tomie dePaola
+
+11.	Who wrote Oliver Twist.
+
+Charles Dickens
+Boris Pasternak
+Fyodor Dostoyevsky
+James Joyce
+Leo Tolstoy
+Vladimir Nabokov
+Anton Chekhov
+Tomie dePaola
+Shel Silverstein
+
+12.	Who wrote The Giving Tree.
+
+Vladimir Nabokov
+Charles Dickens
+Anton Chekhov
+Shel Silverstein
+Fyodor Dostoyevsky
+Leo Tolstoy
+James Joyce
+Boris Pasternak
+Tomie dePaola
+
+13.	Who wrote Strega Nona.
+
+Anton Chekhov
+Boris Pasternak
+Fyodor Dostoyevsky
+Leo Tolstoy
+James Joyce
+Vladimir Nabokov
+Charles Dickens
+Shel Silverstein
+Tomie dePaola
+
+14.	What is the name of the rocket that powered the Apollo 11 moon landings.
+
+Jupiter X
+Neptune II
+Saturn V
+Venus IV
+Saturn IV
+Venus I
+Neptune X
+Jupiter II
+Venus V
+
+15.	Who wrote the music for the 2006 film 'The Illusionist'.
+
+Andrew Poppy
+Michael Nyman
+Philip Glass
+Wim Mertens
+John Williams
+Allan Silvestri
+John Debney
+David Newman
+Alberto Iglesias
+
+16.	Who was the first Formula One World Drivers' Champion.
+
+Alberto Ascari
+Jack Brabham
+Juan Manuel Fangio
+Nino Farina
+Mike Hawthorn
+Phil Hill
+Jim Clark
+John Surtees
+Denny Hulme
+
+17.	What does 'Hong Kong' translate to in English.
+
+Happy Island
+High Peak
+Land of Wealth
+Happy Harbour
+Land of happiness
+High Harbour
+Fragrant Harbour
+Fragrant Island
+High Island
+
+18.	Who was the third member of the Apollo 11 mission with Neil Armstrong and 'Buzz' Aldrin.
+
+Fred Haise, Jr
+James Lovell
+Michael Collins
+William Anders
+Pete Conrad
+Alan Bean
+Alan Shepard
+Edgar Mitchell
+David Scott
+
+19.	In which town was Baroness Margaret Thatcher born.
+
+Ashford
+Cambridge
+Grantham
+Oxford
+Leeds
+York
+Kingston upon Hull
+Southampton
+Belfast
+
+20.	What is the capital of Philippines.
+
+Bangkok
+Hanoi
+Kuala Lumpur
+Jakarta
+Taipei
+Kathmandu
+Lhasa
+Manila
+Dhaka
+
+21.	What is the capital of Thailand.
+
+Bangkok
+Hanoi
+Kuala Lumpur
+Manila
+Jakarta
+Taipei
+Kathmandu
+Lhasa
+Dhaka
+
+22.	What is the capital of Vietnam.
+
+Kathmandu
+Kuala Lumpur
+Manila
+Jakarta
+Taipei
+Bangkok
+Lhasa
+Dhaka
+Hanoi
+
+23.	What is the capital of Malaysia.
+
+Bangkok
+Hanoi
+Kuala Lumpur
+Manila
+Jakarta
+Taipei
+Kathmandu
+Lhasa
+Dhaka
+
+24.	What is the capital of Taiwan.
+
+Taipei
+Kuala Lumpur
+Manila
+Jakarta
+Lhasa
+Kathmandu
+Bangkok
+Hanoi
+Dhaka
+
+25.	What is the capital of Nepal.
+
+Jakarta
+Bangkok
+Manila
+Hanoi
+Kathmandu
+Kuala Lumpur
+Dhaka
+Taipei
+Lhasa
