@@ -84,4 +84,14 @@ public class switchAnimation : MonoBehaviour {
     {
         SceneManager.LoadScene("GotoCond1");
     }
+
+    public void GotoA1Prep()
+    {
+        SceneManager.LoadScene("A1Prep");
+    }
+
+    public void GotoA2Prep()
+    {
+        SceneManager.LoadScene("A2Prep");
+    }
 }

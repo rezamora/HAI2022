@@ -141,10 +141,13 @@ public class Buttons : MonoBehaviour
         {
             cond++;
             Drv.changeCondition();
-            if (agnt % 2 == 0)
-                SA.GotoAgentOne();
-            else
-                SA.GotoAgentTwo();
+            Obj = GameObject.Find("ScriptHolder");
+            SA = Obj.GetComponent<switchAnimation>();
+            SA.GotoA2Prep();
+            //if (agnt % 2 == 0)
+            //    SA.GotoAgentOne();
+            //else
+            //    SA.GotoAgentTwo();
 
         }
         else if (cond == 0)
@@ -199,7 +202,8 @@ public class Buttons : MonoBehaviour
             {
                 //Debug.Log(EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text);
                 wrong++;
-                EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
+                if (cond != -1 && cond != 0)
+                    EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
                 tfQ[myC - 1] = 0;
             }
             else
@@ -299,7 +303,7 @@ public class Buttons : MonoBehaviour
             /***********************************************************************/
             if (btn.GetComponent<UnityEngine.UI.Text>().name == "ScoreText")
             {
-                btn.GetComponentInChildren<UnityEngine.UI.Text>().text = "Correct: " + correct.ToString() + ", Wrong: " + wrong.ToString();
+                btn.GetComponentInChildren<UnityEngine.UI.Text>().text = "Correct: " + correct.ToString() + ", Incorrect: " + wrong.ToString();
             }
             else if (btn.GetComponent<UnityEngine.UI.Text>().name == "Text")
             {
@@ -706,6 +710,23 @@ public class Buttons : MonoBehaviour
             SA = Obj.GetComponent<switchAnimation>();
             SA.GotoInstructions();
         }
+    }
+
+    public void A1Prep()
+    {
+        Obj = GameObject.Find("ScriptHolder");
+        SA = Obj.GetComponent<switchAnimation>();
+        SA.GotoA1Prep();
+    }
+
+    public void A2Prep()
+    {
+        Obj = GameObject.Find("ScriptHolder");
+        SA = Obj.GetComponent<switchAnimation>();
+        if (agnt % 2 == 0)
+            SA.GotoAgentOne();
+        else
+            SA.GotoAgentTwo();
     }
 
     public void showAgents()
