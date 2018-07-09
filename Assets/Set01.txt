@@ -1,10 +1,10 @@
-Hovering over each option may result in agent showing a facial expression. You can click on any option to go to first survey:
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
-Click to view the first survey
+Hovering over an answer option may result in a reaction from the agent. You can try it out below. When you are ready to answer the first survey, please choose an option below by clicking on it:
+Answer
+Answer
+Answer
+Answer
+Answer
+Answer
+Answer
+Answer
+Answer
