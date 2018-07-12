@@ -1,53 +1,0 @@
-"ID","Question","Correct Answer","User Answer","Agent HP Answer","Correct?","Time (seconds)","Overal Time","Percentage","Time Started","Time Finished","Agent","Condition"
-"1","Who was the most famous escape artist of the 20th century?","Harry Houdini","Harry Houdini","Harry Houdini","1","00:00:17.0019810","","","","","",""
-"2","What was the painter Picasso first name?","Pablo","Pablo","Pablo","1","00:00:34.1886734","","","","","",""
-"3","Which one of these is not a zodiac sign?","Pegasus","Scorpio","Pegasus","0","00:00:36.7900050","","","","","",""
-"4","Who wrote Oliver Twist?","Charles Dickens","Leo Tolstoy","Charles Dickens","0","00:00:06.1902148","","","","","",""
-"5","What is the capital of the Thailand?","Bangkok","Taipei","Bangkok","0","00:00:21.4023559","","","","","",""
-"6","From which country does pizza originate?","Italy","Italy","England","1","00:00:16.0708571","","","","","",""
-"7","Lara Croft is a fictional character and the protagonist of which video game series?","Tomb Raider","Raiders of the Lost Ark","Tomb Raider","0","00:00:32.2587351","","","","","",""
-"8","What city was once called New Amsterdam?","New York City","New York City","New York City","1","00:00:19.3346339","","","","","",""
-"9","In which country is the Mount Everest situated?","Nepal","Nepal","Nepal","1","00:00:11.9155212","","","","","",""
-"10","What do badminton players strike with their racquets?","Shuttlecock","Shuttlecock","Shuttlecock","1","00:00:16.5874813","","","","","",""
-"11","Which character was lacking a heart in The Wizard of Oz?","The Tin Man","The Tin Man","The Tin Man","1","00:00:14.6743049","","","","","",""
-"12","Who directed 2001 A Space Odyssey?","Stanley Kubrick","Stanley Kubrick","Stanley Kubrick","1","00:00:18.4654282","","","","","",""
-"13","Who directed Reservoir Dogs?","Quentin Tarantino","Quentin Tarantino","Quentin Tarantino","1","00:00:46.3820474","","","","","",""
-"14","Which one is used to make Vodka?","Potatoes","Potatoes","Potatoes","1","00:00:13.7248212","","","","","",""
-"15","Which of the following is widely used to make beer?","Wheat","Wheat","Wheat","1","00:00:13.8887694","","","","","",""
-"16","Where is Acropolis located at?","Greece","Greece","Greece","1","00:00:21.6314496","","","","","",""
-"17","Samsung Electronics is a company from which country?","South Korea","South Korea","South Korea","1","00:00:06.1318635","","","","","",""
-"18","What was the English term for a German submarine during World War Two?","U-boat","U-boat","U-boat","1","00:00:21.5201496","","","","","",""
-"19","Who plays Lara Croft in the Tomb Raider series of films?","Angelina Jolie","Angelina Jolie","Angelina Jolie","1","00:00:14.4423966","","","","","",""
-"20","Within which Italian city does the Vatican City lie?","Rome","Rome","Rome","1","00:00:07.8516111","","","","","",""
-"21","Who composed The Nutcracker?","Tchaikovsky","Tchaikovsky","Tchaikovsky","1","00:00:23.5045163","","","","","",""
-"22","In the bible, who was found in a basket amongst the bullrushes?","Moses","Jonah","Jonah","0","00:00:21.3608153","","","","","",""
-"23","How many keys does a modern piano have?","88","88","88","1","00:00:30.4978878","","","","","",""
-"24","In a rainbow, what colour is the outer part of the arch?","Red","Red","Red","1","00:00:31.5262442","","","","","",""
-"25","In Greek and Roman mythology, a multi-headed hound which guards the gates of Hades is called what?","Cerberus","Siren","Siren","0","00:00:21.0629864","","","","","",""
-"26","Who played James Bond in You Only Live Twice?","Sean Connery","Daniel Craig","Sean Connery","0","00:00:13.8703697","","","","","",""
-"27","What is the more common name for the olfactory organ?","Nose","Nose","Nose","1","00:00:28.3454612","","","","","",""
-"28","A gosling is the young of which bird?","Goose","Owl","Goose","0","00:00:11.0057919","","","","","",""
-"29","What material gives Mars its reddish appearance?","Iron oxide","Cobalt oxide","Cobalt oxide","0","00:00:20.7183397","","","","","",""
-"30","Which soccer club plays at the Estadio Santiago Bernabeu?","Real Madrid","Real Madrid","Real Madrid","1","00:00:08.9330718","","","","","",""
-"31","How many countries are members of the European Union?","27","27","27","1","00:00:20.1129281","","","","","",""
-"32","How many countries are there in Africa?","54","45","45","0","00:00:10.1349529","","","","","",""
-"33","The three largest oil producing countries are in the world are?","Saudi Arabia, Russia, USA","Saudi Arabia, Iran, Iraq","Saudi Arabia, Russia, USA","0","00:00:46.5433338","","","","","",""
-"34","Who is called the father of Economics?","Adam Smith","Adam Smith","Adam Smith","1","00:00:15.2209893","","","","","",""
-"35","In which year was the new currency Euro introduced?","1999","1999","1999","1","00:00:11.5248352","","","","","",""
-"36","Which country is estimated to have Worlds largest Shale gas reserve?","China","Russia","China","0","00:00:14.4854203","","","","","",""
-"37","World largest producer of uranium is?","Canada","Canada","Canada","1","00:00:10.7730620","","","","","",""
-"38","Which Embassy was the scene of the 1980 Special Air Service raid in South Kensington, London?","Iranian","Iranian","Iranian","1","00:00:25.1660623","","","","","",""
-"39","Which dinosaur name means roof lizard?","Stegosaurus","Stegosaurus","Stegosaurus","1","00:00:12.2105230","","","","","",""
-"40","Blue Mountain Coffee comes from where?","Jamaica","Jamaica","Jamaica","1","00:00:23.8631301","","","","","",""
-"41","Which chemical element has the atomic number of 79?","Gold","Platinum","Platinum","0","00:01:09.8604162","","","","","",""
-"42","Which is the only work Mozart wrote whose home key is E minor?","Violin Sonata No. 21","Violin Sonata No. 21","Violin Sonata No. 21","1","00:00:11.4932396","","","","","",""
-"43","Which 1957 Treaty created the European Economic Community?","Rome","Rome","Rome","1","00:00:21.3877760","","","","","",""
-"44","Who shot and killed Lee Harvey Oswald?","Jack Ruby","Jack Ruby","Jack Ruby","1","00:00:12.3338806","","","","","",""
-"45","Which author wrote Brave New World?","Aldous Huxley","Graham Greene","Graham Greene","0","00:00:15.1707588","","","","","",""
-"46","In the film Forrest Gump, who did Forrest help discover a new way to dance?","Elvis Presley","Ginger Rogers","Ginger Rogers","0","00:00:12.5715622","","","","","",""
-"47","In which part of the UK would you find the stone Blue John?","Castleton","Kendal","Castleton","0","00:00:25.3183818","","","","","",""
-"48","What is the capital of New Zealand?","Wellington","Wellington","Wellington","1","00:00:23.2944447","","","","","",""
-"49","What was Edward of Woodstock more commonly known as?","The Black Prince","The Black Prince","The Black Prince","1","00:00:16.6657554","","","","","",""
-"50","Who played the Bad in The Good, the Bad and the Ugly, a 1966 spaghetti western?","Lee Van Cleef","James Stewart","Lee Van Cleef","0","00:00:14.0088296","","","","","",""
-"","","","","","","","00:16:53.4241164","66","04/26/2018-17:37:49","04/26/2018-17:54:42","1","c"
-"

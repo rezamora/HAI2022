@@ -1,0 +1,8 @@
+"ID","Question","Correct Answer","User Answer","Agent HP Answer","Correct?","Time (seconds)","Overal Time","Percentage","Time Started","Time Finished","Agent","Condition"
+"1","What is the highest point on the Earth continental crust?","Mount Everest","Lhotse","Mount Everest","0","00:00:01.0075275","","","","","",""
+"2","Which two colors make purple?","Red and Blue","Red and Green","Red and Blue","0","00:00:02.2647334","","","","","",""
+"3","Which fruits are most commonly used to make wine?","Grapes","Oranges","Grapes","0","00:00:02.5489224","","","","","",""
+"4","Which Italian city has a famous leaning tower?","Pisa","Pisa","Pisa","1","00:00:02.4301030","","","","","",""
+"5","A common currency for the members of the Common Market in Europe is known as:","Euro","Forint","Euro","0","00:00:02.5016063","","","","","",""
+"","","","","","","","00:00:10.7543954","2","06/08/2018-18:33:17","06/08/2018-18:33:28","1","c"
+"

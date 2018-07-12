@@ -1,399 +1,0 @@
-"ID","Question","Option1","Option2","Option3","Option4","Option5","Option6","Option7","Option8","Option9"
-"1","Who was the most famous escape artist of the 20th century?","Harry Houdini","Harry Potter","Harry Lorayne","Harry Chapin","Harry Kellar","Harry August Jansen","Harry Anderson","Harry Blackstone Sr.","Harry Belafonte"
-"","","Highly Possitive","Moderately Possitive","Moderately Negative","Highly Negative","Slightly Negative","Idle","Idle","Slightly Possitive","Moderately Negative"
-"","","","","","","","00:00:00.0745116","","",""
-"","","00:00:00.7710421","","","","","","","",""
-"2","What was the painter Picasso first name?","Paolo","Paco","Pierre","Paavo","Pablo","Apollo","Pedro","Peter","Padarn"
-"","","Slightly Possitive","Slightly Negative","Highly Possitive","Moderately Negative","Moderately Negative","Moderately Possitive","Idle","Highly Negative","Idle"
-"","","00:00:06.3803870","","","","","","","",""
-"","","","","","","","00:00:01.1049365","","",""
-"","","","","00:00:01.0245682","","","","","",""
-"","","","00:00:01.1774827","","","","","","",""
-"","","00:00:00.6932124","","","","","","","",""
-"","","","","","","00:00:01.3366155","","","",""
-"","","","","","00:00:00.5111932","","","","",""
-"","","","","","","","","00:00:00.7476872","",""
-"","","","","","","","","","00:00:00.7093383",""
-"","","","","","","","","","","00:00:00.5890109"
-"","","","00:00:00.1118164","","","","","","",""
-"","","00:00:01.5296099","","","","","","","",""
-"","","","","","","00:00:01.0462278","","","",""
-"3","Which one of these is not a zodiac sign?","Scorpio","Taurus","Pegasus","Pisces","Gemini","Leo","Libra","Cancer","Aquarius"
-"","","Highly Negative","Moderately Possitive","Highly Possitive","Slightly Possitive","Moderately Negative","Idle","Moderately Negative","Slightly Negative","Idle"
-"","","00:00:06.6796439","","","","","","","",""
-"","","","","","","","00:00:00.1796951","","",""
-"","","","","","","00:00:01.3578304","","","",""
-"","","","","00:00:01.9373306","","","","","",""
-"","","","00:00:00.0468777","","","","","","",""
-"","","00:00:01.1652263","","","","","","","",""
-"","","","00:00:00.0231674","","","","","","",""
-"","","","","00:00:00.0228438","","","","","",""
-"","","","","00:00:00.7581240","","","","","",""
-"4","Who wrote Oliver Twist?","Charles Dickens","Tomie dePaola","Anton Chekhov","James Joyce","Vladimir Nabokov","Shel Silverstein","Boris Pasternak","Fyodor Dostoyevsky","Leo Tolstoy"
-"","","Highly Possitive","Idle","Moderately Negative","Idle","Moderately Possitive","Slightly Negative","Slightly Possitive","Highly Negative","Moderately Negative"
-"","","","","00:00:07.3844826","","","","","",""
-"","","","","","","00:00:00.0210520","","","",""
-"","","","","","00:00:00.8994519","","","","",""
-"","","","","","","00:00:00.3552455","","","",""
-"","","","","","","","","","00:00:00.9139651",""
-"","","","","","","","","00:00:01.1378027","",""
-"","","","","","00:00:00.1470767","","","","",""
-"","","","","","","","00:00:00.7805844","","",""
-"","","","","","","00:00:00.0902204","","","",""
-"","","","","","00:00:00.0213835","","","","",""
-"","","00:00:00.4661072","","","","","","","",""
-"5","What is the capital of the Thailand?","Bangkok","Hanoi","Lhasa","Kuala Lumpur","Jakarta","Dhaka","Kathmandu","Taipei","Manila"
-"","","Idle","Moderately Negative","Highly Negative","Idle","Moderately Negative","Slightly Negative","Moderately Possitive","Slightly Possitive","Highly Possitive"
-"","","00:00:06.0792145","","","","","","","",""
-"","","","","","","00:00:00.7150545","","","",""
-"","","","","","00:00:00.5932856","","","","",""
-"","","00:00:01.6782831","","","","","","","",""
-"6","From which country does pizza originate?","Italy","Scotland","England","Germany","Switzerland","Mexico","Finland","France","Belgium"
-"","","Idle","Idle","Slightly Possitive","Slightly Negative","Moderately Negative","Highly Possitive","Moderately Negative","Moderately Possitive","Highly Negative"
-"","","00:00:06.2598488","","","","","","","",""
-"","","","","","","","","","","00:00:01.3582610"
-"","","","","","","00:00:00.1133235","","","",""
-"","","00:00:01.3804596","","","","","","","",""
-"7","Lara Croft is a fictional character and the protagonist of which video game series?","Treasure Raider","The Last of Us","Prince of Persia","Assassins Creed","Raiders of the Lost Ark","Tomb Raider","Ark Raider","Overwatch","Heavy Rain"
-"","","Slightly Possitive","Moderately Negative","Highly Negative","Idle","Idle","Highly Possitive","Moderately Negative","Slightly Negative","Moderately Possitive"
-"","","00:00:08.1889099","","","","","","","",""
-"","","","","","","","00:00:00.5074860","","",""
-"","","","","","","00:00:00.5826953","","","",""
-"","","","","","","","","","00:00:00.8752893",""
-"","","","","","","","","","","00:00:00.7732364"
-"","","","","","","","00:00:01.1091007","","",""
-"8","What city was once called New Amsterdam?","New Orleans","Philadelphia","Boston","Newark","Chicago","New York City","Houston","Los Angeles","Washington D.C."
-"","","Slightly Negative","Moderately Negative","Slightly Possitive","Idle","Idle","Highly Possitive","Moderately Negative","Highly Negative","Moderately Possitive"
-"","","","","","","","00:00:09.7187088","","",""
-"","","","","","","","","","00:00:00.1109975",""
-"","","","","","","","","","00:00:00.3874458",""
-"","","","","","","","","00:00:00.7484579","",""
-"","","","","","","","","","00:00:00.0662363",""
-"","","","","","","","","","00:00:01.0103776",""
-"","","","","","","00:00:00.7405132","","","",""
-"","","","","","","","","","00:00:00.7417187",""
-"","","","","","","","","","","00:00:01.1318213"
-"","","","","","","","00:00:01.0897325","","",""
-"","","","","00:00:00.0426144","","","","","",""
-"","","","","00:00:00.4822223","","","","","",""
-"","","","00:00:00.9338727","","","","","","",""
-"","","00:00:00.7486440","","","","","","","",""
-"","","","","","00:00:00.5499836","","","","",""
-"","","","","","","00:00:00.9720993","","","",""
-"","","","","","","","00:00:01.3850430","","",""
-"","","","","","","00:00:00.3354295","","","",""
-"9","In which country is the Mount Everest situated?","Japan","Tanzania","Sri Lanka","India","United States","Nepal","Russia","Vietnam","Kazakhistan"
-"","","Moderately Negative","Idle","Moderately Possitive","Moderately Negative","Slightly Possitive","Highly Possitive","Highly Negative","Idle","Slightly Negative"
-"","","","","00:00:06.5646359","","","","","",""
-"","","","","00:00:01.2420734","","","","","",""
-"","","","","","00:00:00.9795152","","","","",""
-"","","","","","","00:00:01.2182032","","","",""
-"","","00:00:00.5482799","","","","","","","",""
-"","","","","","","00:00:00.0428754","","","",""
-"","","","","","","","00:00:00.1526958","","",""
-"","","","","","","","00:00:00.3985335","","",""
-"10","What do badminton players strike with their racquets?","Shuttleknock","Shuttleblock","Shuttleflock","Shuttlemock","Shuttlefrock","Shuttlecock","Shuttleshock","Shuttlechock","Shuttlehock"
-"","","Moderately Possitive","Idle","Moderately Negative","Moderately Negative","Slightly Negative","Highly Possitive","Idle","Highly Negative","Slightly Possitive"
-"","","","","","","","00:00:08.1424033","","",""
-"","","","","","","","","","00:00:00.3079996",""
-"","","","","","","","","","","00:00:00.5668909"
-"","","","","","","","","","00:00:00.1987358",""
-"","","","","","","","","00:00:00.2710663","",""
-"","","","","","00:00:00.1769226","","","","",""
-"","","00:00:00.3100711","","","","","","","",""
-"","","","00:00:00.4669624","","","","","","",""
-"","","","","00:00:00.4868083","","","","","",""
-"","","","00:00:00.1124423","","","","","","",""
-"","","00:00:00.8555359","","","","","","","",""
-"","","","00:00:00.5409490","","","","","","",""
-"","","00:00:00.2651100","","","","","","","",""
-"","","","00:00:00.5920204","","","","","","",""
-"11","Which character was lacking a heart in The Wizard of Oz?","Toto","Dorothy","Glinda","The Scarecrow","Angry apple tree","The wizard","The Lion","Wicked witch","The Tin Man"
-"","","Moderately Possitive","Highly Negative","Moderately Negative","Slightly Negative","Moderately Negative","Idle","Slightly Possitive","Idle","Highly Possitive"
-"","","","00:00:07.5843467","","","","","","",""
-"","","","","00:00:00.5889961","","","","","",""
-"","","","","","","","00:00:00.4317245","","",""
-"","","","","","","","","","","00:00:00.6100059"
-"","","","","","","","","","00:00:00.8252702",""
-"","","","","","","","","00:00:00.6252165","",""
-"","","","","","00:00:00.6277744","","","","",""
-"","","","","","","00:00:00.0202741","","","",""
-"","","","","","","00:00:00.1272542","","","",""
-"","","00:00:00.2846746","","","","","","","",""
-"","","","","","","00:00:00.2373091","","","",""
-"","","","","","","","","","","00:00:00.0247614"
-"","","","","","","","","","","00:00:00.4164093"
-"12","Who directed 2001 A Space Odyssey?","Quentin Tarantino","Robin Williams","Tom Hanks","Woody Allen","Steven Spielberg","Martin Scorsese","James Cameron","Drew Barrymore","Stanley Kubrick"
-"","","Moderately Possitive","Idle","Highly Negative","Moderately Negative","Slightly Negative","Slightly Possitive","Idle","Moderately Negative","Highly Possitive"
-"","","","","","","","","","","00:00:05.6733511"
-"","","","","","","00:00:00.8187512","","","",""
-"","","","","","","","00:00:00.7609911","","",""
-"","","","","","","","","","","00:00:00.5651443"
-"","","","","","","","","","00:00:00.4674131",""
-"","","","","","","","","00:00:00.6425187","",""
-"","","","","","00:00:00.5359852","","","","",""
-"","","00:00:00.9339004","","","","","","","",""
-"","","","00:00:00.6504521","","","","","","",""
-"","","","","00:00:00.5471751","","","","","",""
-"","","","","","","00:00:01.0060407","","","",""
-"13","Who directed Reservoir Dogs?","Steven Spielberg","James Cameron","Tom Hanks","Quentin Tarantino","Martin Scorsese","Drew Barrymore","Stanley Kubrick","Robin Williams","Woody Allen"
-"","","Moderately Negative","Slightly Possitive","Idle","Highly Possitive","Idle","Slightly Negative","Highly Negative","Moderately Possitive","Moderately Negative"
-"","","","","00:00:04.6338021","","","","","",""
-"","","","","00:00:00.9838954","","","","","",""
-"","","","","","","00:00:00.0223120","","","",""
-"","","","","","","00:00:00.7106096","","","",""
-"","","","00:00:01.3207023","","","","","","",""
-"","","","","","00:00:01.0818449","","","","",""
-"14","Which one is used to make Vodka?","Wheat","Strawberries","Apples","Pearl","Potatoes","Grapes","Lemons","Oranges","Blackberry"
-"","","Idle","Moderately Possitive","Slightly Possitive","Highly Negative","Moderately Negative","Idle","Highly Possitive","Moderately Negative","Slightly Negative"
-"","","00:00:05.2868229","","","","","","","",""
-"","","","","","","","00:00:00.4045552","","",""
-"","","","","","","00:00:00.3924968","","","",""
-"","","","","","","","","","00:00:00.7905462",""
-"","","","","","","","","","","00:00:01.4099618"
-"","","","","","","","00:00:01.0540096","","",""
-"","","","","","","00:00:00.3932112","","","",""
-"","","","","","00:00:00.7269668","","","","",""
-"","","","","","","","","00:00:01.0908381","",""
-"","","","","","","","","","00:00:00.8276908",""
-"","","00:00:00.0206479","","","","","","","",""
-"","","00:00:00.6906933","","","","","","","",""
-"","","","00:00:00.4373286","","","","","","",""
-"","","","","00:00:00.2846325","","","","","",""
-"","","","","","","00:00:00.2269851","","","",""
-"","","","","","","","00:00:00.7026382","","",""
-"15","Which of the following is widely used to make beer?","Strawberries","Apples","Oranges","Potatoes","Lemons","Pearl","Blackberry","Grapes","Wheat"
-"","","Moderately Negative","Moderately Negative","Moderately Possitive","Slightly Negative","Idle","Slightly Possitive","Highly Negative","Idle","Highly Possitive"
-"","","","00:00:07.6724428","","","","","","",""
-"","","","","","","","00:00:00.0686984","","",""
-"","","","","","","","","","","00:00:00.8986610"
-"","","","","","","","","","00:00:00.0206231",""
-"","","","","","00:00:01.0361014","","","","",""
-"","","","","","","00:00:00.0901841","","","",""
-"","","","","","","","00:00:00.1073709","","",""
-"","","","","","","00:00:00.2792892","","","",""
-"","","00:00:00.4292684","","","","","","","",""
-"","","","","","","00:00:00.0216641","","","",""
-"","","","","","","","","","","00:00:00.4152011"
-"16","Where is Acropolis located at?","Italy","Iran","France","Mexico","Turkey","Greece","Lebanon","Syria","Spain"
-"","","Idle","Highly Negative","Moderately Possitive","Slightly Negative","Slightly Possitive","Highly Possitive","Moderately Negative","Idle","Moderately Negative"
-"","","","","","","","00:00:04.8835687","","",""
-"","","","","","","00:00:00.1804796","","","",""
-"","","","","","00:00:00.0450848","","","","",""
-"","","","","","","","","","00:00:00.1155175",""
-"","","","","","","","","","","00:00:00.2444300"
-"","","","","","","","","","00:00:00.2432065",""
-"","","","","","","","00:00:01.0651063","","",""
-"","","","","","","00:00:00.0426742","","","",""
-"","","","","","00:00:00.0266811","","","","",""
-"","","00:00:00.8445676","","","","","","","",""
-"","","","","","","00:00:00.0230574","","","",""
-"","","","","","","","00:00:00.5660749","","",""
-"17","Samsung Electronics is a company from which country?","China","Japan","Malaysia","Thailand","Indonesia","Taiwan","South Korea","Hong Kong","Vietnam"
-"","","Slightly Possitive","Idle","Slightly Negative","Idle","Highly Possitive","Moderately Possitive","Highly Negative","Moderately Negative","Moderately Negative"
-"","","","","","","","00:00:08.5977942","","",""
-"","","","","","","00:00:00.2711411","","","",""
-"","","","","","00:00:00.0629538","","","","",""
-"","","00:00:00.1729006","","","","","","","",""
-"","","","00:00:00.4167314","","","","","","",""
-"18","What was the English term for a German submarine during World War Two?","C-boat","W-boat","S-boat","U-boat","F-boat","N-boat","G-boat","D-boat","H-boat"
-"","","Idle","Slightly Negative","Idle","Highly Possitive","Moderately Negative","Moderately Possitive","Highly Negative","Moderately Negative","Slightly Possitive"
-"","","","00:00:08.8778243","","","","","","",""
-"","","","","","00:00:00.0906054","","","","",""
-"","","","","","00:00:00.2207500","","","","",""
-"19","Who plays Lara Croft in the Tomb Raider series of films?","Emma Stone","Julia Roberts","Nell McAndrew","Jennifer Aniston","Nicole Kidman","Minnie Driver","Jennifer Lawrence","Scarlett Johanson","Angelina Jolie"
-"","","Moderately Negative","Highly Negative","Moderately Possitive","Moderately Negative","Idle","Slightly Possitive","Idle","Slightly Negative","Highly Possitive"
-"","","","","","","","","","","00:00:08.1445808"
-"20","Within which Italian city does the Vatican City lie?","Venice","Naples","Turin","Pisa","Milan","Florence","Siena","Rome","Genoa"
-"","","Idle","Idle","Highly Negative","Moderately Negative","Slightly Possitive","Slightly Negative","Moderately Possitive","Highly Possitive","Moderately Negative"
-"","","","","","","","","","","00:00:08.1007837"
-"","","","","","","","","","00:00:00.5716473",""
-"21","Who composed The Nutcracker?","Beethoven","Puccini ","Vivaldi ","Bach","Tchaikovsky","Verdi ","Handel","Mozart","Chopin "
-"","","Slightly Possitive","Slightly Negative","Highly Negative","Moderately Negative","Highly Possitive","Idle","Moderately Negative","Moderately Possitive","Idle"
-"","","","","","","00:00:06.4230674","","","",""
-"22","In the bible, who was found in a basket amongst the bullrushes?","Joseph","Aaron","Noah","Job","Jesus","Andrew","Moses","Jonah","Levi"
-"","","Slightly Negative","Idle","Idle","Moderately Negative","Moderately Negative","Slightly Possitive","Highly Possitive","Moderately Possitive","Highly Negative"
-"","","","","","","00:00:06.1464346","","","",""
-"","","","","","","","","00:00:00.2585604","",""
-"","","","","","00:00:00.2040427","","","","",""
-"","","00:00:00.2179709","","","","","","","",""
-"","","","00:00:00.2188640","","","","","","",""
-"","","","","","00:00:00.3337649","","","","",""
-"","","","","","","00:00:00.0229796","","","",""
-"","","","","","","00:00:01.1625728","","","",""
-"","","","","","","","00:00:00.9395048","","",""
-"","","","","","","","","","","00:00:01.4403023"
-"","","","","","","","","","00:00:00.0666853",""
-"","","","","","","","","00:00:00.7602477","",""
-"23","How many keys does a modern piano have?","90","93","92","91","87","86","85","89","88"
-"","","Idle","Moderately Negative","Slightly Negative","Moderately Possitive","Idle","Slightly Possitive","Highly Negative","Moderately Negative","Highly Possitive"
-"","","","","","","","","00:00:06.6843543","",""
-"","","","","","00:00:00.0412770","","","","",""
-"","","00:00:00.2873091","","","","","","","",""
-"24","In a rainbow, what colour is the outer part of the arch?","Orange","Yellow","Red","Blue","Cyan","Violet","Green","Magneta","Indigo"
-"","","Idle","Moderately Negative","Highly Possitive","Slightly Possitive","Slightly Negative","Moderately Possitive","Highly Negative","Idle","Moderately Negative"
-"","","00:00:09.0290193","","","","","","","",""
-"","","","","","","","00:00:00.3359577","","",""
-"","","","","00:00:00.3720126","","","","","",""
-"","","","","00:00:02.1002378","","","","","",""
-"","","","00:00:00.9673477","","","","","","",""
-"","","00:00:01.1530332","","","","","","","",""
-"","","","","","00:00:00.0226990","","","","",""
-"","","","","","","","","00:00:00.0228900","",""
-"","","","","","00:00:00.7537804","","","","",""
-"","","","","","","00:00:00.0260167","","","",""
-"","","","","","","00:00:00.5806777","","","",""
-"","","","","","","","00:00:00.6743111","","",""
-"","","","","","","","","","","00:00:00.3941872"
-"","","","","","","","","","00:00:00.3320399",""
-"","","","","","","","","00:00:01.3908274","",""
-"","","","","","00:00:00.2439726","","","","",""
-"","","","","","","00:00:00.0451975","","","",""
-"","","","","","","","00:00:00.1964441","","",""
-"","","","","","","","","","","00:00:00.5729093"
-"","","","","","","","00:00:00.0207534","","",""
-"","","","00:00:00.0446068","","","","","","",""
-"","","","00:00:00.2635290","","","","","","",""
-"25","In Greek and Roman mythology, a multi-headed hound which guards the gates of Hades is called what?","Siren","Gaia","Barabas","Pegasus","Hera","Iris","Pluto","Gnasher","Cerberus"
-"","","Moderately Negative","Moderately Negative","Moderately Possitive","Slightly Possitive","Highly Negative","Idle","Slightly Negative","Idle","Highly Possitive"
-"","","","","","","","","","","00:00:09.8950115"
-"26","Who played James Bond in You Only Live Twice?","Daniel Craig","Bob Holness","Bob Simmons","Barry Nelson","David Niven","Richard Burton","George Lazenby","Roger Moore","Sean Connery"
-"","","Highly Negative","Idle","Moderately Negative","Moderately Possitive","Moderately Negative","Slightly Possitive","Slightly Negative","Idle","Highly Possitive"
-"","","","","","","","00:00:09.1511820","","",""
-"27","What is the more common name for the olfactory organ?","Eye","Nose","Kidney","Hand","Ear","Mouth","Liver","Tongue","Skin"
-"","","Moderately Negative","Highly Possitive","Moderately Negative","Moderately Possitive","Slightly Negative","Slightly Possitive","Highly Negative","Idle","Idle"
-"","","","","","","","00:00:08.0476397","","",""
-"","","","00:00:00.3435221","","","","","","",""
-"28","A gosling is the young of which bird?","Loon","Chicken","Gull","Swallow","Goose","Duck","Owl","Swan","Sparrow"
-"","","Highly Negative","Slightly Possitive","Moderately Negative","Moderately Possitive","Highly Possitive","Slightly Negative","Moderately Negative","Idle","Idle"
-"","","","00:00:06.8143875","","","","","","",""
-"","","","","","","","00:00:00.3059304","","",""
-"","","","","","","00:00:00.4701362","","","",""
-"29","What material gives Mars its reddish appearance?","Aluminium oxide","Antimoney tetroxide","Nickel oxide","Copper oxide","Lead tetroxide","Silicon oxide","Iron oxide","Zinc oxide","Cobalt oxide"
-"","","Slightly Negative","Slightly Possitive","Highly Negative","Moderately Possitive","Idle","Idle","Highly Possitive","Moderately Negative","Moderately Negative"
-"","","","","","","00:00:08.7932792","","","",""
-"","","","","","","00:00:00.0406177","","","",""
-"","","","","","00:00:00.6981558","","","","",""
-"30","Which soccer club plays at the Estadio Santiago Bernabeu?","Juventus","AS Roma","Napoli","Atletico Madrid","Santiago Bernabeu","Inter Milan","AC Milan","Real Madrid","Barcelona"
-"","","Idle","Slightly Negative","Slightly Possitive","Moderately Negative","Idle","Moderately Possitive","Moderately Negative","Highly Possitive","Highly Negative"
-"","","","","00:00:12.5135597","","","","","",""
-"","","","","","","00:00:00.4665231","","","",""
-"","","","","","00:00:00.3360497","","","","",""
-"","","00:00:02.1591391","","","","","","","",""
-"","","","","00:00:00.1133391","","","","","",""
-"","","","","","","","00:00:00.1274720","","",""
-"","","","","","","","","","","00:00:00.0207598"
-"","","","","","","","","","00:00:00.3867908",""
-"","","","","","","","","00:00:00.3533669","",""
-"","","","","","","","00:00:00.3496802","","",""
-"","","","","","","","","","","00:00:00.7249709"
-"31","How many countries are members of the European Union?","15","21","24","29","33","16","18","27","30"
-"","","Highly Negative","Slightly Possitive","Moderately Negative","Idle","Slightly Negative","Moderately Possitive","Idle","Highly Possitive","Moderately Negative"
-"","","","","","","00:00:08.3647253","","","",""
-"32","How many countries are there in Africa?","50","24","76","42","40","67","54","45","1"
-"","","Highly Negative","Idle","Moderately Negative","Moderately Possitive","Slightly Negative","Slightly Possitive","Highly Possitive","Moderately Negative","Idle"
-"","","","","","","00:00:07.0909800","","","",""
-"","","","","","","00:00:00.0213970","","","",""
-"","","","","","00:00:00.6792574","","","","",""
-"33","The three largest oil producing countries are in the world are?","Saudi Arabia, Russia, USA","UAE, Russia, Iran","Saudi Arabia, Iran, Iraq","Iran, Saudi Arabia, USA","Iraq, UAE, Saudi Arabia","UAE, USA, Saudi Arabia","Russia, USA, Iraq","USA, Russia, Iran","Iraq, Iran, UAE"
-"","","Highly Possitive","Moderately Negative","Idle","Slightly Possitive","Moderately Negative","Slightly Negative","Moderately Possitive","Idle","Highly Negative"
-"","","","","00:00:14.6475589","","","","","",""
-"34","Who is called the father of Economics?","Milton Friedman","Lawrence Summers","Joseph Stiglitz","Jan Tinbergen","Adam Smith","John Maynard Keynes","Paul Krugman","Robert J. Shiller","Karl Marx"
-"","","Slightly Possitive","Moderately Negative","Highly Negative","Idle","Highly Possitive","Idle","Slightly Negative","Moderately Possitive","Moderately Negative"
-"","","","","00:00:05.8660520","","","","","",""
-"","","","","","","00:00:00.3118493","","","",""
-"35","In which year was the new currency Euro introduced?","1995","2005","1999","1884","2002","1990","2001","1988","1993"
-"","","Moderately Possitive","Highly Negative","Highly Possitive","Moderately Negative","Slightly Possitive","Idle","Moderately Negative","Idle","Slightly Negative"
-"","","","00:00:08.7158462","","","","","","",""
-"","","","","","","00:00:00.0219060","","","",""
-"","","","","","","00:00:00.5498580","","","",""
-"36","Which country is estimated to have Worlds largest Shale gas reserve?","Canada","UAE","Saudi Arabia","Qatar","Iran","Russia","USA","China","Iraq"
-"","","Slightly Negative","Moderately Negative","Idle","Slightly Possitive","Highly Negative","Idle","Moderately Possitive","Highly Possitive","Moderately Negative"
-"","","","","00:00:10.5673068","","","","","",""
-"","","","","","","00:00:00.0423141","","","",""
-"","","","","","00:00:00.4746460","","","","",""
-"37","World largest producer of uranium is?","Israel","USA","Canada","Russia","UK","North Korea","Brazil","Germany","China"
-"","","Highly Negative","Moderately Negative","Highly Possitive","Moderately Possitive","Moderately Negative","Slightly Possitive","Slightly Negative","Idle","Idle"
-"","","","","00:00:07.7737160","","","","","",""
-"","","","","","","00:00:00.0241439","","","",""
-"","","","","","00:00:00.5778130","","","","",""
-"","","","","","00:00:00.2620459","","","","",""
-"38","Which Embassy was the scene of the 1980 Special Air Service raid in South Kensington, London?","American","Iraqi","Saudi Arabian","German","Iranian","Canadian","Russian","Jordanian","French"
-"","","Idle","Idle","Highly Negative","Slightly Negative","Highly Possitive","Moderately Possitive","Moderately Negative","Slightly Possitive","Moderately Negative"
-"","","","00:00:21.1723183","","","","","","",""
-"","","","","","","","","","00:00:00.1330436",""
-"","","","","","00:00:00.0467779","","","","",""
-"","","","","","","","","","00:00:00.3296118",""
-"39","Which dinosaur name means roof lizard?","Tyrannosaurus","Pteradactyl","Allosaurus","Spinosaurus","Troodon","Triceratops","Albertosaurus","Ankylosaurus","Stegosaurus"
-"","","Moderately Possitive","Moderately Negative","Highly Negative","Idle","Moderately Negative","Slightly Possitive","Slightly Negative","Idle","Highly Possitive"
-"","","","","","00:00:06.9005170","","","","",""
-"","","","","00:00:00.0243008","","","","","",""
-"","","","","00:00:00.0437492","","","","","",""
-"","","","00:00:00.1514528","","","","","","",""
-"","","","","","","00:00:00.1770229","","","",""
-"","","","","","","","","","00:00:00.1387213",""
-"","","","","","","","","00:00:00.2863592","",""
-"","","","","","","","","","00:00:00.0683336",""
-"","","","","","","","","","","00:00:00.4597490"
-"","","","","","","","","","00:00:01.2593269",""
-"40","Blue Mountain Coffee comes from where?","Costa Rica","Kenya","Japan","Thailand","Brazil","Bahamas","Chile","Jamaica","Colombia"
-"","","Idle","Moderately Negative","Moderately Possitive","Slightly Negative","Highly Possitive","Highly Negative","Moderately Negative","Slightly Possitive","Idle"
-"","","","","","00:00:07.6215878","","","","",""
-"","","","","","","00:00:01.0196449","","","",""
-"41","Which chemical element has the atomic number of 79?","Uranium","Silver","Silver","Platinum","Mercury","Iron","Nickel","Lead","Gold"
-"","","Highly Negative","Slightly Possitive","Slightly Negative","Moderately Possitive","Moderately Negative","Moderately Negative","Idle","Idle","Highly Possitive"
-"","","","","","","00:00:11.0447901","","","",""
-"","","","","","00:00:00.1127607","","","","",""
-"","","","","","","","","00:00:00.4415877","",""
-"","","","","","","","","","00:00:00.1557747",""
-"","","","","","","","","00:00:00.0639687","",""
-"","","","","","00:00:00.7044828","","","","",""
-"42","Which is the only work Mozart wrote whose home key is E minor?","The Magic Flute","Andante for Flute and Orchestra","Horn Concerto No. 4","Symphony No. 40","Requiem","Violin Sonata No. 21","Piano Sonata No. 11","Clarinet Concerto","Piano Concerto No. 3"
-"","","Slightly Negative","Moderately Negative","Moderately Possitive","Moderately Negative","Slightly Possitive","Highly Possitive","Highly Negative","Idle","Idle"
-"","","","","","","","00:00:14.1403660","","",""
-"","","","","","","","","","00:00:00.1569889",""
-"","","","","","","","","","00:00:00.1717488",""
-"","","","","","00:00:00.2875780","","","","",""
-"","","","","","","","","00:00:00.5484205","",""
-"","","","","","","","","","00:00:00.0638056",""
-"","","","","","","","","","","00:00:00.3336318"
-"","","","","","","","00:00:00.1358764","","",""
-"","","","","00:00:00.0467184","","","","","",""
-"","","","00:00:00.0431084","","","","","","",""
-"","","00:00:00.3916374","","","","","","","",""
-"43","Which 1957 Treaty created the European Economic Community?","Brussels","London","Nice","Paris","Berlin","Rome","Moscow","Stockholm","Madrid"
-"","","Highly Negative","Slightly Possitive","Moderately Negative","Highly Possitive","Slightly Negative","Moderately Negative","Moderately Possitive","Idle","Idle"
-"","","","","","00:00:15.5588936","","","","",""
-"44","Who shot and killed Lee Harvey Oswald?","Jack Diamond","Balthasar Gerard","Jack Ruby","Nathuram Godse","Gavrilo Princip","Andrei Lugovoi","Jack Opal","Jack Jade","John Wilkes Booth"
-"","","Idle","Slightly Possitive","Moderately Negative","Highly Possitive","Moderately Possitive","Moderately Negative","Idle","Slightly Negative","Highly Negative"
-"","","","","","00:00:11.9994580","","","","",""
-"","","","","","","","00:00:00.6356566","","",""
-"","","","","","","00:00:00.7995683","","","",""
-"","","","","","","","","","00:00:00.3033742",""
-"","","","","","","","","","","00:00:01.1337585"
-"","","","","","","","","","00:00:00.0666224",""
-"","","","","","","","","00:00:00.3677329","",""
-"45","Which author wrote Brave New World?","Samuel Butler","Aldous Huxley","Thomas Hardy","Benjamin Disraeli","John Updike","John Cleland","Graham Greene","D H Lawrence","Max Beerbohm"
-"","","Idle","Highly Possitive","Idle","Slightly Possitive","Highly Negative","Moderately Negative","Moderately Negative","Slightly Negative","Moderately Possitive"
-"","","","00:00:05.4543893","","","","","","",""
-"46","In the film Forrest Gump, who did Forrest help discover a new way to dance?","Ginger Rogers","Michael Jackson","Madonna","Little Richard","Janet Jackson","Tina Turner","James Brown","Elvis Presley","Fred Astaire"
-"","","Moderately Negative","Slightly Possitive","Highly Negative","Moderately Possitive","Idle","Slightly Negative","Moderately Negative","Highly Possitive","Idle"
-"","","","00:00:13.6724833","","","","","","",""
-"","","","","","","00:00:00.5472568","","","",""
-"47","In which part of the UK would you find the stone Blue John?","Manchester","Surrey","Castleton","Kendal","London","Inverness","Bath","Newcastle","Southampton"
-"","","Idle","Highly Negative","Highly Possitive","Idle","Slightly Possitive","Moderately Negative","Moderately Possitive","Moderately Negative","Slightly Negative"
-"","","","","","","00:00:09.6641570","","","",""
-"","","","00:00:00.4382182","","","","","","",""
-"","","00:00:00.4574108","","","","","","","",""
-"48","What is the capital of New Zealand?","Wellington","Canberra","Auckland","Christchurch","Nelson","Sydney","Tauranga","Hamilton","Dunedin"
-"","","Highly Possitive","Highly Negative","Idle","Moderately Negative","Moderately Possitive","Idle","Slightly Possitive","Moderately Negative","Slightly Negative"
-"","","","00:00:09.8189174","","","","","","",""
-"","","00:00:00.8742869","","","","","","","",""
-"49","What was Edward of Woodstock more commonly known as?","The Black Bishop","The Black Minister","The Black Queen","The Black Soldier","The Black Prince","The Black Emperor","The Black Knight","The Black Pawn","The Black King"
-"","","Idle","Slightly Negative","Highly Negative","Slightly Possitive","Highly Possitive","Idle","Moderately Possitive","Moderately Negative","Moderately Negative"
-"","","00:00:17.0780986","","","","","","","",""
-"","","00:00:00.3060219","","","","","","","",""
-"50","Who played the Bad in The Good, the Bad and the Ugly, a 1966 spaghetti western?","Charles Bronson","Sam Elliott","Gary Cooper","John Wayne","Lee Van Cleef","Clint Eastwood","Lee Marvin","Randolph Scott","James Stewart"
-"","","Highly Negative","Moderately Possitive","Idle","Slightly Negative","Highly Possitive","Slightly Possitive","Moderately Negative","Moderately Negative","Idle"
-"","","","","","","","00:00:11.0752074","","",""
-"
