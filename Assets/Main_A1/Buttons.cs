@@ -54,7 +54,7 @@ public class Buttons : MonoBehaviour
     //static int studyCode;
     static int agnt = 0;
     static int cond = -1;
-    static int coopAgent = 11;  //11 for cooperative, 91 for uncooperative
+    static int coopAgent = 16;  //16 for cooperative, 86 for uncooperative
     static int coopAgentID = 4;
 
     //to keep track of hovering
@@ -732,9 +732,9 @@ public class Buttons : MonoBehaviour
     public void showAgents()
     {
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 11;
+            coopAgent = 16;
         else
-            coopAgent = 91;
+            coopAgent = 86;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
         if (agnt % 2 == 1)
@@ -752,9 +752,9 @@ public class Buttons : MonoBehaviour
         Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 11;
+            coopAgent = 16;
         else
-            coopAgent = 91;
+            coopAgent = 86;
         cond = 2;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
