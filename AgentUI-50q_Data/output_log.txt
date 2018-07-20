@@ -19,7 +19,7 @@ Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI
 Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
 Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\System.Data.dll (this message is harmless)
 Loading C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\System.Data.dll into Unity Child Domain
-- Completed reload, in  0.120 seconds
+- Completed reload, in  0.055 seconds
 Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\System.dll (this message is harmless)
 Platform assembly: C:\Users\rm976\Documents\GitHub\HumanAgentInteraction\AgentUI-50q_Data\Managed\System.Xml.dll (this message is harmless)
@@ -48,23 +48,23 @@ The referenced script on this Behaviour (Game Object 'startButton') is missing!
  
 (Filename:  Line: 1743)
 
-UnloadTime: 33.289253 ms
+UnloadTime: 2.895018 ms
 Setting up 4 worker threads for Enlighten.
-  Thread -> id: ffc -> priority: 1 
-  Thread -> id: 2b10 -> priority: 1 
-  Thread -> id: 27ec -> priority: 1 
-  Thread -> id: 2b18 -> priority: 1 
+  Thread -> id: 2e28 -> priority: 1 
+  Thread -> id: 2bc -> priority: 1 
+  Thread -> id: 25f0 -> priority: 1 
+  Thread -> id: 1538 -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 2.938886 ms
+UnloadTime: 2.739675 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.589520 ms (FindLiveObjects: 0.020732 ms CreateObjectMapping: 0.012619 ms MarkObjects: 0.536337 ms  DeleteObjects: 0.019230 ms)
+Total: 0.456111 ms (FindLiveObjects: 0.029746 ms CreateObjectMapping: 0.020431 ms MarkObjects: 0.382797 ms  DeleteObjects: 0.022535 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.414647 ms
+UnloadTime: 0.792937 ms
 
 Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.413445 ms (FindLiveObjects: 0.017727 ms CreateObjectMapping: 0.030948 ms MarkObjects: 0.359060 ms  DeleteObjects: 0.005107 ms)
+Total: 0.195004 ms (FindLiveObjects: 0.015323 ms CreateObjectMapping: 0.011417 ms MarkObjects: 0.164656 ms  DeleteObjects: 0.003305 ms)
 
 The referenced script on this Behaviour (Game Object 'Button3') is missing!
  
@@ -75,28 +75,28 @@ The referenced script on this Behaviour (Game Object 'GameObject') is missing!
 (Filename:  Line: 1743)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.341933 ms
+UnloadTime: 0.330816 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 709.
-Total: 0.534834 ms (FindLiveObjects: 0.057690 ms CreateObjectMapping: 0.028544 ms MarkObjects: 0.434778 ms  DeleteObjects: 0.013220 ms)
+Total: 0.476243 ms (FindLiveObjects: 0.028845 ms CreateObjectMapping: 0.011417 ms MarkObjects: 0.420956 ms  DeleteObjects: 0.014422 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.766496 ms
+UnloadTime: 0.856937 ms
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.380694 ms (FindLiveObjects: 0.019530 ms CreateObjectMapping: 0.014122 ms MarkObjects: 0.213633 ms  DeleteObjects: 0.133107 ms)
+Total: 1.266777 ms (FindLiveObjects: 0.082328 ms CreateObjectMapping: 0.044769 ms MarkObjects: 0.700693 ms  DeleteObjects: 0.435679 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.334421 ms
+UnloadTime: 0.400825 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 649.
-Total: 0.443191 ms (FindLiveObjects: 0.060995 ms CreateObjectMapping: 0.012319 ms MarkObjects: 0.355755 ms  DeleteObjects: 0.013521 ms)
+Total: 0.559473 ms (FindLiveObjects: 0.042065 ms CreateObjectMapping: 0.019530 ms MarkObjects: 0.480750 ms  DeleteObjects: 0.016525 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.624374 ms
+UnloadTime: 0.565482 ms
 
 Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.526121 ms (FindLiveObjects: 0.023436 ms CreateObjectMapping: 0.019530 ms MarkObjects: 0.290553 ms  DeleteObjects: 0.191999 ms)
+Total: 0.396318 ms (FindLiveObjects: 0.017126 ms CreateObjectMapping: 0.011417 ms MarkObjects: 0.209727 ms  DeleteObjects: 0.157445 ms)
 
 The referenced script on this Behaviour (Game Object 'Button3') is missing!
  
@@ -107,434 +107,430 @@ The referenced script on this Behaviour (Game Object 'GameObject') is missing!
 (Filename:  Line: 1743)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.320600 ms
+UnloadTime: 0.313990 ms
 
 Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 709.
-Total: 0.506891 ms (FindLiveObjects: 0.044469 ms CreateObjectMapping: 0.012018 ms MarkObjects: 0.436881 ms  DeleteObjects: 0.012920 ms)
+Total: 0.489163 ms (FindLiveObjects: 0.044168 ms CreateObjectMapping: 0.011718 ms MarkObjects: 0.419454 ms  DeleteObjects: 0.013220 ms)
 
-Num value is:96.17838
+Num value is:44.94613
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:62.30006
+Num value is:37.4193
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:11.55764
+Num value is:92.76967
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:60.10979
+Num value is:63.36716
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:70.19665
+Num value is:54.64029
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:29.87503
+Num value is:95.94089
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:52.88178
+Num value is:30.58307
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:85.134
+Num value is:64.02213
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:89.67135
+Num value is:66.86756
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:75.00193
+Num value is:77.70164
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:40.44858
+Num value is:90.42564
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:27.06415
+Num value is:55.78428
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:23.6713
+Num value is:35.40675
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:25.00521
+Num value is:10.4916
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:23.25313
+Num value is:89.87424
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:75.66731
+Num value is:63.01078
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:42.79978
+Num value is:8.486796
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:40.03344
+Num value is:14.45233
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:12.0371
+Num value is:97.13012
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:53.0328
+Num value is:6.159473
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:69.46897
+Num value is:85.91656
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:36.60568
+Num value is:49.82848
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:19.90353
+Num value is:81.51295
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:70.67333
+Num value is:36.65506
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:96.58973
+Num value is:3.096831
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:67.1925
+Num value is:14.09363
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:2.105034
+Num value is:64.32687
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:1.871443
+Num value is:84.99391
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:89.25145
+Num value is:52.49368
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:45.00863
+Num value is:6.541348
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:60.53424
+Num value is:34.27687
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:17.88663
+Num value is:7.63594
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:35.30936
+Num value is:47.70551
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:4.501737
+Num value is:36.00316
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:71.57882
+Num value is:14.2905
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:60.66047
+Num value is:92.5218
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:47.80782
+Num value is:9.11702
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:34.06361
+Num value is:56.52812
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:16.87298
+Num value is:81.61423
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:14.43503
+Num value is:18.83046
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:78.04992
+Num value is:47.01606
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:38.57474
+Num value is:81.45506
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:40.75092
+Num value is:79.05668
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:36.64506
+Num value is:28.0463
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:16.55559
+Num value is:74.92327
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:93.4714
+Num value is:18.2907
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:8.283318
+Num value is:22.02331
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:62.90456
+Num value is:10.01111
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:49.5177
+Num value is:19.29982
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:43.26096
+Num value is:18.01549
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:28.54489
- 
-(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Num value is:42.87617
+Num value is:8.718539
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.544750 ms
+UnloadTime: 0.707303 ms
 
 Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 1.290213 ms (FindLiveObjects: 0.100657 ms CreateObjectMapping: 0.030347 ms MarkObjects: 0.641200 ms  DeleteObjects: 0.515003 ms)
+Total: 1.291115 ms (FindLiveObjects: 0.097652 ms CreateObjectMapping: 0.048976 ms MarkObjects: 0.750571 ms  DeleteObjects: 0.392111 ms)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 0.478647 ms
+UnloadTime: 0.260807 ms
 
 Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 649.
-Total: 0.329313 ms (FindLiveObjects: 0.041464 ms CreateObjectMapping: 0.012018 ms MarkObjects: 0.267417 ms  DeleteObjects: 0.007812 ms)
+Total: 0.329614 ms (FindLiveObjects: 0.042666 ms CreateObjectMapping: 0.012920 ms MarkObjects: 0.264112 ms  DeleteObjects: 0.009615 ms)
 
-Num value is:28.41597
+Num value is:1.708818
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:17.88031
+Num value is:10.00127
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:61.45863
+Num value is:2.832079
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:90.93888
+Num value is:68.54419
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:6.573821
+Num value is:96.4703
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:91.38038
+Num value is:34.37123
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:61.20876
+Num value is:83.29885
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:47.49647
+Num value is:72.32243
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:61.6157
+Num value is:50.73919
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:50.15896
+Num value is:59.66452
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:25.21874
+Num value is:16.86323
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:11.61233
+Num value is:80.28649
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:64.04439
+Num value is:5.372263
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:23.92994
+Num value is:63.87735
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:25.14123
+Num value is:4.457403
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:17.73181
+Num value is:23.2189
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:34.34299
+Num value is:20.5575
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:78.27873
+Num value is:18.08534
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:5.029381
+Num value is:87.38335
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:0.02827645
+Num value is:83.51563
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:37.48255
+Num value is:67.9648
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:90.62602
+Num value is:17.22694
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:89.9164
+Num value is:63.65492
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:21.86364
+Num value is:77.73505
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:52.37327
+Num value is:59.61099
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:16.81175
+Num value is:20.69699
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:35.58758
+Num value is:28.93535
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:30.3846
+Num value is:9.814013
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:97.42338
+Num value is:7.302702
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:42.80086
+Num value is:43.16266
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:28.60886
+Num value is:20.2921
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:67.91432
+Num value is:14.79638
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:35.43544
+Num value is:68.03686
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:33.63488
+Num value is:69.40824
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:57.93636
+Num value is:97.22102
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:20.61332
+Num value is:75.43764
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:21.69436
+Num value is:67.23154
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:15.43747
+Num value is:52.52182
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:84.25883
+Num value is:8.469368
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:67.39647
+Num value is:17.21726
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:83.52545
+Num value is:24.35431
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:16.11884
+Num value is:71.23959
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:36.39148
+Num value is:32.24664
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:59.85854
+Num value is:41.81766
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:74.84544
+Num value is:40.16111
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:57.83791
+Num value is:88.7598
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:64.37543
+Num value is:50.55325
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:19.16634
+Num value is:75.60284
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:92.79885
+Num value is:48.24175
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
-Num value is:66.19537
+Num value is:5.476535
  
 (Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 1.196166 ms
+UnloadTime: 0.597632 ms
 
 Unloading 29 unused Assets to reduce memory usage. Loaded Objects now: 286.
-Total: 0.363567 ms (FindLiveObjects: 0.029746 ms CreateObjectMapping: 0.012319 ms MarkObjects: 0.201614 ms  DeleteObjects: 0.119286 ms)
+Total: 0.452506 ms (FindLiveObjects: 0.032450 ms CreateObjectMapping: 0.030046 ms MarkObjects: 0.245483 ms  DeleteObjects: 0.143924 ms)
 
