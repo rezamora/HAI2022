@@ -57,6 +57,7 @@ public class Buttons : MonoBehaviour
     static int cond = -1;
     static int coopAgent = 21;  //21 for cooperative, 81 for uncooperative
     static int coopAgentID = 4;
+    Stack myStack = new Stack();
 
     //to keep track of hovering
     Stopwatch stopWatch = new Stopwatch();
@@ -97,13 +98,23 @@ public class Buttons : MonoBehaviour
         table2.Columns.Add("Option9", typeof(string));
 
         //rest of the code!
+
+        System.Random rnd = new System.Random();
+        for (int it = 0; it < 100; it++)
+            myStack.Push(it);
+        var values = myStack.ToArray();
+        myStack.Clear();
+        foreach (var value in values.OrderBy(x => rnd.Next()))
+            myStack.Push(value);
+
+
         myButtons = GetComponentsInChildren<UnityEngine.UI.Text>();
         Obj2 = GameObject.Find("ScriptHolder");
         Drv = Obj2.GetComponent<driver>();
         questions = Drv.getQuetions();
         q = Obj2.GetComponent<Question>();
         q = questions[myC++];
-        System.Random rnd = new System.Random();
+        //System.Random rnd = new System.Random();
         rep = Enumerable.Range(1, 9).OrderBy(r => rnd.Next()).ToArray();
         startTime = System.DateTime.Now.TimeOfDay;
         currentTime = startTime;
@@ -268,8 +279,8 @@ public class Buttons : MonoBehaviour
 
 
 
-                //Random rnd = new Random();
-                var num = UnityEngine.Random.value * 100;
+                
+                var num = Convert.ToInt32(myStack.Pop());//UnityEngine.Random.value * 100;
                 UnityEngine.Debug.Log("Num value is:" + num);
                 if (num < coopAgent)
                 {
