@@ -39,6 +39,7 @@ public class Buttons : MonoBehaviour
     string[] userA = new string[50];
     string[] ahpA = new string[50];
     string tableQ;
+    int matchCount = 0;
     System.TimeSpan startTime;
     System.TimeSpan currentTime;
     System.TimeSpan diff;
@@ -54,7 +55,7 @@ public class Buttons : MonoBehaviour
     //static int studyCode;
     static int agnt = 0;
     static int cond = -1;
-    static int coopAgent = 16;  //16 for cooperative, 86 for uncooperative
+    static int coopAgent = 21;  //21 for cooperative, 81 for uncooperative
     static int coopAgentID = 4;
 
     //to keep track of hovering
@@ -80,6 +81,7 @@ public class Buttons : MonoBehaviour
         table.Columns.Add("Time Finished", typeof(string));
         table.Columns.Add("Agent", typeof(int));
         table.Columns.Add("Condition", typeof(string));
+        table.Columns.Add("Match?", typeof(string));
 
         //create second table
         table2.Columns.Add("ID", typeof(int));
@@ -173,7 +175,7 @@ public class Buttons : MonoBehaviour
             table.Rows.Add(null, null, null, null, null, null, null, (endTime - startTime).ToString(), Convert.ToDouble(correct) / 0.5,
                 today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}", startTime.Hours, startTime.Minutes, startTime.Seconds),
                 today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}",
-                endTime.Hours, endTime.Minutes, endTime.Seconds), (agnt % 2) * (-1) + 2, participantID[coopAgentID]);
+                endTime.Hours, endTime.Minutes, endTime.Seconds), (agnt % 2) * (-1) + 2, participantID[coopAgentID],matchCount);
             //Debug.Log("PID: "+participantID);
             string address = @".\" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
             CreateCSVFile(ref table, address);
@@ -212,8 +214,10 @@ public class Buttons : MonoBehaviour
                 EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.green;
                 tfQ[myC - 1] = 1;
             }
-
-            table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString());
+            int isMatch = 0;
+            if (answerQ[myC - 1] == ahpA[myC - 1]) { isMatch = 1; matchCount++; }
+            table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString(), null,
+                null, null, null, null, null, isMatch);
         }
 
         EventSystem.current.SetSelectedGameObject(null);
@@ -732,9 +736,9 @@ public class Buttons : MonoBehaviour
     public void showAgents()
     {
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 16;
+            coopAgent = 21;
         else
-            coopAgent = 86;
+            coopAgent = 81;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
         if (agnt % 2 == 1)
@@ -752,9 +756,9 @@ public class Buttons : MonoBehaviour
         Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 16;
+            coopAgent = 21;
         else
-            coopAgent = 86;
+            coopAgent = 81;
         cond = 2;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
