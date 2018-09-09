@@ -1,53 +1,52 @@
-"ID","Question","Correct Answer","User Answer","Agent HP Answer","Correct?","Time (seconds)","Overal Time","Percentage","Time Started","Time Finished","Agent","Condition"
-"1","What is the highest point on the Earth continental crust?","Mount Everest","Mount Everest","Mount Everest","1","00:00:19.6322415","","","","","",""
-"2","Which two colors make purple?","Red and Blue","Red and Blue","White and Red","1","00:00:32.4956598","","","","","",""
-"3","Which fruits are most commonly used to make wine?","Grapes","Grapes","Grapes","1","00:00:34.0787025","","","","","",""
-"4","Which Italian city has a famous leaning tower?","Pisa","Pisa","Milan","1","00:00:23.8371820","","","","","",""
-"5","A common currency for the members of the Common Market in Europe is known as:","Euro","Euro","Dollar","1","00:00:18.8558479","","","","","",""
-"6","Where is Palace of Versailles located at?","France","Chile","Chile","0","00:00:32.8782789","","","","","",""
-"7","What is the common name for sodium chloride?","Salt","Salt","Salt","1","00:00:20.2014491","","","","","",""
-"8","What is the main ingredient of omelette?","Egg","Egg","Cheese","1","00:00:23.0767637","","","","","",""
-"9","Who is the King of the Gods in Greek Mythology?","Zeus","Zeus","Zeus","1","00:00:12.4668891","","","","","",""
-"10","Sports car manufacturer Ferrari are based where?","Maranello, Italy","Maranello, Italy","Boulogne-Billancourt, France","1","00:00:09.9252031","","","","","",""
-"11","Who directed the 1983 film ET the Extra-Terrestrial?","Steven Spielberg","Steven Spielberg","Steven Spielberg","1","00:00:16.6384162","","","","","",""
-"12","What country is also known as Persia?","Iran","Iran","Iran","1","00:00:17.9877533","","","","","",""
-"13","The disease bronchitis is associated with:","Lungs","Lungs","Trachea","1","00:00:08.6715931","","","","","",""
-"14","World War I commenced in:","1914","1914","1963","1","00:00:07.3090094","","","","","",""
-"15","The small republic of San Marino is completely surrounded by which larger country?","Italy","Italy","Israel","1","00:00:25.0818704","","","","","",""
-"16","What is cherry blossom known as in Japanese?","Sakura","Sakura","Sakura","1","00:00:19.4811078","","","","","",""
-"17","The Spanish flag consists of which two colours?","Red and yellow","Red and yellow","Blue and yellow","1","00:00:06.8827493","","","","","",""
-"18","For what occupation was Jesus trained?","Carpenter","Carpenter","Jagger","1","00:00:07.6903218","","","","","",""
-"19","What is the capital of the Taiwan?","Taipei","Taipei","Bangkok","1","00:00:19.4027100","","","","","",""
-"20","In which country will you find Machu Picchu?","Peru","Peru","Peru","1","00:00:07.5271634","","","","","",""
-"21","Which tree grows from an acorn?","Oak","Oak","Oak","1","00:00:16.5220604","","","","","",""
-"22","Name the country which is the craddle of western classic music, known as The land of music?","Austria","Germany","England","0","00:00:33.3388294","","","","","",""
-"23","Where is the headquarters of United Nations?","New York City, USA","Geneva, Switzerland","Geneva, Switzerland","0","00:00:24.8948077","","","","","",""
-"24","Who is the writer of Adventures of Huckleberry Finn?","Mark Twain","Mark Twain","Agatha Christie","1","00:00:08.1428640","","","","","",""
-"25","Who is the writer of Brief History of Time?","Stephen Hawking","Richard Feynman","Richard Feynman","0","00:00:25.0536636","","","","","",""
-"26","Anemometer is an instrument used for measuring?","Wind speed","Objects speed","Objects speed","0","00:00:25.2406854","","","","","",""
-"27","What is the largest country in the world?","Russia","Russia","United States","1","00:00:23.7771962","","","","","",""
-"28","Which Space Shuttle broke apart 73 seconds into its flight on January 28, 1986?","Challenger","Challenger","Opportunity","1","00:00:05.8400002","","","","","",""
-"29","What is the colour of the flag of Libya?","Green","Red","Red","0","00:00:07.1499399","","","","","",""
-"30","The ulna is a long bone in which part of the body?","Arm","Arm","Pelvis","1","00:00:12.5698310","","","","","",""
-"31","Which musical family does the saxophone belong to?","Woodwind","Brass","Jazz","0","00:00:13.7493659","","","","","",""
-"32","In what country would you find Mount Kilimanjaro?","Tanzania","Kenya","Tanzania","0","00:00:10.1982310","","","","","",""
-"33","Old Trafford stadium is located near what major city?","Manchester","London","London","0","00:00:19.7731578","","","","","",""
-"34","Yellow Egg is a variety of which fruit?","Plum","Lemon","Pear","0","00:00:24.5802119","","","","","",""
-"35","Hypophosphatasia affects what part of the body?","Bones","Blood","Lungs","0","00:00:20.9758833","","","","","",""
-"36","Who directed the 2001 re-make of the film Oceans 11?","Steven Soderbergh","Martin Scorsese","Wolfgang Petersen","0","00:00:11.3746412","","","","","",""
-"37","In the Republic of Ireland, the Yellow Pages are known as what?","Golden Pages","Yellow Books","Blue Pages","0","00:00:25.4281893","","","","","",""
-"38","What is considered the king of herbs by many cookery authors?","Basil","Thyme","Thyme","0","00:00:20.2400544","","","","","",""
-"39","Who is the writer of Adventures of Robinson Crusoe?","Daniel Defoe","Anthony Burgess","Mark Twain","0","00:00:19.6392353","","","","","",""
-"40","Which one was the first web based e-mail service?","Hotmail","AOL","Hotmail","0","00:00:23.9590252","","","","","",""
-"41","Celsius and Fahrenheit show the same temperature at:","-40","-40","12","1","00:00:04.7989145","","","","","",""
-"42","Exchange particle in Quark-Quark Interaction?","Gluon","Electron","Lepton","0","00:00:26.2748256","","","","","",""
-"43","Fraction of volume of ice seen outside when immersed in water?","10.5%","90.5%","90.5%","0","00:00:26.2237911","","","","","",""
-"44","Liquefied petroleum gas (LPG) is mainly a mixture of:","Propane and Butane","Methane and Ethane","Methane and Ethane","0","00:00:26.5095420","","","","","",""
-"45","The Ozone layer lies in the:","Stratosphere","Ionosphere","Upper Thermosphere ","0","00:00:15.8161336","","","","","",""
-"46","Greek civilization was flourished in the year:","800 BC","2000 BC","800 BC","0","00:00:14.5711105","","","","","",""
-"47","The Eiffel Tower is built in:","1889","1889","1802","1","00:00:07.7910510","","","","","",""
-"48","What is the largest Lake in the world?","Caspian Sea","Victoria","Superior","0","00:00:17.6785651","","","","","",""
-"49","Which country in the world consumes the most electricity?","USA","USA","Japan","1","00:00:06.2989267","","","","","",""
-"50","How many countries are members of Association of Southeast Asian Nations(ASEAN)?","10","10","15","1","00:00:18.3594372","","","","","",""
-"","","","","","","","00:15:00.8956953","56","07/20/2018-12:4:14","07/20/2018-12:19:15","1","n"
-"
+ID,Question,Correct Answer,User Answer,Agent HP Answer,Correct?,Time (seconds),Overal Time,Percentage,Time Started,Time Finished,Agent,Condition,Match?
+1,"What is the highest point on the Earth continental crust?",Mount Everest,Mount Everest,Mount Everest,1,00:19.6,,,,,,,1
+2,"Which two colors make purple?",Red and Blue,Red and Blue,"White and Red",1,00:32.5,,,,,,,0
+3,"Which fruits are most commonly used to make wine?",Grapes,Grapes,Grapes,1,00:34.1,,,,,,,1
+4,"Which Italian city has a famous leaning tower?",Pisa,Pisa,"Milan",1,00:23.8,,,,,,,0
+5,"A common currency for the members of the Common Market in Europe is known as:",Euro,Euro,"Dollar",1,00:18.9,,,,,,,0
+6,"Where is Palace of Versailles located at?",France,"Chile","Chile",0,00:32.9,,,,,,,0
+7,"What is the common name for sodium chloride?",Salt,Salt,Salt,1,00:20.2,,,,,,,1
+8,"What is the main ingredient of omelette?",Egg,Egg,"Cheese",1,00:23.1,,,,,,,0
+9,"Who is the King of the Gods in Greek Mythology?",Zeus,Zeus,Zeus,1,00:12.5,,,,,,,1
+10,"Sports car manufacturer Ferrari are based where?","Maranello, Italy","Maranello, Italy","Boulogne-Billancourt, France",1,00:09.9,,,,,,,0
+11,"Who directed the 1983 film ET the Extra-Terrestrial?",Steven Spielberg,Steven Spielberg,Steven Spielberg,1,00:16.6,,,,,,,1
+12,"What country is also known as Persia?",Iran,Iran,Iran,1,00:18.0,,,,,,,1
+13,"The disease bronchitis is associated with:",Lungs,Lungs,"Trachea",1,00:08.7,,,,,,,0
+14,"World War I commenced in:",1914,1914,"1963",1,00:07.3,,,,,,,0
+15,"The small republic of San Marino is completely surrounded by which larger country?",Italy,Italy,"Israel",1,00:25.1,,,,,,,0
+16,"What is cherry blossom known as in Japanese?",Sakura,Sakura,Sakura,1,00:19.5,,,,,,,1
+17,"The Spanish flag consists of which two colours?",Red and yellow,Red and yellow,"Blue and yellow",1,00:06.9,,,,,,,0
+18,"For what occupation was Jesus trained?",Carpenter,Carpenter,"Jagger",1,00:07.7,,,,,,,0
+19,"What is the capital of the Taiwan?",Taipei,Taipei,"Bangkok",1,00:19.4,,,,,,,0
+20,"In which country will you find Machu Picchu?",Peru,Peru,Peru,1,00:07.5,,,,,,,1
+21,"Which tree grows from an acorn?",Oak,Oak,Oak,1,00:16.5,,,,,,,1
+22,"Name the country which is the craddle of western classic music, known as The land of music?",Austria,"Germany","England",0,00:33.3,,,,,,,0
+23,"Where is the headquarters of United Nations?","New York City, USA","Geneva, Switzerland","Geneva, Switzerland",0,00:24.9,,,,,,,0
+24,"Who is the writer of Adventures of Huckleberry Finn?",Mark Twain,Mark Twain,"Agatha Christie",1,00:08.1,,,,,,,0
+25,"Who is the writer of Brief History of Time?",Stephen Hawking,"Richard Feynman","Richard Feynman",0,00:25.1,,,,,,,0
+26,"Anemometer is an instrument used for measuring?",Wind speed,"Objects speed","Objects speed",0,00:25.2,,,,,,,0
+27,"What is the largest country in the world?",Russia,Russia,"United States",1,00:23.8,,,,,,,0
+28,"Which Space Shuttle broke apart 73 seconds into its flight on January 28, 1986?",Challenger,Challenger,"Opportunity",1,00:05.8,,,,,,,0
+29,"What is the colour of the flag of Libya?",Green,"Red","Red",0,00:07.1,,,,,,,0
+30,"The ulna is a long bone in which part of the body?",Arm,Arm,"Pelvis",1,00:12.6,,,,,,,0
+31,"Which musical family does the saxophone belong to?",Woodwind,"Brass","Jazz",0,00:13.7,,,,,,,0
+32,"In what country would you find Mount Kilimanjaro?",Tanzania,"Kenya",Tanzania,0,00:10.2,,,,,,,1
+33,"Old Trafford stadium is located near what major city?",Manchester,"London","London",0,00:19.8,,,,,,,0
+34,"Yellow Egg is a variety of which fruit?",Plum,"Lemon","Pear",0,00:24.6,,,,,,,0
+35,"Hypophosphatasia affects what part of the body?",Bones,"Blood","Lungs",0,00:21.0,,,,,,,0
+36,"Who directed the 2001 re-make of the film Oceans 11?",Steven Soderbergh,"Martin Scorsese","Wolfgang Petersen",0,00:11.4,,,,,,,0
+37,"In the Republic of Ireland, the Yellow Pages are known as what?",Golden Pages,"Yellow Books","Blue Pages",0,00:25.4,,,,,,,0
+38,"What is considered the king of herbs by many cookery authors?",Basil,"Thyme","Thyme",0,00:20.2,,,,,,,0
+39,"Who is the writer of Adventures of Robinson Crusoe?",Daniel Defoe,"Anthony Burgess","Mark Twain",0,00:19.6,,,,,,,0
+40,"Which one was the first web based e-mail service?",Hotmail,"AOL",Hotmail,0,00:24.0,,,,,,,1
+41,"Celsius and Fahrenheit show the same temperature at:",-40,-40,"12",1,00:04.8,,,,,,,0
+42,"Exchange particle in Quark-Quark Interaction?",Gluon,"Electron","Lepton",0,00:26.3,,,,,,,0
+43,"Fraction of volume of ice seen outside when immersed in water?",10.50%,"90.5%","90.5%",0,00:26.2,,,,,,,0
+44,"Liquefied petroleum gas (LPG) is mainly a mixture of:",Propane and Butane,"Methane and Ethane","Methane and Ethane",0,00:26.5,,,,,,,0
+45,"The Ozone layer lies in the:",Stratosphere,"Ionosphere","Upper Thermosphere ",0,00:15.8,,,,,,,0
+46,"Greek civilization was flourished in the year:",800 BC,"2000 BC",800 BC,0,00:14.6,,,,,,,1
+47,"The Eiffel Tower is built in:",1889,1889,"1802",1,00:07.8,,,,,,,0
+48,"What is the largest Lake in the world?",Caspian Sea,"Victoria","Superior",0,00:17.7,,,,,,,0
+49,"Which country in the world consumes the most electricity?",USA,USA,"Japan",1,00:06.3,,,,,,,0
+50,"How many countries are members of Association of Southeast Asian Nations(ASEAN)?",10,10,"15",1,00:18.4,,,,,,,0
+,,,,,,,15:00.9,56,07/20/2018-12:4:14,07/20/2018-12:19:15,1,n,12
