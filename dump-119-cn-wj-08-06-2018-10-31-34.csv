@@ -1,316 +1,0 @@
-"ID","Question","Option1","Option2","Option3","Option4","Option5","Option6","Option7","Option8","Option9"
-"1","What is the highest point on the Earth continental crust?","Makalu","Mount Damavand","K2","Manaslu","Annapurna","Mount Fiji","Lhotse","Kangchenjunga","Mount Everest"
-"","","Slightly Negative","Idle","Idle","Moderately Possitive","Moderately Negative","Highly Negative","Slightly Possitive","Moderately Negative","Highly Possitive"
-"","","","00:00:00.0211945","","","","","","",""
-"","","","","","","","","","","00:00:00.2935212"
-"2","Which two colors make purple?","Grey and Orange","Red and Green","Red and Grey","Green and Orange","White and Red","Blue and Yellow","Red and Blue","None","Orange and White"
-"","","Idle","Moderately Negative","Moderately Negative","Highly Negative","Slightly Negative","Idle","Moderately Possitive","Highly Possitive","Slightly Possitive"
-"","","","","","","","","00:00:14.7521271","",""
-"3","Which fruits are most commonly used to make wine?","Blackberry","Grapes","Apples","Pear","Potatoes","Lemons","Oranges","Wheat","Strawberries"
-"","","Idle","Highly Possitive","Moderately Possitive","Highly Negative","Slightly Possitive","Idle","Moderately Negative","Slightly Negative","Moderately Negative"
-"","","","00:02:34.0525993","","","","","","",""
-"4","Which Italian city has a famous leaning tower?","Venice","Eiffel","Siena","Pisa","Florence","Rome","Milan","Turin","Paris"
-"","","Idle","Moderately Negative","Moderately Negative","Highly Possitive","Slightly Possitive","Idle","Highly Negative","Moderately Possitive","Slightly Negative"
-"","","","","","00:00:07.8698991","","","","",""
-"5","A common currency for the members of the Common Market in Europe is known as:","Pound","Sterling","Dollar","Franc","Krone","Krouna","Forint","Leu","Euro"
-"","","Moderately Possitive","Slightly Negative","Moderately Negative","Idle","Highly Negative","Idle","Slightly Possitive","Moderately Negative","Highly Possitive"
-"","","00:00:07.8018391","","","","","","","",""
-"","","","","","","","","","","00:00:00.5382744"
-"6","Where is Palace of Versailles located at?","Italy","Peru","Chile","Greece","Mexico","Argentina","Spain","Brazil","France"
-"","","Moderately Negative","Slightly Negative","Slightly Possitive","Highly Negative","Moderately Possitive","Idle","Idle","Moderately Negative","Highly Possitive"
-"","","","","","","","","","","00:00:10.3256979"
-"7","What is the common name for sodium chloride?","Pepper","Baking powder","Ketchup","Vinegar","Chocolate","Mustard","Salt","Syrup","Turmeric"
-"","","Slightly Negative","Moderately Negative","Moderately Possitive","Idle","Moderately Negative","Highly Negative","Highly Possitive","Slightly Possitive","Idle"
-"","","","","","","","00:00:10.8910401","","",""
-"","","","","","00:00:00.0677240","","","","",""
-"","","","","","","","","00:00:00.6349709","",""
-"8","What is the main ingredient of omelette?","Milk","Egg","Bacon","Potato","Onion","Butter","Cheese","Garlic","Sausage"
-"","","Slightly Possitive","Idle","Moderately Negative","Highly Possitive","Slightly Negative","Moderately Possitive","Idle","Highly Negative","Moderately Negative"
-"","","","00:00:05.8999749","","","","","","",""
-"9","Who is the King of the Gods in Greek Mythology?","Demeter","Apollo","Hera","Ares","Athena","Dionysus","Zeus","Artemis","Poseidon"
-"","","Slightly Possitive","Moderately Negative","Idle","Slightly Negative","Idle","Moderately Possitive","Highly Possitive","Highly Negative","Moderately Negative"
-"","","","00:00:07.9864732","","","","","","",""
-"","","","","","00:00:00.0237254","","","","",""
-"","","","","","","","","00:00:00.4101056","",""
-"10","Sports car manufacturer Ferrari are based where?","Luxembourg, Luxembourg","Montevideo, Uruguay","Stuttgart, Germany","Wolfsburg, Germany","Toulouse, France","Madrid, Spain","Boulogne-Billancourt, France","Maranello, Italy","Malmo, Sweden"
-"","","Idle","Slightly Possitive","Slightly Negative","Idle","Highly Negative","Moderately Possitive","Moderately Negative","Highly Possitive","Moderately Negative"
-"","","","00:00:14.6635296","","","","","","",""
-"","","","","","00:00:02.8669797","","","","",""
-"","","","","","","00:00:01.2121267","","","",""
-"","","","","","","","","","00:00:03.5028268",""
-"","","","","","","","","00:00:01.0263233","",""
-"","","","","","00:00:00.0208181","","","","",""
-"","","00:00:01.2589874","","","","","","","",""
-"","","","00:00:00.0653656","","","","","","",""
-"","","","","00:00:00.6368540","","","","","",""
-"","","","00:00:00.9055900","","","","","","",""
-"","","","","","","00:00:00.0664182","","","",""
-"","","","","","","","","","","00:00:00.8535947"
-"","","","","","","","00:00:01.2965580","","",""
-"","","","","","","","","","","00:00:00.0224568"
-"","","","","","","","","","00:00:01.0849127",""
-"11","Who directed the 1983 film ET the Extra-Terrestrial?","Steven Spielberg","Quentin Tarantino","Woody Allen","James Cameron","Drew Barrymore","Tom Hanks","Martin Scorsese","Robin Williams","Stanley Kubrick"
-"","","Highly Possitive","Slightly Possitive","Moderately Possitive","Highly Negative","Idle","Moderately Negative","Moderately Negative","Slightly Negative","Idle"
-"","","00:00:07.7877362","","","","","","","",""
-"12","What country is also known as Persia?","Lebanon","India","Saudi Arabia","Iran","Poland","France","China","Russia","Egypt"
-"","","Slightly Possitive","Idle","Slightly Negative","Highly Possitive","Moderately Negative","Highly Negative","Moderately Negative","Idle","Moderately Possitive"
-"","","00:00:08.3452095","","","","","","","",""
-"","","","","","00:00:00.6340692","","","","",""
-"13","The disease bronchitis is associated with:","Forhead Veins","Sinuses","Liver","Trachea","Heart","Brain","Esophagus","Lungs","Kidney"
-"","","Moderately Negative","Idle","Moderately Negative","Highly Negative","Slightly Negative","Slightly Possitive","Moderately Possitive","Highly Possitive","Idle"
-"","","00:00:11.4833278","","","","","","","",""
-"","","","","","","00:00:01.3120944","","","",""
-"","","","","","","","00:00:00.8353073","","",""
-"","","","","00:00:00.5902607","","","","","",""
-"","","","00:00:00.6748991","","","","","","",""
-"","","00:00:00.7634217","","","","","","","",""
-"","","","","","00:00:00.6720026","","","","",""
-"","","","","","","","","00:00:00.8284559","",""
-"","","","","","","","","","00:00:00.0678502",""
-"","","","","","","","","","00:00:00.8831129",""
-"14","World War I commenced in:","1963","1914","1940","1899","1953","1958","1880","1901","1922"
-"","","Idle","Highly Possitive","Slightly Negative","Idle","Highly Negative","Moderately Negative","Moderately Negative","Moderately Possitive","Slightly Possitive"
-"","","","00:00:09.6522260","","","","","","",""
-"15","The small republic of San Marino is completely surrounded by which larger country?","Iceland","Israel","Italy","Ireland","Indonesia","Iran","India","Iraq","Japan"
-"","","Highly Negative","Moderately Possitive","Highly Possitive","Moderately Negative","Moderately Negative","Slightly Negative","Idle","Idle","Slightly Possitive"
-"","","","","00:00:16.5037333","","","","","",""
-"16","What is cherry blossom known as in Japanese?","Sayonara","Samurai","Sakura","Sudoku","Sophora","Sarah","Sumach","Sirrah","Sonora"
-"","","Slightly Possitive","Moderately Negative","Highly Possitive","Moderately Negative","Highly Negative","Idle","Moderately Possitive","Slightly Negative","Idle"
-"","","","","00:00:07.2316809","","","","","",""
-"17","The Spanish flag consists of which two colours?","Green and white","Blue and yellow","Black and green","Red and Blue","Black and red","White and yellow","Green and blue","Red and yellow","Yellow and green"
-"","","Highly Negative","Idle","Idle","Moderately Negative","Moderately Negative","Moderately Possitive","Slightly Possitive","Highly Possitive","Slightly Negative"
-"","","","","00:00:10.3194721","","","","","",""
-"","","","","","","00:00:00.1135673","","","",""
-"","","","","","","00:00:01.8270488","","","",""
-"","","","","","","","","","00:00:00.5887876",""
-"18","For what occupation was Jesus trained?","Jagger","Chandler","Teacher","Lumberjack","Holster","Hind","Carpenter","Haymonger","Butcher"
-"","","Moderately Negative","Slightly Possitive","Slightly Negative","Highly Negative","Highly Possitive","Idle","Idle","Moderately Possitive","Moderately Negative"
-"","","","00:00:17.7387546","","","","","","",""
-"","","","","","","","00:00:00.0878507","","",""
-"","","","","","","","","","00:00:00.9282674",""
-"19","What is the capital of the Taiwan?","Dhaka","Manila","Kathmandu","Bangkok","Kuala Lumpur","Jakarta","Taipei","Lhasa","Hanoi"
-"","","Idle","Slightly Negative","Slightly Possitive","Idle","Moderately Negative","Moderately Possitive","Highly Possitive","Moderately Negative","Highly Negative"
-"","","","00:00:07.7442778","","","","","","",""
-"","","","","","00:00:00.1361220","","","","",""
-"","","","","","","","","00:00:00.4620648","",""
-"20","In which country will you find Machu Picchu?","Colombia","Chile","Argentina","Peru","Uraguay","Paraguay","Mexico","Brazil","Ecuador"
-"","","Slightly Possitive","Slightly Negative","Highly Negative","Highly Possitive","Moderately Possitive","Moderately Negative","Idle","Idle","Moderately Negative"
-"","","","00:00:08.9553947","","","","","","",""
-"","","","00:00:00.0209677","","","","","","",""
-"","","","","","00:00:00.3790902","","","","",""
-"21","Which tree grows from an acorn?","Hawthorn","Ash","Oak","Pine","Lime","Maple","Larch","Elm","Birch"
-"","","Idle","Moderately Negative","Highly Possitive","Slightly Possitive","Slightly Negative","Moderately Negative","Highly Negative","Moderately Possitive","Idle"
-"","","","","00:00:07.1883836","","","","","",""
-"22","Name the country which is the craddle of western classic music, known as The land of music?","Netherlands","Germany","United States","Switzerland","England","Austria","France","Sweden","Belgium"
-"","","Slightly Negative","Moderately Negative","Idle","Slightly Possitive","Moderately Possitive","Highly Possitive","Moderately Negative","Highly Negative","Idle"
-"","","","","","","","00:00:09.4150266","","",""
-"23","Where is the headquarters of United Nations?","Moscow, Russia","London, UK","New York City, USA","Geneva, Switzerland","Beijing, China","Los Angeles, USA","Berlin, Germany","Paris, France","Chicago, USA"
-"","","Idle","Slightly Possitive","Highly Possitive","Highly Negative","Slightly Negative","Moderately Possitive","Moderately Negative","Idle","Moderately Negative"
-"","","","","00:00:05.2743251","","","","","",""
-"","","00:00:00.0211852","","","","","","","",""
-"","","","","","00:00:00.3469702","","","","",""
-"24","Who is the writer of Adventures of Huckleberry Finn?","George Eliot","Peter Lynch","Stephen King","Raymond Chandler","Mark Twain","Shel Silverstein","Jules Verne","Ernest Hemingway","Agatha Christie"
-"","","Moderately Possitive","Slightly Possitive","Idle","Moderately Negative","Highly Possitive","Highly Negative","Slightly Negative","Idle","Moderately Negative"
-"","","00:00:09.6964653","","","","","","","",""
-"","","","","","","00:00:00.6609759","","","",""
-"25","Who is the writer of Brief History of Time?","Neil deGrasse Tyson","Albert Einstein","Steven Weinberg","Stephen Hawking","Richard Feynman","Kip S. Thorne","Michio Kaku","Alan Guth","Richard Dawkins"
-"","","Slightly Possitive","Slightly Negative","Moderately Negative","Highly Possitive","Highly Negative","Moderately Possitive","Idle","Idle","Moderately Negative"
-"","","","00:00:09.2311509","","","","","","",""
-"","","","","","00:00:00.3728626","","","","",""
-"26","Anemometer is an instrument used for measuring?","Distance between two stars","Age of stars","Sound Speed","Size of stars","Water speed","Distance of stars from Earth","Wind speed","Objects speed","Light speed"
-"","","Moderately Negative","Moderately Negative","Idle","Highly Negative","Slightly Negative","Moderately Possitive","Highly Possitive","Slightly Possitive","Idle"
-"","","","","","00:00:13.9585231","","","","",""
-"","","","","","","","00:00:00.0326647","","",""
-"","","","","","","","","","","00:00:02.0166073"
-"","","","","","","","00:00:01.4793607","","",""
-"27","What is the largest country in the world?","Brazil","United States","Russia","India","Canada","Australia","Argentina","Kazakhistan","China"
-"","","Moderately Negative","Highly Negative","Slightly Possitive","Slightly Negative","Moderately Possitive","Idle","Highly Possitive","Idle","Moderately Negative"
-"","","","","","","","00:00:04.1816032","","",""
-"","","","","00:00:00.0217874","","","","","",""
-"","","","00:00:00.0203324","","","","","","",""
-"","","","","00:00:01.7804294","","","","","",""
-"","","","00:00:00.9511024","","","","","","",""
-"","","","","00:00:02.9246633","","","","","",""
-"28","Which Space Shuttle broke apart 73 seconds into its flight on January 28, 1986?","Opportunity","Enterprise","Colombia","Atlantis","Curiosity","Discovery","Spirit","Challenger","Endeavour"
-"","","Slightly Possitive","Idle","Slightly Negative","Moderately Negative","Highly Negative","Moderately Negative","Idle","Highly Possitive","Moderately Possitive"
-"","","","","00:00:07.6349364","","","","","",""
-"","","","","","00:00:01.9794780","","","","",""
-"","","","","","","","00:00:00.9323760","","",""
-"","","","","00:00:00.7200197","","","","","",""
-"","","","00:00:00.7993164","","","","","","",""
-"","","","","","","00:00:00.5234366","","","",""
-"","","00:00:00.6467989","","","","","","","",""
-"","","","","","00:00:00.0191090","","","","",""
-"","","","","","","","","00:00:00.6521346","",""
-"","","","","","","","","","00:00:00.8033570",""
-"29","What is the colour of the flag of Libya?","Black","Yellow","Blue","Purple","Orange","Green","Pink","Red","White"
-"","","Moderately Negative","Idle","Slightly Possitive","Moderately Negative","Idle","Highly Possitive","Highly Negative","Moderately Possitive","Slightly Negative"
-"","","","","","","00:00:08.5892782","","","",""
-"","","","","00:00:00.4923263","","","","","",""
-"","","","","","","","00:00:00.7787609","","",""
-"30","The ulna is a long bone in which part of the body?","Ear","Chest","Hand","Foot","Leg","Arm","Neck","Pelvis","Face"
-"","","Moderately Negative","Slightly Negative","Slightly Possitive","Idle","Highly Possitive","Idle","Moderately Possitive","Highly Negative","Moderately Negative"
-"","","","","00:00:07.0291293","","","","","",""
-"","","","","","","00:00:00.7639511","","","",""
-"31","Which musical family does the saxophone belong to?","Percussion","Strings","Woodwind","Jazz","Brass","Blues","Keyboard","Classic","Folk"
-"","","Moderately Negative","Moderately Possitive","Highly Possitive","Slightly Possitive","Idle","Slightly Negative","Idle","Moderately Negative","Highly Negative"
-"","","","00:00:09.3733770","","","","","","",""
-"","","","","","00:00:01.2391176","","","","",""
-"","","00:00:00.0211943","","","","","","","",""
-"","","","00:00:00.6893183","","","","","","",""
-"32","In what country would you find Mount Kilimanjaro?","Congo","United States","Tanzania","South Africa","Switzerland","Nepal","Colombia","Kenya","Kazakhistan"
-"","","Moderately Possitive","Idle","Highly Possitive","Highly Negative","Idle","Moderately Negative","Moderately Negative","Slightly Negative","Slightly Possitive"
-"","","","","00:00:09.9383352","","","","","",""
-"33","Old Trafford stadium is located near what major city?","Southampton","Trafford","Liverpool","Manchester","Nottingham","Newcastle","Edinburgh","London","Glasgow"
-"","","Highly Negative","Slightly Negative","Moderately Negative","Highly Possitive","Idle","Moderately Negative","Idle","Slightly Possitive","Moderately Possitive"
-"","","","","00:00:09.5447233","","","","","",""
-"","","","","00:00:00.6998486","","","","","",""
-"","","","00:00:00.0677619","","","","","","",""
-"","","00:00:00.7800263","","","","","","","",""
-"","","","","","00:00:00.7877113","","","","",""
-"","","","","","","00:00:00.5844747","","","",""
-"","","","","","00:00:00.5667806","","","","",""
-"34","Yellow Egg is a variety of which fruit?","Melon","Plum","Lemon","Apricot","Pear","Carambola","Pineapple","Korean Melon","Mango"
-"","","Slightly Possitive","Highly Possitive","Moderately Negative","Slightly Negative","Idle","Moderately Possitive","Highly Negative","Moderately Negative","Idle"
-"","","","","","00:00:16.2726136","","","","",""
-"","","","00:00:00.7926186","","","","","","",""
-"35","Hypophosphatasia affects what part of the body?","Muscles","Blood","Brain","Lungs","Kidney","Eyes","Bones","Nerves","Liver"
-"","","Moderately Negative","Slightly Negative","Moderately Negative","Idle","Moderately Possitive","Idle","Highly Possitive","Slightly Possitive","Highly Negative"
-"","","","00:00:12.3934304","","","","","","",""
-"","","","00:00:00.6819563","","","","","","",""
-"","","00:00:00.6441007","","","","","","","",""
-"","","","","","00:00:00.4789830","","","","",""
-"","","","","","","00:00:00.4625203","","","",""
-"","","","","","","","00:00:00.8155487","","",""
-"","","","","","","00:00:00.7832337","","","",""
-"","","","","","","","","","00:00:00.6319190",""
-"","","","","","","","","00:00:00.9961759","",""
-"36","Who directed the 2001 re-make of the film Oceans 11?","Quentin Tarantino","Tom Hanks","Woody Allen","Steven Soderbergh","Robert Rodriguez","Wolfgang Petersen","James Cameron","Martin Scorsese","Tony Gilroy"
-"","","Slightly Possitive","Idle","Moderately Possitive","Highly Possitive","Slightly Negative","Idle","Highly Negative","Moderately Negative","Moderately Negative"
-"","","","00:00:14.8131173","","","","","","",""
-"","","","00:00:00.7870975","","","","","","",""
-"","","","","00:00:01.0189911","","","","","",""
-"","","","","","","","00:00:00.7965148","","",""
-"","","","","","","00:00:01.3614156","","","",""
-"","","","","","00:00:00.8361996","","","","",""
-"37","In the Republic of Ireland, the Yellow Pages are known as what?","Rainbow Pages","Red Pages","Blue Pages","Purple pages","Golden Pages","Yellow Books","Silver Pages","Green Pages","White Pages"
-"","","Moderately Negative","Idle","Moderately Negative","Moderately Possitive","Highly Possitive","Highly Negative","Slightly Negative","Slightly Possitive","Idle"
-"","","","00:00:12.7120991","","","","","","",""
-"","","","","","","00:00:00.9410494","","","",""
-"38","What is considered the king of herbs by many cookery authors?","Thyme","Oregano","Borage","Rosemary","Basil","Lemon balm","Tea","Dill","Parsley"
-"","","Slightly Possitive","Moderately Negative","Moderately Negative","Slightly Negative","Highly Negative","Highly Possitive","Idle","Idle","Moderately Possitive"
-"","","","","","","00:00:12.7878886","","","",""
-"","","","","","","00:00:02.5448733","","","",""
-"","","","","","","","","00:00:00.5511511","",""
-"","","","","","00:00:01.1330993","","","","",""
-"","","00:00:00.7420454","","","","","","","",""
-"","","","00:00:00.6836966","","","","","","",""
-"","","","","00:00:00.4598681","","","","","",""
-"","","","","","","","00:00:00.7625184","","",""
-"","","","","","","","","","","00:00:00.5278673"
-"","","","","","","","00:00:00.4364837","","",""
-"39","Who is the writer of Adventures of Robinson Crusoe?","Ray Bradbury","Ernest Hemingway","Jules Verne","Mark Twain","Stephen King","George Orwell","Anthony Burgess","Daniel Defoe","Jean-Jacques Rousseau"
-"","","Idle","Slightly Possitive","Highly Negative","Slightly Negative","Moderately Negative","Idle","Moderately Possitive","Highly Possitive","Moderately Negative"
-"","","","","00:00:14.1922560","","","","","",""
-"","","","","","","","","","00:00:00.8727971",""
-"40","Which one was the first web based e-mail service?","FastMail","Hotmail","Yandex","AOL","Yahoo! Mail","Zoho","Mail.com","Gmail","GMX"
-"","","Moderately Possitive","Highly Possitive","Idle","Slightly Negative","Moderately Negative","Slightly Possitive","Idle","Highly Negative","Moderately Negative"
-"","","","","","","00:00:07.9183495","","","",""
-"","","","","","","00:00:00.7491371","","","",""
-"","","","00:00:00.8948657","","","","","","",""
-"41","Celsius and Fahrenheit show the same temperature at:","100","-32","273","12","-273","0","-40","459","116"
-"","","Highly Negative","Idle","Moderately Negative","Moderately Possitive","Moderately Negative","Slightly Possitive","Highly Possitive","Slightly Negative","Idle"
-"","","","00:00:14.4908257","","","","","","",""
-"","","","","","","00:00:01.2575803","","","",""
-"","","","","","00:00:01.8916630","","","","",""
-"","","","","","","","","","00:00:00.1576895",""
-"","","","","","","","","","","00:00:00.7566990"
-"","","","","","","","","","00:00:00.6163653",""
-"","","","","","","","","00:00:00.9183218","",""
-"42","Exchange particle in Quark-Quark Interaction?","Quark","Neutron","Proton","Gluon","String","Meson","Lepton","Boson","Electron"
-"","","Moderately Negative","Moderately Possitive","Idle","Highly Possitive","Slightly Possitive","Highly Negative","Moderately Negative","Idle","Slightly Negative"
-"","","","00:00:17.4921370","","","","","","",""
-"","","","00:00:00.4359957","","","","","","",""
-"","","","","00:00:00.6164830","","","","","",""
-"","","","","","","","00:00:00.4808562","","",""
-"","","","","","","00:00:00.4117800","","","",""
-"","","","","","00:00:00.7766748","","","","",""
-"","","","","","","","","00:00:00.5565592","",""
-"","","","","","00:00:00.9996971","","","","",""
-"43","Fraction of volume of ice seen outside when immersed in water?","32.5%","63.5%","90.5%","10.5%","30.5%","20.5%","75.5%","1.5%","15.5%"
-"","","Moderately Negative","Idle","Highly Possitive","Slightly Negative","Moderately Negative","Slightly Possitive","Idle","Moderately Possitive","Highly Negative"
-"","","","","00:00:14.1539249","","","","","",""
-"44","Liquefied petroleum gas (LPG) is mainly a mixture of:","Methane and Pentane","Butane and Methane","Ethane and Butane","Pentane and Ethane","Propane and Butane","Methane and Propane","Pentane and Propane","Methane and Ethane","Propane and Ethane"
-"","","Moderately Possitive","Moderately Negative","Slightly Possitive","Highly Negative","Highly Possitive","Slightly Negative","Idle","Idle","Moderately Negative"
-"","","","","00:00:11.8945676","","","","","",""
-"","","","00:00:00.5912330","","","","","","",""
-"","","","","00:00:00.2653871","","","","","",""
-"","","","","","","","00:00:00.0468315","","",""
-"","","","","","","","","","","00:00:00.2220194"
-"","","","","","","","00:00:00.3113475","","",""
-"","","","","","","00:00:00.3634753","","","",""
-"","","","","","00:00:00.3816138","","","","",""
-"","","","","","","00:00:00.7218676","","","",""
-"45","The Ozone layer lies in the:","Magnetosphere","Lower Mesosphere","Stratosphere","Ionosphere","Upper Thermosphere ","Exosphere","Lower Thermosphere ","Troposphere","Upper Mesosphere"
-"","","Highly Negative","Slightly Negative","Highly Possitive","Idle","Idle","Moderately Negative","Moderately Negative","Slightly Possitive","Moderately Possitive"
-"","","","","","","00:00:10.3804267","","","",""
-"","","","","","","","00:00:00.0222248","","",""
-"","","","","","","","","","","00:00:01.1253070"
-"","","","","","","","","","00:00:00.6763426",""
-"","","","","","","00:00:00.9212490","","","",""
-"","","","","","","","","","00:00:00.4226988",""
-"","","","","","","","","00:00:00.5988380","",""
-"","","","","","00:00:00.5716488","","","","",""
-"","","00:00:00.6376763","","","","","","","",""
-"","","","00:00:00.5808612","","","","","","",""
-"","","","","00:00:00.9320196","","","","","",""
-"","","","","","","","00:00:00.6277080","","",""
-"","","","","00:00:00.3334212","","","","","",""
-"46","Greek civilization was flourished in the year:","800 BC","110 AD","600 BC","2000 BC","55 AD","1200 BC","70 BC","40 AD","1000 BC"
-"","","Idle","Moderately Negative","Slightly Negative","Highly Negative","Moderately Negative","Idle","Highly Possitive","Slightly Possitive","Moderately Possitive"
-"","","","","00:00:08.1705066","","","","","",""
-"","","","","","","00:00:01.0325387","","","",""
-"","","","","00:00:00.5894810","","","","","",""
-"","","","00:00:00.6908396","","","","","","",""
-"","","","","","","","00:00:00.2730556","","",""
-"","","","","","","","","","","00:00:00.1563100"
-"","","","","","","","","","00:00:00.6329280",""
-"","","","","","","","","00:00:00.4018474","",""
-"","","","","","00:00:00.3819722","","","","",""
-"","","","","","","","","00:00:01.0507358","",""
-"47","The Eiffel Tower is built in:","1889","1852","1913","1800","1972","1869","1802","1960","1778"
-"","","Highly Possitive","Moderately Negative","Slightly Negative","Moderately Possitive","Idle","Idle","Moderately Negative","Slightly Possitive","Highly Negative"
-"","","00:00:07.6644720","","","","","","","",""
-"","","","","","","00:00:00.0478801","","","",""
-"","","","","","","","","","","00:00:01.6833603"
-"","","","","","","00:00:00.0447834","","","",""
-"","","","","","00:00:01.2882720","","","","",""
-"","","00:00:00.7727170","","","","","","","",""
-"48","What is the largest Lake in the world?","Great Bear Lake","Michigan","Tanganyika","Victoria","Baikal","Malawi","Superior","Caspian Sea","Huron"
-"","","Moderately Negative","Moderately Possitive","Moderately Negative","Highly Negative","Slightly Possitive","Idle","Idle","Highly Possitive","Slightly Negative"
-"","","00:00:06.3070973","","","","","","","",""
-"","","","","","","","","00:00:08.5549372","",""
-"","","","","","","","","","00:00:01.3275149",""
-"49","Which country in the world consumes the most electricity?","China","India","Brazil","Japan","Pakistan","Germany","Indonesia","Russia","USA"
-"","","Highly Possitive","Idle","Slightly Possitive","Moderately Negative","Moderately Possitive","Highly Negative","Slightly Negative","Moderately Negative","Idle"
-"","","","","00:00:09.1326174","","","","","",""
-"","","","","","","","","","","00:00:03.4034904"
-"","","","","","","","00:00:00.0214911","","",""
-"","","","00:00:00.8287660","","","","","","",""
-"","","00:00:01.3155601","","","","","","","",""
-"50","How many countries are members of Association of Southeast Asian Nations(ASEAN)?","21","17","10","30","29","15","25","5","13"
-"","","Moderately Possitive","Slightly Negative","Highly Possitive","Moderately Negative","Idle","Slightly Possitive","Highly Negative","Idle","Moderately Negative"
-"","","00:00:09.2865419","","","","","","","",""
-"","","","","","","","00:00:00.6345428","","",""
-"","","","","","","","","","","00:00:00.6188682"
-"","","","","","","","","","00:00:00.0392152",""
-"","","","","","","","","00:00:00.5451461","",""
-"","","","","","00:00:00.6726733","","","","",""
-"","","","","","","00:00:00.5225127","","","",""
-"","","00:00:00.9466284","","","","","","","",""
-"","","","","","00:00:00.0242043","","","","",""
-"","","","","","","","","","00:00:00.7434597",""
-"","","","","","","00:00:00.0199298","","","",""
-"","","","00:00:00.6951364","","","","","","",""
-"","","","","00:00:01.4095539","","","","","",""
-"

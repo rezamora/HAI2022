@@ -1,0 +1,47 @@
+What is 17 mod 7?
+7
+2
+3*
+10
+What is -13 mod 1?
+-1
+0*
+1
+-13
+What is -7 mod 6?
+-1
+5*
+1
+-6
+What is -6 mod 18?
+0
+-6
+-3
+12*
+What is -17 mod 7?
+-3
+3
+4*
+-10
+What is 9 mod 6?
+3*
+-3
+0
+1
+What is 14 mod 2?
+7
+4
+-2
+0*
+-----------------
+If x mod 5 is equal to 17 mod 5, what is the value of x?
+12*
+8
+-4
+-44
+If x mod 13 is equal to 47 mod 13, what is the value of x?
+-46
+-39
+26
+34*
+

@@ -1,53 +1,0 @@
-"ID","Question","Correct Answer","User Answer","Agent HP Answer","Correct?","Time (seconds)","Overal Time","Percentage","Time Started","Time Finished","Agent","Condition","Match?"
-"1","What is the highest point on the Earth continental crust?","Mount Everest","Kangchenjunga","Kangchenjunga","0","00:00:09.4085780","","","","","","","0"
-"2","Which two colors make purple?","Red and Blue","None","None","0","00:00:12.5847328","","","","","","","0"
-"3","Which fruits are most commonly used to make wine?","Grapes","Grapes","Blackberry","1","00:00:06.5695558","","","","","","","0"
-"4","Which Italian city has a famous leaning tower?","Pisa","Pisa","Paris","1","00:00:08.6628619","","","","","","","0"
-"5","A common currency for the members of the Common Market in Europe is known as:","Euro","Euro","Krouna","1","00:00:05.8688789","","","","","","","0"
-"6","Where is Palace of Versailles located at?","France","France","Italy","1","00:00:10.3101473","","","","","","","0"
-"7","What is the common name for sodium chloride?","Salt","Baking powder","Pepper","0","00:00:19.7293081","","","","","","","0"
-"8","What is the main ingredient of omelette?","Egg","Egg","Sausage","1","00:00:07.8834414","","","","","","","0"
-"9","Who is the King of the Gods in Greek Mythology?","Zeus","Zeus","Zeus","1","00:00:05.5543145","","","","","","","1"
-"10","Sports car manufacturer Ferrari are based where?","Maranello, Italy","Maranello, Italy","Toulouse, France","1","00:00:06.8465265","","","","","","","0"
-"11","Who directed the 1983 film ET the Extra-Terrestrial?","Steven Spielberg","Steven Spielberg","Steven Spielberg","1","00:00:05.5105025","","","","","","","1"
-"12","What country is also known as Persia?","Iran","Iran","France","1","00:00:10.0225026","","","","","","","0"
-"13","The disease bronchitis is associated with:","Lungs","Trachea","Lungs","0","00:00:09.6808135","","","","","","","1"
-"14","World War I commenced in:","1914","1901","1953","0","00:00:05.8682548","","","","","","","0"
-"15","The small republic of San Marino is completely surrounded by which larger country?","Italy","India","India","0","00:00:12.8194909","","","","","","","0"
-"16","What is cherry blossom known as in Japanese?","Sakura","Sakura","Sumach","1","00:00:05.5931516","","","","","","","0"
-"17","The Spanish flag consists of which two colours?","Red and yellow","Red and Blue","Red and Blue","0","00:00:08.9380901","","","","","","","0"
-"18","For what occupation was Jesus trained?","Carpenter","Carpenter","Jagger","1","00:00:08.6691009","","","","","","","0"
-"19","What is the capital of the Taiwan?","Taipei","Taipei","Bangkok","1","00:00:09.8785073","","","","","","","0"
-"20","In which country will you find Machu Picchu?","Peru","Brazil","Uraguay","0","00:00:07.2312224","","","","","","","0"
-"21","Which tree grows from an acorn?","Oak","Maple","Birch","0","00:00:07.5942222","","","","","","","0"
-"22","Name the country which is the craddle of western classic music, known as The land of music?","Austria","Austria","England","1","00:00:09.2153636","","","","","","","0"
-"23","Where is the headquarters of United Nations?","New York City, USA","New York City, USA","New York City, USA","1","00:00:07.4650829","","","","","","","1"
-"24","Who is the writer of Adventures of Huckleberry Finn?","Mark Twain","Shel Silverstein","Ernest Hemingway","0","00:00:10.2109022","","","","","","","0"
-"25","Who is the writer of Brief History of Time?","Stephen Hawking","Alan Guth","Albert Einstein","0","00:00:05.0388304","","","","","","","0"
-"26","Anemometer is an instrument used for measuring?","Wind speed","Water speed","Water speed","0","00:00:08.6163516","","","","","","","0"
-"27","What is the largest country in the world?","Russia","Russia","Argentina","1","00:00:06.1865672","","","","","","","0"
-"28","Which Space Shuttle broke apart 73 seconds into its flight on January 28, 1986?","Challenger","Discovery","Challenger","0","00:00:15.8251258","","","","","","","1"
-"29","What is the colour of the flag of Libya?","Green","Green","Blue","1","00:00:06.0939087","","","","","","","0"
-"30","The ulna is a long bone in which part of the body?","Arm","Pelvis","Neck","0","00:00:07.5847335","","","","","","","0"
-"31","Which musical family does the saxophone belong to?","Woodwind","Woodwind","Woodwind","1","00:00:07.8104382","","","","","","","1"
-"32","In what country would you find Mount Kilimanjaro?","Tanzania","Tanzania","Tanzania","1","00:00:13.2944926","","","","","","","1"
-"33","Old Trafford stadium is located near what major city?","Manchester","Trafford","Liverpool","0","00:00:08.5465313","","","","","","","0"
-"34","Yellow Egg is a variety of which fruit?","Plum","Pear","Pineapple","0","00:00:10.5321755","","","","","","","0"
-"35","Hypophosphatasia affects what part of the body?","Bones","Kidney","Lungs","0","00:00:05.4752285","","","","","","","0"
-"36","Who directed the 2001 re-make of the film Oceans 11?","Steven Soderbergh","Martin Scorsese","Steven Soderbergh","0","00:00:06.8995012","","","","","","","1"
-"37","In the Republic of Ireland, the Yellow Pages are known as what?","Golden Pages","Yellow Books","Golden Pages","0","00:00:09.1404951","","","","","","","1"
-"38","What is considered the king of herbs by many cookery authors?","Basil","Thyme","Borage","0","00:00:14.9549885","","","","","","","0"
-"39","Who is the writer of Adventures of Robinson Crusoe?","Daniel Defoe","Mark Twain","Stephen King","0","00:00:11.4290785","","","","","","","0"
-"40","Which one was the first web based e-mail service?","Hotmail","Yahoo! Mail","Zoho","0","00:00:07.4459832","","","","","","","0"
-"41","Celsius and Fahrenheit show the same temperature at:","-40","-273","273","0","00:00:10.6155502","","","","","","","0"
-"42","Exchange particle in Quark-Quark Interaction?","Gluon","Proton","Proton","0","00:00:12.5450004","","","","","","","0"
-"43","Fraction of volume of ice seen outside when immersed in water?","10.5%","15.5%","63.5%","0","00:00:06.3178398","","","","","","","0"
-"44","Liquefied petroleum gas (LPG) is mainly a mixture of:","Propane and Butane","Pentane and Propane","Methane and Pentane","0","00:00:14.9810349","","","","","","","0"
-"45","The Ozone layer lies in the:","Stratosphere","Upper Mesosphere","Upper Thermosphere ","0","00:00:07.2404890","","","","","","","0"
-"46","Greek civilization was flourished in the year:","800 BC","800 BC","2000 BC","1","00:00:06.0360601","","","","","","","0"
-"47","The Eiffel Tower is built in:","1889","1913","1889","0","00:00:04.4371679","","","","","","","1"
-"48","What is the largest Lake in the world?","Caspian Sea","Michigan","Caspian Sea","0","00:00:06.3354948","","","","","","","1"
-"49","Which country in the world consumes the most electricity?","USA","China","China","0","00:00:04.9802939","","","","","","","0"
-"50","How many countries are members of Association of Southeast Asian Nations(ASEAN)?","10","5","10","0","00:00:07.1564999","","","","","","","1"
-"","","","","","","","00:07:17.6394710","38","08/07/2018-20:58:53","08/07/2018-21:6:10","2","n","12"
-"

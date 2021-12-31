@@ -1,52 +1,0 @@
-ID,Question,Correct Answer,User Answer,Agent HP Answer,Correct?,Time (seconds),Overal Time,Percentage,Time Started,Time Finished,Agent,Condition,Match?
-1,"What is the highest point on the Earth continental crust?",Mount Everest,"Kangchenjunga","Annapurna",0,00:03.6,,,,,,,0
-2,"Which two colors make purple?",Red and Blue,Red and Blue,"Red and Grey",1,00:10.5,,,,,,,0
-3,"Which fruits are most commonly used to make wine?",Grapes,Grapes,"Wheat",1,00:06.8,,,,,,,0
-4,"Which Italian city has a famous leaning tower?",Pisa,Pisa,Pisa,1,00:04.4,,,,,,,1
-5,"A common currency for the members of the Common Market in Europe is known as:",Euro,Euro,"Krouna",1,00:08.0,,,,,,,0
-6,"Where is Palace of Versailles located at?",France,France,France,1,00:04.3,,,,,,,1
-7,"What is the common name for sodium chloride?",Salt,Salt,"Ketchup",1,00:04.1,,,,,,,0
-8,"What is the main ingredient of omelette?",Egg,Egg,Egg,1,00:03.8,,,,,,,1
-9,"Who is the King of the Gods in Greek Mythology?",Zeus,Zeus,"Athena",1,00:03.8,,,,,,,0
-10,"Sports car manufacturer Ferrari are based where?","Maranello, Italy","Maranello, Italy","Montevideo, Uruguay",1,00:05.8,,,,,,,0
-11,"Who directed the 1983 film ET the Extra-Terrestrial?",Steven Spielberg,"Woody Allen",Steven Spielberg,0,00:07.3,,,,,,,1
-12,"What country is also known as Persia?",Iran,Iran,"Poland",1,00:04.5,,,,,,,0
-13,"The disease bronchitis is associated with:",Lungs,"Trachea",Lungs,0,00:06.9,,,,,,,1
-14,"World War I commenced in:",1914,1914,1914,1,00:05.5,,,,,,,1
-15,"The small republic of San Marino is completely surrounded by which larger country?",Italy,Italy,"Iceland",1,00:07.4,,,,,,,0
-16,"What is cherry blossom known as in Japanese?",Sakura,Sakura,"Sumach",1,00:04.5,,,,,,,0
-17,"The Spanish flag consists of which two colours?",Red and yellow,Red and yellow,"Red and Blue",1,00:07.8,,,,,,,0
-18,"For what occupation was Jesus trained?",Carpenter,Carpenter,"Holster",1,00:05.0,,,,,,,0
-19,"What is the capital of the Taiwan?",Taipei,Taipei,"Manila",1,00:04.8,,,,,,,0
-20,"In which country will you find Machu Picchu?",Peru,Peru,"Chile",1,00:03.8,,,,,,,0
-21,"Which tree grows from an acorn?",Oak,"Pine","Lime",0,00:07.8,,,,,,,0
-22,"Name the country which is the craddle of western classic music, known as The land of music?",Austria,Austria,"United States",1,00:12.2,,,,,,,0
-23,"Where is the headquarters of United Nations?","New York City, USA","New York City, USA","Berlin, Germany",1,00:05.8,,,,,,,0
-24,"Who is the writer of Adventures of Huckleberry Finn?",Mark Twain,Mark Twain,"Ernest Hemingway",1,00:05.0,,,,,,,0
-25,"Who is the writer of Brief History of Time?",Stephen Hawking,"Neil deGrasse Tyson",Stephen Hawking,0,00:06.9,,,,,,,1
-26,"Anemometer is an instrument used for measuring?",Wind speed,"Distance of stars from Earth","Distance between two stars",0,00:17.4,,,,,,,0
-27,"What is the largest country in the world?",Russia,Russia,"China",1,00:06.4,,,,,,,0
-28,"Which Space Shuttle broke apart 73 seconds into its flight on January 28, 1986?",Challenger,Challenger,"Opportunity",1,00:06.2,,,,,,,0
-29,"What is the colour of the flag of Libya?",Green,Green,"Blue",1,00:04.8,,,,,,,0
-30,"The ulna is a long bone in which part of the body?",Arm,Arm,"Hand",1,00:05.1,,,,,,,0
-31,"Which musical family does the saxophone belong to?",Woodwind,Woodwind,"Classic",1,00:06.5,,,,,,,0
-32,"In what country would you find Mount Kilimanjaro?",Tanzania,"Kenya","Kenya",0,00:15.2,,,,,,,0
-33,"Old Trafford stadium is located near what major city?",Manchester,"Southampton",Manchester,0,00:05.5,,,,,,,1
-34,"Yellow Egg is a variety of which fruit?",Plum,"Lemon","Pineapple",0,00:06.5,,,,,,,0
-35,"Hypophosphatasia affects what part of the body?",Bones,"Eyes","Eyes",0,00:07.0,,,,,,,0
-36,"Who directed the 2001 re-make of the film Oceans 11?",Steven Soderbergh,"Quentin Tarantino","James Cameron",0,00:08.1,,,,,,,0
-37,"In the Republic of Ireland, the Yellow Pages are known as what?",Golden Pages,"Yellow Books","Red Pages",0,00:07.4,,,,,,,0
-38,"What is considered the king of herbs by many cookery authors?",Basil,"Parsley","Tea",0,00:08.8,,,,,,,0
-39,"Who is the writer of Adventures of Robinson Crusoe?",Daniel Defoe,Daniel Defoe,"Mark Twain",1,00:07.9,,,,,,,0
-40,"Which one was the first web based e-mail service?",Hotmail,"AOL",Hotmail,0,00:07.8,,,,,,,1
-41,"Celsius and Fahrenheit show the same temperature at:",-40,"273","100",0,00:14.6,,,,,,,0
-42,"Exchange particle in Quark-Quark Interaction?",Gluon,"Quark",Gluon,0,00:06.7,,,,,,,1
-43,"Fraction of volume of ice seen outside when immersed in water?",10.50%,10.50%,"63.5%",1,00:11.9,,,,,,,0
-44,"Liquefied petroleum gas (LPG) is mainly a mixture of:",Propane and Butane,"Methane and Propane","Butane and Methane",0,00:10.9,,,,,,,0
-45,"The Ozone layer lies in the:",Stratosphere,Stratosphere,Stratosphere,1,00:06.5,,,,,,,1
-46,"Greek civilization was flourished in the year:",800 BC,"600 BC",800 BC,0,00:13.4,,,,,,,1
-47,"The Eiffel Tower is built in:",1889,1889,"1869",1,00:07.6,,,,,,,0
-48,"What is the largest Lake in the world?",Caspian Sea,"Superior","Huron",0,00:05.9,,,,,,,0
-49,"Which country in the world consumes the most electricity?",USA,USA,"Indonesia",1,00:04.6,,,,,,,0
-50,"How many countries are members of Association of Southeast Asian Nations(ASEAN)?",10,"21","30",0,00:06.4,,,,,,,0
-,,,,,,,05:59.0,60,07/13/2018-15:9:44,07/13/2018-15:15:43,1,n,12

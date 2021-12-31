@@ -55,20 +55,21 @@ public class Buttons : MonoBehaviour
     //static int studyCode;
     static int agnt = 0;
     static int cond = -1;
-    static int coopAgent = 21;  //21 for cooperative, 81 for uncooperative
+    static int coopAgent = 31;  //31 for cooperative, 71 for uncooperative
     static int coopAgentID = 4;
     Stack myStack = new Stack();
 
     //to keep track of hovering
     Stopwatch stopWatch = new Stopwatch();
-    int[] myRep= new int[9];
+    static int numberOfChoices = 4;
+    int[] myRep= new int[numberOfChoices];
     int repCounter = 0;
     static int trackBtn = -1;
     static bool btnActive = true;
 
     void Start()
     {
-        //craete table for spreadsheet
+        //create table for spreadsheet
         table.Columns.Add("ID", typeof(int));
         table.Columns.Add("Question", typeof(string));
         table.Columns.Add("Correct Answer", typeof(string));
@@ -91,11 +92,6 @@ public class Buttons : MonoBehaviour
         table2.Columns.Add("Option2", typeof(string));
         table2.Columns.Add("Option3", typeof(string));
         table2.Columns.Add("Option4", typeof(string));
-        table2.Columns.Add("Option5", typeof(string));
-        table2.Columns.Add("Option6", typeof(string));
-        table2.Columns.Add("Option7", typeof(string));
-        table2.Columns.Add("Option8", typeof(string));
-        table2.Columns.Add("Option9", typeof(string));
 
         //rest of the code!
 
@@ -114,8 +110,8 @@ public class Buttons : MonoBehaviour
         questions = Drv.getQuetions();
         q = Obj2.GetComponent<Question>();
         q = questions[myC++];
-        //System.Random rnd = new System.Random();
-        rep = Enumerable.Range(1, 9).OrderBy(r => rnd.Next()).ToArray();
+
+        rep = Enumerable.Range(1, numberOfChoices).OrderBy(r => rnd.Next()).ToArray();
         startTime = System.DateTime.Now.TimeOfDay;
         currentTime = startTime;
         StartCoroutine(myRoutine(0));
@@ -126,8 +122,8 @@ public class Buttons : MonoBehaviour
         stopWatch.Stop();
         TimeSpan ts = stopWatch.Elapsed;
         stopWatch.Reset();
-        //UnityEngine.Debug.Log(ts.ToString());
-        for (int i = 0; i < 9; i++)
+
+        for (int i = 0; i < numberOfChoices; i++)
         {
             if(options[myRep[i]] == EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text)
             {
@@ -136,20 +132,16 @@ public class Buttons : MonoBehaviour
             }
         }
         DataRow dr = table2.NewRow();
-        //UnityEngine.Debug.Log(repCounter);
-        //UnityEngine.Debug.Log(myRep[repCounter]);
-        //UnityEngine.Debug.Log(options[myRep[repCounter]]);
+
         dr[myRep[repCounter] + 2] = ts.ToString();
         table2.Rows.Add(dr);
         stopWatch.Start();
 
 
         System.Random rnd = new System.Random();
-        rep = Enumerable.Range(1, 9).OrderBy(r => rnd.Next()).ToArray();
-        //myRep = rep;
+        rep = Enumerable.Range(1, numberOfChoices).OrderBy(r => rnd.Next()).ToArray();
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
-        //Debug.Log("myC is:      " + myC);
         if (cond == -1)
         {
             cond++;
@@ -157,10 +149,6 @@ public class Buttons : MonoBehaviour
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
             SA.GotoA2Prep();
-            //if (agnt % 2 == 0)
-            //    SA.GotoAgentOne();
-            //else
-            //    SA.GotoAgentTwo();
 
         }
         else if (cond == 0)
@@ -168,10 +156,6 @@ public class Buttons : MonoBehaviour
             cond++;
             Drv.changeCondition();
             openSurvey();
-            /*if (agnt % 2 == 1)
-                SA.GotoAgentOne();
-            else
-                SA.GotoAgentTwo();*/
 
         }
         else if (myC < 50)
@@ -213,7 +197,6 @@ public class Buttons : MonoBehaviour
 
             if (!EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text.Equals(q.displayCorrectAnswer()))
             {
-                //Debug.Log(EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text);
                 wrong++;
                 if (cond != -1 && cond != 0)
                     EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
@@ -249,8 +232,7 @@ public class Buttons : MonoBehaviour
         int c = 0, cnt = 0;
         options = q.displayQuestionPromptOptions();
         options.Shuffle<string>();
-        table2.Rows.Add(myC, q.displayQuestionPrompt(), options[0], options[1], options[2], options[3], options[4], options[5],
-                options[6], options[7], options[8]);
+        table2.Rows.Add(myC, q.displayQuestionPrompt(), options[0], options[1], options[2], options[3]);
 
         DataRow dr = table2.NewRow();
 
@@ -280,7 +262,7 @@ public class Buttons : MonoBehaviour
 
 
                 
-                var num = Convert.ToInt32(myStack.Pop());//UnityEngine.Random.value * 100;
+                var num = Convert.ToInt32(myStack.Pop());
                 UnityEngine.Debug.Log("Num value is:" + num);
                 if (num < coopAgent)
                 {
@@ -288,11 +270,10 @@ public class Buttons : MonoBehaviour
                 }
                 else
                 {
-                    //btnFlg = c;
                     ahpA[myC - 1] = btn.GetComponent<UnityEngine.UI.Text>().text;
                     UnityEngine.Events.UnityAction<BaseEventData> call = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_hp);
                     entry.callback.AddListener(call);
-                    for (int i = 0; i < 9; i++)
+                    for (int i = 0; i < numberOfChoices; i++)
                     {
                         if (rep[i] == 1)
                         {
@@ -312,8 +293,6 @@ public class Buttons : MonoBehaviour
         foreach (UnityEngine.UI.Text btn in myButtons)
         {
             c++;
-            //Debug.Log(btn.GetComponent<Text>().text);
-            //Debug.Log(btn.GetComponent<Text>().text.Length);
 
             /***********************************************************************/
             if (btn.GetComponent<UnityEngine.UI.Text>().name == "ScoreText")
@@ -322,7 +301,6 @@ public class Buttons : MonoBehaviour
             }
             else if (btn.GetComponent<UnityEngine.UI.Text>().name == "Text")
             {
-                //UnityEngine.Debug.Log(counter + "---" + btn.GetComponent<UnityEngine.UI.Text>().text);
                 EventTrigger trigger = btn.GetComponentInParent<EventTrigger>();
                 EventTrigger.Entry entry = new EventTrigger.Entry();
                 EventTrigger.Entry entry2 = new EventTrigger.Entry();
@@ -335,10 +313,9 @@ public class Buttons : MonoBehaviour
                 options = q.displayQuestionPromptOptions();
                 btn.GetComponentInChildren<UnityEngine.UI.Text>().text = options[myC1++];
 
-                //UnityEngine.Debug.Log("c is: " + c + "and btnFlg is: " + btnFlg);
                 if (c != btnFlg)
                 {
-                    if (rep[counter] == 0 && counter < 8)
+                    if (rep[counter] == 0 && counter < numberOfChoices - 1)
                         counter++;
                     switch (rep[counter])
                     {
@@ -354,18 +331,18 @@ public class Buttons : MonoBehaviour
                             }
                         case 2:
                             {
-                                dr[c + 1] = "Moderately Possitive";
+                                dr[c + 1] = "Highly Negative";
                                 myRep[1] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mp);
+                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_hn);
                                 entry.callback.AddListener(call2);
                                 rep[counter++] = 0;
                                 break;
                             }
                         case 3:
                             {
-                                dr[c + 1] = "Slightly Possitive";
+                                dr[c + 1] = "Highly Negative";
                                 myRep[2] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_sp);
+                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_hn);
                                 entry.callback.AddListener(call2);
                                 rep[counter++] = 0;
                                 break;
@@ -379,51 +356,51 @@ public class Buttons : MonoBehaviour
                                 rep[counter++] = 0;
                                 break;
                             }
-                        case 5:
-                            {
-                                dr[c + 1] = "Moderately Negative";
-                                myRep[4] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn);
-                                entry.callback.AddListener(call2);
-                                rep[counter++] = 0;
-                                break;
-                            }
-                        case 6:
-                            {
-                                dr[c + 1] = "Slightly Negative";
-                                myRep[5] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_sn);
-                                entry.callback.AddListener(call2);
-                                rep[counter++] = 0;
-                                break;
-                            }
-                        case 7:
-                            {
-                                dr[c + 1] = "Moderately Negative";
-                                myRep[6] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn2);
-                                entry.callback.AddListener(call2);
-                                rep[counter++] = 0;
-                                break;
-                            }
-                        case 8:
-                            {
-                                dr[c + 1] = "Idle";
-                                myRep[7] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle2);
-                                entry.callback.AddListener(call2);
-                                rep[counter++] = 0;
-                                break;
-                            }
-                        case 9:
-                            {
-                                dr[c + 1] = "Idle";
-                                myRep[8] = c-1;
-                                UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle3);
-                                entry.callback.AddListener(call2);
-                                rep[counter++] = 0;
-                                break;
-                            }
+                        //case 5:
+                        //    {
+                        //        dr[c + 1] = "Moderately Negative";
+                        //        myRep[4] = c-1;
+                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn);
+                        //        entry.callback.AddListener(call2);
+                        //        rep[counter++] = 0;
+                        //        break;
+                        //    }
+                        //case 6:
+                        //    {
+                        //        dr[c + 1] = "Slightly Negative";
+                        //        myRep[5] = c-1;
+                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_sn);
+                        //        entry.callback.AddListener(call2);
+                        //        rep[counter++] = 0;
+                        //        break;
+                        //    }
+                        //case 7:
+                        //    {
+                        //        dr[c + 1] = "Moderately Negative";
+                        //        myRep[6] = c-1;
+                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn2);
+                        //        entry.callback.AddListener(call2);
+                        //        rep[counter++] = 0;
+                        //        break;
+                        //    }
+                        //case 8:
+                        //    {
+                        //        dr[c + 1] = "Idle";
+                        //        myRep[7] = c-1;
+                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle2);
+                        //        entry.callback.AddListener(call2);
+                        //        rep[counter++] = 0;
+                        //        break;
+                        //    }
+                        //case 9:
+                        //    {
+                        //        dr[c + 1] = "Idle";
+                        //        myRep[8] = c-1;
+                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle3);
+                        //        entry.callback.AddListener(call2);
+                        //        rep[counter++] = 0;
+                        //        break;
+                        //    }
                         default:
                             break;
                     }
@@ -454,18 +431,15 @@ public class Buttons : MonoBehaviour
             stopWatch.Stop();
             TimeSpan ts = stopWatch.Elapsed;
             stopWatch.Reset();
-            //UnityEngine.Debug.Log(ts.ToString());
+            
             DataRow dr = table2.NewRow();
-            //UnityEngine.Debug.Log(repCounter);
-            //UnityEngine.Debug.Log(myRep[repCounter]);
+
             if (trackBtn == -1)
             {
-                //UnityEngine.Debug.Log(options[myRep[repCounter]]);
                 dr[myRep[repCounter] + 2] = ts.ToString();
             }
             else
             {
-                //UnityEngine.Debug.Log(options[trackBtn]);
                 dr[trackBtn + 2] = ts.ToString();
                 trackBtn = -1;
             }
@@ -720,7 +694,6 @@ public class Buttons : MonoBehaviour
         }
         else
         {
-            //Debug.Log("Particiant ID: " + participantID);
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
             SA.GotoInstructions();
@@ -747,9 +720,9 @@ public class Buttons : MonoBehaviour
     public void showAgents()
     {
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 21;
+            coopAgent = 31;
         else
-            coopAgent = 81;
+            coopAgent = 71;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
         if (agnt % 2 == 1)
@@ -767,9 +740,9 @@ public class Buttons : MonoBehaviour
         Drv.changeCondition();
         coopAgentID = 5;
         if (participantID[coopAgentID] == 'c')
-            coopAgent = 21;
+            coopAgent = 31;
         else
-            coopAgent = 81;
+            coopAgent = 71;
         cond = 2;
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();

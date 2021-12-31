@@ -30,29 +30,27 @@ public class driver : MonoBehaviour {
         Question q = gObj.GetComponent<Question>();//new Question();
         //count the lines that have passed, every 10 lines have a question
         int lineCounter = 0;
+        int numberOfChoices = 4;
 
         //loop through fileRow with each line having
         for (int i = 0; i < fileRow.Count; i++)
         {
-            //the question file follows a very specific pattern, question prompt followed by 9 possible answers
+            //the question file follows a very specific pattern, question prompt followed by 'numberOfChoices' possible answers
 
-            //string last = fileRow[i][fileRow[i].Length - 1];
 
             //set up a new question object when the "?" appears
             if (fileRow[i].Contains("?") || fileRow[i].Contains(":"))
-            //if(fileRow[i].EndsWith("?"))
             {
                 q = new Question();
                 q.setQuestionPrompt(fileRow[i]);
             }
             //lines marked with a "*" indicate that it is the answer to the question
             else if (fileRow[i].Contains("*"))
-            //else if (fileRow[i].EndsWith("*"))
             {
                 q.setCorrectAnswer(fileRow[i].TrimEnd().Substring(0, fileRow[i].Length - 2));
                 q.setIndividualPromptOption(fileRow[i].TrimEnd().Substring(0, fileRow[i].Length - 2));
             }
-            //if a line is not an answer or question prompt, then it is a option
+            //if a line is not an answer or question prompt, then it is a filler choice
             else
             {
                 q.setIndividualPromptOption(fileRow[i]);
@@ -61,12 +59,10 @@ public class driver : MonoBehaviour {
             //increment lineCounter
             lineCounter++;
 
-            //once lineCounter is = 9, then a new question will begin so add the current question to the vector
-            if (lineCounter% 10 == 9)
+            //once we reach the last choice for the current question, a new question will begin. So we add the current question to the vector
+            if (lineCounter% (numberOfChoices + 1) == 0)
             {
                 questions.Add(q);
-                //reset lineCounter
-                //lineCounter = 0;
             }
         }
 
@@ -89,16 +85,16 @@ public class driver : MonoBehaviour {
         gObj = GameObject.Find("ScriptHolder");
         fileInteraction file = gObj.GetComponent<fileInteraction>();//new fileInteraction("Questions.txt");
         if (conditions == -1)
-            file.setFileName("./Assets/Set0.txt");
+            file.setFileName("./Assets/HAI2022Set0.txt");
         else if (conditions == 0)
-            file.setFileName("./Assets/Set01.txt");
+            file.setFileName("./Assets/HAI2022Set01.txt");
         else if (conditions == 1)
         {
-            file.setFileName("./Assets/Set1.txt");
+            file.setFileName("./Assets/HAI2022Set1.txt");
         }
         else
         {
-            file.setFileName("./Assets/Set2.txt");
+            file.setFileName("./Assets/HAI2022Set1.txt");
         }
         //readFile so that data is now set
         file.readFile ();
