@@ -167,7 +167,7 @@ public class Buttons : MonoBehaviour
 
         }
         else */
-        if (myC < 16)
+        if (myC < 15)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -187,12 +187,27 @@ public class Buttons : MonoBehaviour
             CreateCSVFile(ref table2, address2);
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
+
             if (cond == 1)
                 StartCoroutine(SA.GotoTransition());
             else
                 SA.GotoFinish();
-
         }
+
+        if (myC > 3)
+        {
+            if (matchCount * 100 / myC < coopAgent)
+            {
+                SA.setInteger(1, "State");
+                SA.playIdle(myC);
+            }
+            else
+            {
+                SA.setInteger(-1, "State");
+                SA.playIdle(myC);
+            }
+        }
+
     }
 
     IEnumerator myRoutine(int flag)
@@ -207,7 +222,7 @@ public class Buttons : MonoBehaviour
             if (!EventSystem.current.currentSelectedGameObject.GetComponentInChildren<UnityEngine.UI.Text>().text.Equals(q.displayCorrectAnswer()))
             {
                 wrong++;
-                if (cond != -1 && cond != 0)
+                /*if (cond != -1 && cond != 0)*/
                     EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
                 tfQ[myC - 1] = 0;
             }
@@ -413,8 +428,7 @@ public class Buttons : MonoBehaviour
            //UnityEngine.Debug.LogFormat("datarow = {0}", dr);
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
-            SA.setInteger(1, "State");
-            SA.playIdle();
+            SA.playIdle(myC);
             //SA.turnSatisfied();
         }
     }
@@ -428,8 +442,8 @@ public class Buttons : MonoBehaviour
             stopWatch.Start();
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
-            SA.setInteger(1, "State");
-            SA.playIdle();
+            SA.playIdle(myC);
+            //SA.turnSatisfied();
         }
         else
         {
@@ -445,8 +459,8 @@ public class Buttons : MonoBehaviour
             stopWatch.Start();
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
-            SA.setInteger(1, "State");
-            SA.playIdle();
+            SA.playIdle(myC);
+            //SA.turnSatisfied();
         }
         else
         {

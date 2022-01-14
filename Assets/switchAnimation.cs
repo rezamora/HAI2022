@@ -12,19 +12,34 @@ public class switchAnimation : MonoBehaviour {
     public GameObject Character;
     private Animator myController;
     //private float startTime;
-    private int state = 0;
+    private static int state = 0;
 
     void Awake()
     {
         myController = Character.GetComponent<Animator>();
     }
 
-    /*public void playIdle()
+    public void playIdle(int myC = 0)
     {
         myController.Rebind();
-    }*/
+        if (state == 1 & myC > 5)
+        {
+            myController.SetInteger("State", state);
+            turnSatisfied();
+        }
+        else if (state == -1 & myC > 5)
+        {
+            myController.SetInteger("State", state);
+            turnDisatisfied();
+        }
+        else
+        {
+            myController.SetInteger("State", state);
+            myController.Rebind();
+        }
+    }
 
-    public void playIdle()
+    /*public void myPlayIdle()
     {
         if (state == 1)
         {
@@ -34,14 +49,14 @@ public class switchAnimation : MonoBehaviour {
         else if (state == -1)
         {
             myController.SetInteger("State", state);
-            turnSatisfied();
+            turnDisatisfied();
         }
         else
         {
             myController.SetInteger("State", state);
             myController.Rebind();
         }
-    }
+    }*/
 
     public void playPositive_large()
     {
@@ -109,12 +124,20 @@ public class switchAnimation : MonoBehaviour {
     public void turnSatisfied()
     {
         myController.SetTrigger("dps");
+
+
+
         //myController.Rebind();
         //AnimatorStateMachine asm = myController.layers[0].stateMachine;
         //AnimatorState newState = asm.AddState("dps");
         //asm.defaultState = newState;
         //SceneManager.LoadScene("Satisfied-Main_A1");
         //myController.SetTrigger("default_P_small");
+    }
+
+    public void turnDisatisfied()
+    {
+        myController.SetTrigger("dns");
     }
 
     public void GotoA1Prep()
