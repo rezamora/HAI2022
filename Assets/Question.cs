@@ -87,11 +87,11 @@ public class Question : MonoBehaviour {
 
 	public List<string> displayQuestionPromptOptions()
 	{
-        /*for (int i = 0; i < _questionOptions.Count; i++)
+        for (int i = 0; i < _questionOptions.Count; i++)
 		{
 			int dispNum = i + 1;
 			//Debug.Log ("option " + dispNum + " is: " + _questionOptions [i]);
-		}*/
+		}
         return _questionOptions;
 	}
 

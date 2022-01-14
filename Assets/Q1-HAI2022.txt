@@ -1,0 +1,80 @@
+What has been around for thousands of years and is at the heart of worldwide communications today?
+Cryptography*
+Locks
+Internet Protocol (IP)
+Homing Peigeons
+Substitution cipher is believed to be used first by:
+Julius Caesar*
+Nero
+Alexander
+Xerxes
+Using Caesar's cipher with 1 shift, what would be encryption of the word "send"?
+tfoe*
+rdmc
+dnes
+ends
+What was responsible for breaking Caesar's cipher?
+Frequency analysis*
+Enigma machine
+Super computers
+Brute force approach
+In random shifts, what should the length of list of shifts?
+Same as the message*
+Shorter
+Longer
+Any length
+Which one is a strength of random shifts?
+No repettition pattern
+No leak
+Uniform frequency distribution
+All*
+What is the initial Enigma machine state known as?
+Key setting*
+Key space
+State space
+Machine configuration
+What machine allowed the allies to read German commands within hours?
+Enigma machine*
+Pseudo machine
+One-time pad
+Cipher
+What does reduce the key space?
+Repetition*
+Frequency
+Throwing dice
+One-time pad
+In case of perferct secrecy, which one of the following has a different size?
+Message space
+Key space
+Ciphertext space
+Machine state
+One of the problems of one-time pad is that long keys must be shared in advance. What is a solution to this problem?
+Pseudo randomness*
+Perfect secrecy
+Enigma encryption
+Cipher
+Which one is NOT a feature of random walk?
+random sequence
+no pattern
+net move is unpredictable
+deterministic process
+Who was involved in running computations for the US military which resulted in the design of Hydrogen bombs?
+Turing
+Einstein
+Neumann*
+Shannon
+In pseudorandom number generation, the randomness of the sequence is dependent on:
+Initial seed*
+Length of the sequence
+Patterns in each sequence
+Balanced seed distribution
+The length before a pseudorandom sequence repeats is called:
+Period*
+Frequency
+Cipher
+Cycle
+Moving from randomness to pseudorandomness shrinks the ..... :
+Key space*
+Message space
+Ciphertext space
+Seed space

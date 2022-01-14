@@ -117,6 +117,8 @@ public class Buttons : MonoBehaviour
         StartCoroutine(myRoutine(0));
     }
 
+
+    bool satisfy = true;
     public void BeenClicked()
     {
         stopWatch.Stop();
@@ -142,23 +144,30 @@ public class Buttons : MonoBehaviour
         rep = Enumerable.Range(1, numberOfChoices).OrderBy(r => rnd.Next()).ToArray();
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
-        if (cond == -1)
+
+        
+
+        /*if (cond == -1)
         {
+            //appQuit();
             cond++;
             Drv.changeCondition();
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
-            SA.GotoA2Prep();
+            //SA.GotoA2Prep();
+            //SA.turnSatisfied();
 
         }
         else if (cond == 0)
         {
+            //appQuit();
             cond++;
-            Drv.changeCondition();
-            openSurvey();
+            /*Drv.changeCondition();
+            //openSurvey();
 
         }
-        else if (myC < 50)
+        else */
+        if (myC < 16)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -171,7 +180,7 @@ public class Buttons : MonoBehaviour
                 today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}", startTime.Hours, startTime.Minutes, startTime.Seconds),
                 today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}",
                 endTime.Hours, endTime.Minutes, endTime.Seconds), (agnt % 2) * (-1) + 2, participantID[coopAgentID],matchCount);
-            //Debug.Log("PID: "+participantID);
+            //UnityEngine.Debug.LogFormat("PID: "+participantID);
             string address = @".\" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
             CreateCSVFile(ref table, address);
             string address2 = @".\dump-" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
@@ -210,7 +219,7 @@ public class Buttons : MonoBehaviour
             }
             int isMatch = 0;
             if (answerQ[myC - 1] == ahpA[myC - 1]) { isMatch = 1; matchCount++; }
-            table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString(), null,
+            object p = table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString(), null,
                 null, null, null, null, null, isMatch);
         }
 
@@ -231,6 +240,7 @@ public class Buttons : MonoBehaviour
 
         int c = 0, cnt = 0;
         options = q.displayQuestionPromptOptions();
+        //UnityEngine.Debug.LogFormat("Options = {0}", options);
         options.Shuffle<string>();
         table2.Rows.Add(myC, q.displayQuestionPrompt(), options[0], options[1], options[2], options[3]);
 
@@ -263,7 +273,7 @@ public class Buttons : MonoBehaviour
 
                 
                 var num = Convert.ToInt32(myStack.Pop());
-                UnityEngine.Debug.Log("Num value is:" + num);
+               // UnityEngine.Debug.Log("Num value is:" + num);
                 if (num < coopAgent)
                 {
                     btnFlg = 0;
@@ -356,51 +366,6 @@ public class Buttons : MonoBehaviour
                                 rep[counter++] = 0;
                                 break;
                             }
-                        //case 5:
-                        //    {
-                        //        dr[c + 1] = "Moderately Negative";
-                        //        myRep[4] = c-1;
-                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn);
-                        //        entry.callback.AddListener(call2);
-                        //        rep[counter++] = 0;
-                        //        break;
-                        //    }
-                        //case 6:
-                        //    {
-                        //        dr[c + 1] = "Slightly Negative";
-                        //        myRep[5] = c-1;
-                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_sn);
-                        //        entry.callback.AddListener(call2);
-                        //        rep[counter++] = 0;
-                        //        break;
-                        //    }
-                        //case 7:
-                        //    {
-                        //        dr[c + 1] = "Moderately Negative";
-                        //        myRep[6] = c-1;
-                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_mn2);
-                        //        entry.callback.AddListener(call2);
-                        //        rep[counter++] = 0;
-                        //        break;
-                        //    }
-                        //case 8:
-                        //    {
-                        //        dr[c + 1] = "Idle";
-                        //        myRep[7] = c-1;
-                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle2);
-                        //        entry.callback.AddListener(call2);
-                        //        rep[counter++] = 0;
-                        //        break;
-                        //    }
-                        //case 9:
-                        //    {
-                        //        dr[c + 1] = "Idle";
-                        //        myRep[8] = c-1;
-                        //        UnityEngine.Events.UnityAction<BaseEventData> call2 = new UnityEngine.Events.UnityAction<BaseEventData>(myAnims_idle3);
-                        //        entry.callback.AddListener(call2);
-                        //        rep[counter++] = 0;
-                        //        break;
-                        //    }
                         default:
                             break;
                     }
@@ -409,6 +374,7 @@ public class Buttons : MonoBehaviour
                     trigger.triggers.Add(entry2);
                 }
 
+                //yield return new WaitForSeconds(1);
                 btn.GetComponentInParent<Button>().image.color = UnityEngine.Color.white;
             }
             else
@@ -444,9 +410,12 @@ public class Buttons : MonoBehaviour
                 trackBtn = -1;
             }
             table2.Rows.Add(dr);
+           //UnityEngine.Debug.LogFormat("datarow = {0}", dr);
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
+            SA.setInteger(1, "State");
             SA.playIdle();
+            //SA.turnSatisfied();
         }
     }
 
@@ -459,6 +428,7 @@ public class Buttons : MonoBehaviour
             stopWatch.Start();
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
+            SA.setInteger(1, "State");
             SA.playIdle();
         }
         else
@@ -475,6 +445,7 @@ public class Buttons : MonoBehaviour
             stopWatch.Start();
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
+            SA.setInteger(1, "State");
             SA.playIdle();
         }
         else
