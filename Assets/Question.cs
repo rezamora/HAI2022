@@ -6,7 +6,7 @@ public class Question : MonoBehaviour {
 	public string _correctAnswer;
 	public string _questionPrompt;
     public List<string> _questionOptions;// = new List<string>();
-    GameObject gObj;
+    //public GameObject gObj;
 
 
 	// Use this for initialization
@@ -18,8 +18,8 @@ public class Question : MonoBehaviour {
 	//set up question object, initially empty
 	public Question()
 	{
-        _questionOptions = new List<string>();
-    }
+		_questionOptions = new List<string>();
+	}
 
 	//return the number of options for question
 	public int getNumOptions()

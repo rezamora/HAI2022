@@ -19,6 +19,12 @@ public class Buttons : MonoBehaviour
     public UnityEngine.UI.Text[] myButtons;
     public GameObject Obj;
     public GameObject Obj2;
+    public GameObject gObj;
+
+
+    public UnityEngine.UI.Text notificationText;
+
+
     driver Drv;
     List<Question> questions;
     Question q;
@@ -40,6 +46,7 @@ public class Buttons : MonoBehaviour
     string[] ahpA = new string[50];
     string tableQ;
     int matchCount = 0;
+    int userComplianceRateWithAgent = 0;
     System.TimeSpan startTime;
     System.TimeSpan currentTime;
     System.TimeSpan diff;
@@ -75,13 +82,13 @@ public class Buttons : MonoBehaviour
         table.Columns.Add("Correct Answer", typeof(string));
         table.Columns.Add("User Answer", typeof(string));
         table.Columns.Add("Agent HP Answer", typeof(string));
-        table.Columns.Add("Correct?", typeof(int));
+        table.Columns.Add("Correct?", typeof(string));
         table.Columns.Add("Time (seconds)", typeof(string));
         table.Columns.Add("Overal Time", typeof(string));
         table.Columns.Add("Percentage", typeof(double));
         table.Columns.Add("Time Started", typeof(string));
         table.Columns.Add("Time Finished", typeof(string));
-        table.Columns.Add("Agent", typeof(int));
+        //table.Columns.Add("Agent", typeof(string));
         table.Columns.Add("Condition", typeof(string));
         table.Columns.Add("Match?", typeof(string));
 
@@ -101,7 +108,9 @@ public class Buttons : MonoBehaviour
         var values = myStack.ToArray();
         myStack.Clear();
         foreach (var value in values.OrderBy(x => rnd.Next()))
+        {
             myStack.Push(value);
+        }
 
 
         myButtons = GetComponentsInChildren<UnityEngine.UI.Text>();
@@ -110,7 +119,6 @@ public class Buttons : MonoBehaviour
         questions = Drv.getQuetions();
         q = Obj2.GetComponent<Question>();
         q = questions[myC++];
-
         rep = Enumerable.Range(1, numberOfChoices).OrderBy(r => rnd.Next()).ToArray();
         startTime = System.DateTime.Now.TimeOfDay;
         currentTime = startTime;
@@ -118,12 +126,15 @@ public class Buttons : MonoBehaviour
     }
 
 
-    bool satisfy = true;
+    //bool satisfy = true;
     public void BeenClicked()
     {
         stopWatch.Stop();
         TimeSpan ts = stopWatch.Elapsed;
         stopWatch.Reset();
+        UnityEngine.Debug.Log("TSSSSSSSSSS");
+        UnityEngine.Debug.Log(ts);
+        UnityEngine.Debug.Log(ts.TotalSeconds);
 
         for (int i = 0; i < numberOfChoices; i++)
         {
@@ -135,19 +146,20 @@ public class Buttons : MonoBehaviour
         }
         DataRow dr = table2.NewRow();
 
-        dr[myRep[repCounter] + 2] = ts.ToString();
+        dr[myRep[repCounter] + 2] = ts.TotalSeconds.ToString();
         table2.Rows.Add(dr);
         stopWatch.Start();
 
 
         System.Random rnd = new System.Random();
         rep = Enumerable.Range(1, numberOfChoices).OrderBy(r => rnd.Next()).ToArray();
+        //UnityEngine.Debug.Log(rep.Length);
         diff = System.DateTime.Now.TimeOfDay - currentTime;
         StartCoroutine(myRoutine(1));
 
         
 
-        /*if (cond == -1)
+        if (cond == -1)
         {
             //appQuit();
             cond++;
@@ -158,7 +170,7 @@ public class Buttons : MonoBehaviour
             //SA.turnSatisfied();
 
         }
-        else if (cond == 0)
+        /*else if (cond == 0)
         {
             //appQuit();
             cond++;
@@ -167,7 +179,8 @@ public class Buttons : MonoBehaviour
 
         }
         else */
-        if (myC < 15)
+        //UnityEngine.Debug.LogFormat("ghabl az if");
+        if (myC < 2)
         {
             q = questions[myC++];
             currentTime = System.DateTime.Now.TimeOfDay;
@@ -176,34 +189,52 @@ public class Buttons : MonoBehaviour
         {
             endTime = System.DateTime.Now.TimeOfDay;
             if (cond == 2) agnt++;
-            table.Rows.Add(null, null, null, null, null, null, null, (endTime - startTime).ToString(), Convert.ToDouble(correct) / 0.5,
-                today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}", startTime.Hours, startTime.Minutes, startTime.Seconds),
-                today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}",
-                endTime.Hours, endTime.Minutes, endTime.Seconds), (agnt % 2) * (-1) + 2, participantID[coopAgentID],matchCount);
+            
+            //table.Rows.Add(null, null, null, null, null, null, null, (endTime - startTime).ToString(), Convert.ToDouble(correct) / 0.5,
+                //today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}", startTime.Hours, startTime.Minutes, startTime.Seconds),
+                //today.ToString("MM/dd/yyyy") + "-" + string.Format("{0}:{1}:{2}",
+               // endTime.Hours, endTime.Minutes, endTime.Seconds), (agnt % 2) * (-1) + 2, participantID[coopAgentID],matchCount);
+            //UnityEngine.Debug.LogFormat("dakhele else");
             //UnityEngine.Debug.LogFormat("PID: "+participantID);
-            string address = @".\" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
-            CreateCSVFile(ref table, address);
-            string address2 = @".\dump-" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
-            CreateCSVFile(ref table2, address2);
+            //string address = @".\" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
+            //CreateCSVFile(ref table, address);
+            //StartCoroutine(postToGoogleForm());
+            //string address2 = @".\dump-" + participantID + "-" + today.ToString("MM-dd-yyyy") + "-" + string.Format("{0}-{1}-{2}", startTime.Hours, startTime.Minutes, startTime.Seconds) + ".csv";
+            //CreateCSVFile(ref table2, address2);
+            //UnityEngine.Debug.LogFormat("ghabl az amal");
+
+
+
+
+            /*StartCoroutine(postToGoogleForm());*/
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
+            SA.GotoFinish();
 
-            if (cond == 1)
+            /*if (cond == 1)
                 StartCoroutine(SA.GotoTransition());
             else
-                SA.GotoFinish();
+                SA.GotoFinish();*/
         }
 
-        if (myC > 3)
+        if (myC > 500)
         {
-            if (matchCount * 100 / myC < coopAgent)
+            //UnityEngine.Debug.Log("UCR: " + userComplianceRateWithAgent);
+            int actualQuestionCount = myC - 1;
+            //UnityEngine.Debug.Log("Count: " + actualQuestionCount);
+            //UnityEngine.Debug.Log("division: " + (userComplianceRateWithAgent * 100 / actualQuestionCount));
+            //UnityEngine.Debug.Log("Coop Agent: " + coopAgent);
+            if ((userComplianceRateWithAgent * 100 / actualQuestionCount > ((102 - coopAgent) - 10)) && 
+                (userComplianceRateWithAgent * 100 / actualQuestionCount < ((102 - coopAgent) + 10)))
             {
-                SA.setInteger(1, "State");
+                //SA.defaultValues();
+                SA.setInteger(1, "state");
                 SA.playIdle(myC);
             }
             else
             {
-                SA.setInteger(-1, "State");
+                //SA.defaultValues();
+                SA.setInteger(-1, "state");
                 SA.playIdle(myC);
             }
         }
@@ -223,7 +254,7 @@ public class Buttons : MonoBehaviour
             {
                 wrong++;
                 /*if (cond != -1 && cond != 0)*/
-                    EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
+                EventSystem.current.currentSelectedGameObject.GetComponentInChildren<Button>().image.color = UnityEngine.Color.red;
                 tfQ[myC - 1] = 0;
             }
             else
@@ -233,23 +264,40 @@ public class Buttons : MonoBehaviour
                 tfQ[myC - 1] = 1;
             }
             int isMatch = 0;
+            /*UnityEngine.Debug.Log("userA[myC - 1]: ");
+            UnityEngine.Debug.Log(userA[myC - 1].ToString());
+            UnityEngine.Debug.LogFormat(" ahpA[myC - 1]: ");
+            UnityEngine.Debug.Log(ahpA[myC - 1]);
+            UnityEngine.Debug.LogFormat(" answerQ[myC - 1]: ");
+            UnityEngine.Debug.Log(answerQ[myC - 1]);*/
+            if (userA[myC - 1] == ahpA[myC - 1]) { userComplianceRateWithAgent++; }
             if (answerQ[myC - 1] == ahpA[myC - 1]) { isMatch = 1; matchCount++; }
-            object p = table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString(), null,
-                null, null, null, null, null, isMatch);
+            //object p = table.Rows.Add(myC, tableQ, answerQ[myC - 1], userA[myC - 1], ahpA[myC - 1], tfQ[myC - 1], diff.ToString(),
+            //  null, null, null, null, null, isMatch.ToString());
         }
 
+        //Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSf5sdsvQophCx85ofeV2Zkgn4ehlm35AV1nugNFGX05zp2ySg/viewform?usp=sf_link?Kiiir");
+        //notificationText.text = "Kiiiiiiiir";
         EventSystem.current.SetSelectedGameObject(null);
+        //notificationText.text = "Kooon";
+        //Application.OpenURL("https://docs.google.com/");
         if (flag == 1)
         {
+            //notificationText.text = "Kosssssss";
             foreach (UnityEngine.UI.Text btn in myButtons)
             {
+                UnityEngine.Debug.Log(btn.GetComponent<UnityEngine.UI.Text>().name);
                 if (btn.GetComponent<UnityEngine.UI.Text>().name == "Text")
                 {
                     btn.GetComponentInParent<Button>().interactable = false;
                     btnActive = false;
                 }
             }
-            yield return new WaitForSeconds(2);
+            //Application.OpenURL("https://google.com/");
+            ////////////////////////////////////////////////////////////////////////yield return new WaitForSeconds(2);
+            yield return new WaitForSecondsRealtime(2);
+            //yield return "OK";
+            //Application.OpenURL("https://doodle.com/");
         }
         myC1 = 0;
 
@@ -340,8 +388,11 @@ public class Buttons : MonoBehaviour
 
                 if (c != btnFlg)
                 {
-                    if (rep[counter] == 0 && counter < numberOfChoices - 1)
+                    if (counter < numberOfChoices - 1 && rep[counter] == 0)
                         counter++;
+                    UnityEngine.Debug.Log("rep[counter]: ");
+                    UnityEngine.Debug.Log(rep[counter]);
+                    UnityEngine.Debug.Log(counter);
                     switch (rep[counter])
                     {
                         case 1:
@@ -390,6 +441,7 @@ public class Buttons : MonoBehaviour
                 }
 
                 //yield return new WaitForSeconds(1);
+                //yield return new WaitForSecondsRealtime(1);
                 btn.GetComponentInParent<Button>().image.color = UnityEngine.Color.white;
             }
             else
@@ -402,6 +454,11 @@ public class Buttons : MonoBehaviour
             /***********************************************************************/
         }
         table2.Rows.Add(dr);
+        Obj = GameObject.Find("ScriptHolder");
+        SA = Obj.GetComponent<switchAnimation>();
+        SA.playIdle(myC);
+        yield return new WaitForSecondsRealtime(1);
+        //yield return new WaitForSeconds(1);
     }
 
 
@@ -417,11 +474,11 @@ public class Buttons : MonoBehaviour
 
             if (trackBtn == -1)
             {
-                dr[myRep[repCounter] + 2] = ts.ToString();
+                dr[myRep[repCounter] + 2] = ts.TotalSeconds.ToString();
             }
             else
             {
-                dr[trackBtn + 2] = ts.ToString();
+                dr[trackBtn + 2] = ts.TotalSeconds.ToString();
                 trackBtn = -1;
             }
             table2.Rows.Add(dr);
@@ -585,6 +642,80 @@ public class Buttons : MonoBehaviour
 
 
 
+
+
+
+    [SerializeField]
+    private string formURL = "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse";
+
+    IEnumerator postToGoogleForm(/*ref DataTable dt*/)
+    {
+        WWWForm formToBePosted = new WWWForm();
+        //formToBePosted.AddField("entry.419191488", "This is a test text!");
+        table.Rows.Add(myC.ToString(), tableQ.ToString(), answerQ[myC - 1].ToString(), userA[myC - 1].ToString(), ahpA[myC - 1].ToString(), tfQ[myC - 1].ToString(), diff.ToString(), null, null, null, null, null, "0" /*isMatch.ToString()*/);
+
+        List<string> fieldIDs = new List<string> { "entry.419191488", "entry.1807030595", "entry.1392795617", "entry.443101265", "entry.512539465", "entry.1042577509", "entry.775098338", "entry.606167278", "entry.783900823", "entry.1993330233", "entry.2048865249", "entry.739753004", "entry.401560801" };
+
+        int iColCount = table.Columns.Count;
+        //UnityEngine.Debug.Log(iColCount);
+        //UnityEngine.Debug.Log(fieldIDs.Count());
+
+
+
+        foreach (DataRow dr in table.Rows)
+        {
+            for (int i = 0; i < iColCount; i++)
+            {
+                if (!Convert.IsDBNull(dr[i].ToString()))
+                {
+                    //sw.Write(dr[i].ToString());
+                    formToBePosted.AddField(fieldIDs[i], dr[i].ToString());
+                }
+                /*if (i < iColCount - 1)
+                {
+                    sw.Write("\",\"");
+                }*/
+            }
+
+            //sw.Write("\"" + sw.NewLine + "\"");
+        }
+        /*
+        formToBePosted.AddField("", "ID.ToString()"); //table.Columns.Add("ID", typeof(int));
+        formToBePosted.AddField("", "Question");  //table.Columns.Add("Question", typeof(string));
+        formToBePosted.AddField("", "CorrectAnswer");  //table.Columns.Add("Correct Answer", typeof(string));
+        formToBePosted.AddField("", "UserAnswer");  //table.Columns.Add("User Answer", typeof(string));
+        formToBePosted.AddField("", "AgentHPAnswer()");  //table.Columns.Add("Agent HP Answer", typeof(string));
+        formToBePosted.AddField("", "IsUserAnswerCorrect");  //table.Columns.Add("Correct?", typeof(int));
+        formToBePosted.AddField("", "Time(seconds)");  //table.Columns.Add("Time (seconds)", typeof(string));
+        formToBePosted.AddField("", "OverallTime");  //table.Columns.Add("Overal Time", typeof(string));
+        formToBePosted.AddField("", "Percentage");  //table.Columns.Add("Percentage", typeof(double));
+        formToBePosted.AddField("", "TimeStarted");  //table.Columns.Add("Time Started", typeof(string));
+        formToBePosted.AddField("", "TimeFinished");  //table.Columns.Add("Time Finished", typeof(string));
+        //table.Columns.Add("Agent", typeof(int));
+        formToBePosted.AddField("", "Condition");  //table.Columns.Add("Condition", typeof(string));
+        formToBePosted.AddField("", "HPMatchCorrect");  //table.Columns.Add("Match?", typeof(string));*/
+        //UnityEngine.Debug.Log("ALooooooooooooooooo");
+        byte[] formRawData = formToBePosted.data;
+
+
+        WWW dataToPost = new WWW(formURL, formRawData);
+        yield return dataToPost;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     public void CreateCSVFile(ref DataTable dt, string strFilePath)
     {
         try
@@ -666,6 +797,7 @@ public class Buttons : MonoBehaviour
 #endif
         }
 
+
         if (participantID == "" || myEx != null)
         {
             if (participantID == "")
@@ -681,7 +813,7 @@ public class Buttons : MonoBehaviour
         {
             Obj = GameObject.Find("ScriptHolder");
             SA = Obj.GetComponent<switchAnimation>();
-            SA.GotoInstructions();
+            SA.startQuizOne();
         }
     }
 
@@ -716,11 +848,11 @@ public class Buttons : MonoBehaviour
             SA.GotoAgentTwo();
     }
 
-    public void continueAgents()
+    /*public void continueAgents()
     {
-/*#if UNITY_EDITOR
+#if UNITY_EDITOR
         EditorUtility.DisplayDialog("Wait!", "Please complete the survey first!", "Ok");
-#endif*/
+#endif
         //SA.GotoAgentOne();
         Drv.changeCondition();
         coopAgentID = 5;
@@ -735,14 +867,14 @@ public class Buttons : MonoBehaviour
             SA.GotoAgentOne();
         else
             SA.GotoAgentTwo();
-    }
+    }*/
 
     public void openSurvey()
     {
-        Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSf5sdsvQophCx85ofeV2Zkgn4ehlm35AV1nugNFGX05zp2ySg/viewform?usp=sf_link");
+        //Application.OpenURL("https://docs.google.com/forms/d/e/1FAIpQLSf5sdsvQophCx85ofeV2Zkgn4ehlm35AV1nugNFGX05zp2ySg/viewform?usp=sf_link");
         Obj = GameObject.Find("ScriptHolder");
         SA = Obj.GetComponent<switchAnimation>();
-        SA.GotoCondOne();
+        //SA.GotoCondOne();
     }
 
     public void appQuit()

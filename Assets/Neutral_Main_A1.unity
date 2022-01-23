@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000002, guid: 7a463402923fde84b85dac931b477fbd,
+  m_LightingDataAsset: {fileID: 112000000, guid: 6e309ef7532704144b1f0bce04c48bf8,
     type: 2}
   m_LightingSettings: {fileID: 399720536}
 --- !u!196 &4
@@ -275,20 +275,7 @@ MonoBehaviour:
   - eventID: 1
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114797212794022656, guid: 6e1435ce18d3f3d4dbc01513feb471dd,
-            type: 3}
-          m_TargetAssemblyTypeName: switchAnimation, Assembly-CSharp
-          m_MethodName: playIdle
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!114 &255429200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -304,7 +291,10 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
 --- !u!850595691 &399720536
 LightingSettings:
   m_ObjectHideFlags: 0
@@ -845,8 +835,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -284.35007, y: 233.70003}
-  m_SizeDelta: {x: 622.3, y: 177.6}
+  m_AnchoredPosition: {x: -244.3501, y: 233.70003}
+  m_SizeDelta: {x: 700, y: 177.6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080339779
 MonoBehaviour:
@@ -1041,20 +1031,7 @@ MonoBehaviour:
   - eventID: 1
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 114797212794022656, guid: 6e1435ce18d3f3d4dbc01513feb471dd,
-            type: 3}
-          m_TargetAssemblyTypeName: switchAnimation, Assembly-CSharp
-          m_MethodName: playIdle
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!114 &1162477487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1070,7 +1047,10 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
 --- !u!1 &1254209846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,7 +1064,6 @@ GameObject:
   - component: {fileID: 1254209849}
   - component: {fileID: 1254209848}
   - component: {fileID: 1254209851}
-  - component: {fileID: 1254209854}
   - component: {fileID: 1254209852}
   m_Layer: 5
   m_Name: Button3
@@ -1223,19 +1202,7 @@ MonoBehaviour:
   - eventID: 1
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2108377486}
-          m_TargetAssemblyTypeName: switchAnimation, Assembly-CSharp
-          m_MethodName: playIdle
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!114 &1254209852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1251,19 +1218,10 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
---- !u!114 &1254209854
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1254209846}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50b03c5694d41534bb6b254390d4893a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
 --- !u!1 &1308824551
 GameObject:
   m_ObjectHideFlags: 0
@@ -1577,186 +1535,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1555122738}
   m_CullTransparentMesh: 1
---- !u!1001 &1616475187
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1631607111}
-    m_Modifications:
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Color.a
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Color.b
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Color.g
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Color.r
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_RaycastTarget
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_BestFit
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_FontSize
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_RichText
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_FontStyle
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_LineSpacing
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114101761370923740, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_FontData.m_HorizontalOverflow
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114289876122587830, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114289876122587830, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Interactable
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 114289876122587830, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 2108377486}
-    - target: {fileID: 114600428208934606, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Pivot.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_Pivot.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchorMax.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchorMax.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchorMin.x
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchorMin.y
-      value: 0.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 183.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 57.3
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 494.5
-      objectReference: {fileID: 0}
-    - target: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: 293.9
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 20b836362a6f7e045ab57e311521b554, type: 3}
---- !u!224 &1616475188 stripped
-RectTransform:
-  m_CorrespondingSourceObject: {fileID: 224212249567534234, guid: 20b836362a6f7e045ab57e311521b554,
-    type: 3}
-  m_PrefabInstance: {fileID: 1616475187}
-  m_PrefabAsset: {fileID: 0}
 --- !u!224 &1631607111
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1769,7 +1547,6 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
-  - {fileID: 1616475188}
   - {fileID: 1977303719}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -1868,7 +1645,10 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
 --- !u!1 &1965407391
 GameObject:
   m_ObjectHideFlags: 0
@@ -1883,7 +1663,6 @@ GameObject:
   - component: {fileID: 1965407393}
   - component: {fileID: 1965407396}
   - component: {fileID: 1965407397}
-  - component: {fileID: 1965407398}
   m_Layer: 5
   m_Name: Button4
   m_TagString: Untagged
@@ -2021,19 +1800,7 @@ MonoBehaviour:
   - eventID: 1
     callback:
       m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 2108377486}
-          m_TargetAssemblyTypeName: switchAnimation, Assembly-CSharp
-          m_MethodName: playIdle
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
+        m_Calls: []
 --- !u!114 &1965407397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2049,23 +1816,10 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
---- !u!114 &1965407398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1965407391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e65ca4721af74b84b85a4f937138d777, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myButtons: []
-  Obj: {fileID: 0}
-  Obj2: {fileID: 0}
-  rep: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
 --- !u!1 &1977303718
 GameObject:
   m_ObjectHideFlags: 0
@@ -2076,7 +1830,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1977303719}
   - component: {fileID: 1977303720}
-  - component: {fileID: 1977303721}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -2102,7 +1855,7 @@ RectTransform:
   - {fileID: 976033945}
   - {fileID: 1080339778}
   m_Father: {fileID: 1631607111}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2124,28 +1877,7 @@ MonoBehaviour:
   myButtons: []
   Obj: {fileID: 0}
   Obj2: {fileID: 0}
+  gObj: {fileID: 0}
+  notificationText: {fileID: 0}
   rep: 
---- !u!114 &1977303721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1977303718}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50b03c5694d41534bb6b254390d4893a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &2108377486 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 114797212794022656, guid: 6e1435ce18d3f3d4dbc01513feb471dd,
-    type: 3}
-  m_PrefabInstance: {fileID: 993692281}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857507075}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5dad5187997de6246b20f1a774e6535c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  formURL: https://docs.google.com/forms/u/0/d/e/1FAIpQLSeQnJkMO3anbZa9mMYDdDoK0GgCMyyIU7qcUkjEIl3tWDN-MA/formResponse
